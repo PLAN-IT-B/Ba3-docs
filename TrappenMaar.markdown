@@ -10,9 +10,9 @@ nav_order: 1
 uitleg over puzzle, global sustainability goals, ...
 
 ## De buffer
-1. uitleg
+### uitleg
 
-2. code
+### code
 ```{python}
 print("Hello Python!")
 ```
