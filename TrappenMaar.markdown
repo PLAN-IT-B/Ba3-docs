@@ -5,13 +5,23 @@ parent: Puzzels
 nav_order: 1
 ---
 
-# Trappen Maar! 
+#Trappen Maar! 
 
 uitleg over puzzle, global sustainability goals, ...
 
-## De buffer
-### uitleg
+##De buffer
+###uitleg
 
-## De fiets
+###code
 
-## De seven segments
+##De fiets
+###uitleg
+
+###code
+
+
+
+##De seven segments
+###uitleg
+
+###code
