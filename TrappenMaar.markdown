@@ -13,7 +13,9 @@ uitleg over puzzle, global sustainability goals, ...
 ### uitleg
 
 ### code
-
+```{python}
+print("Hello Python!")
+```
 ## De fiets
 ### uitleg
 
