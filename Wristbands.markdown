@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wristbands
-parent: puzzels
+parent: Puzzels
 nav_order: 1
 ---
 
