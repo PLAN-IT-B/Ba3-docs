@@ -7,24 +7,10 @@ has_children: true
 ---
 
 # Trappen Maar! 
+//toffe intro
 
-TEST9 uitleg over puzzle, global sustainability goals, ...
-
-## De buffer
-### uitleg
-
-### code
-```{python}
-print("Hello Python!")
-```
-## De fiets
-### uitleg
-
-### code
-
-
-
-## De seven segments
-### uitleg
-
-### code
+Op deze pagina wordt de puzzle ’Trappen maar’ verder besproken. Deze puzzle bestaat uit 3 elementen: De
+buffer, fiets en 4 seven segments.
+De buffer werkt als centrale element. Deze stuurt namelijk naar een willekeurig seven segment, een willekeurig
+getal wat gedisplayed zal worden door dit segment en door de speler gefietst moet worden. Indien de speler in
+staat is dit correct te fietsen zal een score omhoog gaan wat de buffer visueel zal weergeven a.d.h.v. ledstrips.
