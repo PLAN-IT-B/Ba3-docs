@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Software
-parent: TrappenMaar
+title: 7 segment
+parent: Trappen Maar!
 grand_parent: Puzzels
-nav_order: 1
+nav_order: 4
 ---
 
 

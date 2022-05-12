@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Communicatie
-parent: TrappenMaar
+parent: Trappen Maar!
 grand_parent: Puzzels
 nav_order: 1
 ---
