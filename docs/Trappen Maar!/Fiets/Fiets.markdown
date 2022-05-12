@@ -29,6 +29,7 @@ een powerbank om onze esp te voeden. Deze 5V wordt namelijk rechtstreeks als voe
 
 ## PCB ontwerp 1
 ![PCB ontwerp fiets](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/blob/main/website/fiets_PCB.jpg "PCB design")
+![test](https://nl.wikipedia.org/wiki/Kat_(dier)#/media/Bestand:Cat_poster_2.jpg)
 ## Code
 [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/blob/main/WERKENDE%20CODE%203-05/MeasuringDcVoltageWithCommunicationBuffer/src/main.cpp)
 
