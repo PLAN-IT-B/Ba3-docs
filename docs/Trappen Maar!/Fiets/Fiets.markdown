@@ -28,7 +28,8 @@ Aangezien hier hier gebruik maken van een LCD die een voedingsspanning van 5V no
 een powerbank om onze esp te voeden. Deze 5V wordt namelijk rechtstreeks als voeding gebruikt voor ons LCD’tje en voedt m.b.v. een LDO, die we inbouwden in onze PCB, onze ESP32 die 3.3V nodig heeft
 
 ## PCB ontwerp
-
+![PCB ontwerp fiets](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/blob/main/website/fiets_PCB.png)
 ## Code
+[Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/blob/main/WERKENDE%20CODE%203-05/MeasuringDcVoltageWithCommunicationBuffer/src/main.cpp)
 
 ## realisatie
