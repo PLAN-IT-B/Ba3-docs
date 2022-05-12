@@ -8,11 +8,12 @@ nav_order: 4
 # 7 segment
 ## Algemeen
 nog uitleg
-## Elektrisch schema
+
+## KiCad project
 Voor het voeden van de 4 seven segments maken we gebruik van 4 12V pc voedingen, op dezelfde manier
 zoals bij de buffer
-
-## PCB ontwerp
+### Elektrisch schema
+### PCB ontwerp
 
 ## Code
 In onze code worden bepaalde fouten, zoals een verloren bericht en connectie, opgevangen. Wanneer de

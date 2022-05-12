@@ -23,14 +23,23 @@ tonen we of het gefietste niveau correct was. De gefietste snelheid wordt visuee
 De DC spanning die ontstaat door het fietsen gebruiken we ook om een UV-lamp aan te sturen die no-
 dig is bij een andere puzzel.
 
-## Elektrisch schema
+## KiCad project
 Aangezien hier hier gebruik maken van een LCD die een voedingsspanning van 5V nodig heeft gebruiken we
-een powerbank om onze esp te voeden. Deze 5V wordt namelijk rechtstreeks als voeding gebruikt voor ons LCD’tje en voedt m.b.v. een LDO, die we inbouwden in onze PCB, onze ESP32 die 3.3V nodig heeft
+een powerbank om onze esp te voeden. Deze 5V wordt namelijk rechtstreeks als voeding gebruikt voor ons LCD’tje en voedt m.b.v. een LDO, die we inbouwden in onze PCB, onze ESP32 die 3.3V nodig heeft  
 
-## PCB ontwerp 1
-![PCB ontwerp fiets](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/blob/main/website/fiets_PCB.jpg "PCB design")
-![test](https://nl.wikipedia.org/wiki/Kat_(dier)#/media/Bestand:Cat_poster_2.jpg)
+[Visit our Github to find our Kicad project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/KiCad/Kicad-versie%20Bert/Fiets%20-%20zelfgemaakte%20level%20shifter/Fiets%20-%20zelfgemaakte%20level%20shifter)
+
+### EEschema
+![](2022-05-12-23-38-48.png)
+
+### PCB ontwerp
+
+
+![](2022-05-12-23-35-34.png)
+
+
 ## Code
 [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/blob/main/WERKENDE%20CODE%203-05/MeasuringDcVoltageWithCommunicationBuffer/src/main.cpp)
 
 ## realisatie
+FOTO TOEVOEGEN
