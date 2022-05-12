@@ -24,6 +24,8 @@ De DC spanning die ontstaat door het fietsen gebruiken we ook om een UV-lamp aan
 dig is bij een andere puzzel.
 
 ## Elektrisch schema
+Aangezien hier hier gebruik maken van een LCD die een voedingsspanning van 5V nodig heeft gebruiken we
+een powerbank om onze esp te voeden. Deze 5V wordt namelijk rechtstreeks als voeding gebruikt voor ons LCD’tje en voedt m.b.v. een LDO, die we inbouwden in onze PCB, onze ESP32 die 3.3V nodig heeft
 
 ## PCB ontwerp
 
