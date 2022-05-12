@@ -8,7 +8,7 @@ has_children: true
 
 # Trappen Maar! 
 
-TEST8 uitleg over puzzle, global sustainability goals, ...
+TEST9 uitleg over puzzle, global sustainability goals, ...
 
 ## De buffer
 ### uitleg
