@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Trappen Maar!
+title: TrappenMaar
 parent: Puzzels
 nav_order: 1
 has_children: true
@@ -8,7 +8,7 @@ has_children: true
 
 # Trappen Maar! 
 
-TEST3 uitleg over puzzle, global sustainability goals, ...
+TEST4 uitleg over puzzle, global sustainability goals, ...
 
 ## De buffer
 ### uitleg
