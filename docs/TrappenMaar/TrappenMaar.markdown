@@ -5,10 +5,10 @@ parent: Puzzels
 nav_order: 2
 has_children: true
 ---
-test
+
 # Trappen Maar! 
 
-TEST uitleg over puzzle, global sustainability goals, ...
+TEST2 uitleg over puzzle, global sustainability goals, ...
 
 ## De buffer
 ### uitleg
