@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Software
+title: Opstelling
 parent: Wristbands
 grand_parent: Puzzels
 nav_order: 4
