@@ -5,10 +5,11 @@ parent: Wristbands
 grand_parent: Puzzels
 nav_order: 2
 ---
-# HARDWARE
+# Hardware
+[Visit our Github to find our Kicad project!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/KiCad-project)
 ## Algemeen
 
-[Visit our Github to find our Kicad project!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/KiCad-project)
+## Componenten
 
 ## Elektrisch Schema
 ![](elektrisch-schema.png)
