@@ -33,6 +33,7 @@ remote_theme: pmarsceill/just-the-docs
 aux_links:
   "PLAN_IT B":
     - "//github.com/PLAN-IT-B/"
+aux_links_new_tab: true
 
 # Build settings
 theme: minima
