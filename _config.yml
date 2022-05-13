@@ -29,6 +29,7 @@ url: "https://PLAN-IT-B.github.io" # the base hostname & protocol for your site,
 twitter_username: jekyllrb
 github_username:  jekyll
 remote_theme: pmarsceill/just-the-docs
+logo: /PLANITB.jpg
 
 aux_links:
   "PLAN_IT B":
@@ -36,7 +37,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Build settings
-theme: tufte_html
+theme: minima
 plugins:
   - jekyll-feed
 
