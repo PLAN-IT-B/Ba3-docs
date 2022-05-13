@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Communicatie
-parent: Wirstbands
+parent: Wristbands
 grand_parent: Puzzels
-nav_order: 1
+nav_order: 3
 ---
+^ùpopuio!uyiujtrhgf
