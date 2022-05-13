@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Software
+title: Hardware
 parent: Wristbands
 grand_parent: Puzzels
 nav_order: 2
