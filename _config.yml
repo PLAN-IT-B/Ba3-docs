@@ -30,6 +30,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 remote_theme: pmarsceill/just-the-docs
 
+aux_links:
+  "PLAN_IT B":
+    - "//github.com/PLAN-IT-B/"
+
 # Build settings
 theme: minima
 plugins:
