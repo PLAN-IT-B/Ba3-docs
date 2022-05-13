@@ -31,9 +31,8 @@ github_username:  jekyll
 remote_theme: pmarsceill/just-the-docs
 logo: /PLANITB.jpg
 tabicon:  /PLANITB.jpg
-output: 
-  html_document:
-    theme: html_docco 
+
+
 
 aux_links:
   "PLAN_IT B":
