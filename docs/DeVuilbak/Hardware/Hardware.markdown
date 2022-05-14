@@ -4,7 +4,6 @@ title: Hardware
 parent: De vuilbak
 grand_parent: Puzzels
 nav_order: 1
-has_children: true
 ---
 # Hardware
 ## Inleiding

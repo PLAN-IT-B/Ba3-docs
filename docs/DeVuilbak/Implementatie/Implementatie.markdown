@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Mechanische constructie
-parent: Hardware
+title: Hardware
+parent: De vuilbak
 grand_parent: Puzzels
 nav_order: 1
 ---
+# Hardware
