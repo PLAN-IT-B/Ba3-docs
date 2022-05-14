@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Hardware
+title: Implementatie
 parent: De vuilbak
 grand_parent: Puzzels
 nav_order: 1
 ---
-# Hardware
+# Implementatie
