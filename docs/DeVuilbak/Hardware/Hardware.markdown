@@ -14,17 +14,20 @@ Deze randaparaten zijn:
 - 1 LCD - scherm
 - 3 gewichtsensoren
 - 1 toetsenbord
-- 1 luidspreker 
+- 1 luidspreker <br />
 Deze randaparaten willen we aansturen aan de hand van een  ESP32-WROOM-32E ic.
-Daarnaast willen we ook in staat zijn om de puzzel te voeden aan de hand van een powerbank (of dus met eeb 5 V - bron).
+Daarnaast willen we ook in staat zijn om de puzzel te voeden aan de hand van een powerbank (of dus met een 5 V - bron).
 
 ## Power circuit
 ![](Power_circuit.png)
+iets
 ## ESP32-WROOM-32E
 
 ## Multiplexer
 
 ## Randaparatuur
+
+## Voledig schema
 
 ## Verbeteringen
 
