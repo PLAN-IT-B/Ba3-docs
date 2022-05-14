@@ -11,7 +11,7 @@ In deze sectie bespreken we de hardwareimplementatie van de elektronische schake
 Het doel van deze schakeling is om enkele randaparaten te kunnen aansturen.
 Deze randaparaten zijn:
 - 3 RFID-modules
-- 1 LCD - scherm
+- 1 LCD-scherm
 - 3 gewichtsensoren
 - 1 toetsenbord
 - 1 luidspreker <br /><br />
@@ -23,6 +23,15 @@ Daarnaast willen we ook in staat zijn om de puzzel te voeden aan de hand van een
 In de volgende secties vindt u de KiCad-schema's voor het vervaardigen van de PCB.
 Alsook de gebruikte randaperatuur voor het opstellen van de schema's
 ## specifieke randaparaten
+- RFID-modules: PN532
+- LCD-scherm: 
+- gewichtsensoren: Load Cell - 5kg
+- toetsenbord: 3x4 membrane keypad matrix
+- luidspreker: (4Ω,3W)
+- amplifier voor load cell: HX711
+- amplifier voor luidspreker: PAM8403 Thumbwheel
+<br /><br />
+Alle andere gebruikte componenten zijn te vinden op onderstaande schema's.
 
 ## Power circuit
 ![](Power_circuit.png)
@@ -36,7 +45,7 @@ Alsook de gebruikte randaperatuur voor het opstellen van de schema's
 ## Level shifters
 ![](Level_shifters.png)
 ## Voledig schema
-![](randaparatuur2.png)
+
 ## Verbeteringen
 
 ## PCB
