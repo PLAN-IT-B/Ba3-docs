@@ -23,7 +23,7 @@ De ontwerpen die wij in onze escaperoom gebruikten zijn hieronder terug te vinde
 ![](2022-05-15-21-30-58.png)
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Fiets)
 ### Buffer
-![](2022-05-15-21-30-40.png)
+![](2022-05-15-22-38-57.png)
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Buffer)
 ### 7 segment
 ![](2022-05-15-21-30-17.png)
