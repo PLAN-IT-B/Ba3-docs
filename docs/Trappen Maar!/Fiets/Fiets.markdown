@@ -8,7 +8,7 @@ nav_order: 2
 # Fiets
 ## Algemeen
 
-Ons spel valt en staat met een hometrainer waarvan we met een dynamometer de snelheid dat de speler fiets
+Ons spel valt en staat met een hometrainer waarvan we met een dynamometer de snelheid die de speler fietst,
 kunnen opmeten. De gemeten AC-spanning uit onze dynamometer zetten we met een Bruggelijkrichter om
 naar een pulserende DC spanning. Met behulp van een condensator zetten we deze laatste dan om naar een
 constante gelijkspanning welke we via de functie analogRead(PinNummer) uitlezen met de ESP32.
