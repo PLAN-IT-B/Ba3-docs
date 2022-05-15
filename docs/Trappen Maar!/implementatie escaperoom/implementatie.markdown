@@ -19,8 +19,8 @@ uitsnijdingen gemaakt in het hout en zijn deze allen horizontaal georiënteerd.
 
 De ontwerpen die wij in onze escaperoom gebruikten zijn hieronder terug te vinden: 
 ## SolidWorks
-![](AssemblyFiets.png)
 ### Fiets
+![](AssemblyFiets.png)
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Fiets)
 ### Buffer
 ![](AssemblyBuffer.png)
@@ -35,5 +35,4 @@ Om onze puzzle te kunnen implementeren hebben we twee stopcontacten nodig en een
 # realisatie
 FOTO TOEVOEGEN?
 # BOM
-[Visit our Github to find our bill of material!](...)
-HIER BOM ZETTEN?
+[Visit our Github to find our bill of material!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/blob/main/documentatie/BOM(final%20version).xlsx)
