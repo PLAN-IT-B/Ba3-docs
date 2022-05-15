@@ -35,7 +35,8 @@ De code van de fiets bestaat vooral uit het opmeten van het DC signaal (dat door
 ```c
   // read the input on analog pin 34:
   int sensorValue = analogRead(34);
-  // Convert the analog reading (which goes from 0 - 4095) to a   voltage (0 - 3.3V):
+  // Convert the analog reading (which goes from 0 - 4095) 
+  //to a voltage (0 - 3.3V):
   float voltage = sensorValue * (3.3 / 4095.0);
   Serial.print(sensorValue);
   Serial.print(" ");

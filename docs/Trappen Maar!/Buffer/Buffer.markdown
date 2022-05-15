@@ -23,10 +23,61 @@ dus met een 12V pc voeding die rechtstreeks onze ledstrips voedt en die via een 
 ![](2022-05-13-21-31-51.png)
 ![](2022-05-13-21-32-12.png)
 ## Code
-In onze code worden bepaalde fouten, zoals een verloren bericht en connectie, opgevangen. Wanneer de
-buffer namelijk na 15 seconden nog geen nieuw bericht ”newNumber” gekregen heeft zou het kunnen dat een
-seven segment niet meer werkt/het bericht verloren is gegaan en indien dit het geval is, produceert de buffer
-zelf een nieuw random getal naar een willekeurig seven segment. 
+De code van de buffer is in de link hieronder terug te vinden. Aangezien deze het centrale element is in onze escaperoom, zal hij heel wat verschillende taken hebben. Zo zal hij bij het binnenkomen van een nieuw bericht, vanuit de loop() de functie 'control' oproepen. Afhankelijk van het bericht zal hij volgende zaken doen: 
+* newNumber: de buffer zal nu via de methode 'int randomGetal = random(1,5)' een random getal genereren tussen 1 en 4 en dit sturen naar een random esp. Dit laatste doet hij ook via de functie 'random(1,X-1)' met X het aantal 7 segments dat je gebruikt. Via een functie 'sentTo7Segment' wordt nu naar het correct 7 segment dit willekeurige getal gezonden. 
+* '0', '1', '2', '3', '4': deze berichten staan voor de verschillende levels die door de speler gefietst kunnen worden. Dit gefietse level worden dan in de methode 'checkmessage' vergeleken met het getoonde nummer op het 7 segment. Vanuit deze methode wordt dan het bericht 'correct' of 'false' gestuurd naar de fiets (zie uitleg code fiets) en wordt bij het correct fietsen de bufferValue met een bepaalde waarde (afhankelijk van de moeijlijkheid van het spel) verhoogt. We zorgen er hier wel voor dat ze geen hogere score kunnen behalen dan de maximale score van onze buffer. Ook deze kunnen variabel, naargelang van de moeilijkheid van het spel, worden aangepast. 
+* grote fout, kleine fout: andere escaperoom spelletjes kunnen strafpunten sturen die afgetrokken worden van de buffer indien de speler daar een fout maakt. Hoeveel punten er effectief van de buffer afgetrokken worden kan vrij gekozen worden.
+* reset: bij het opstarten van de escapreroom wordt naar alle puzzles de boodschap reset gestuurd. Bij deze puzzle is het belangrijk dat eerst de fiets en 7 segmenten resetten voordat de buffer reset. Daarom wordt eerst vanuit deze methode 'resetFiets', 'resetSegment1', resetSegment2', ... gestuurd naar de andere esp's van onze puzzle.
+* Fiets ready, Segment1 ready, ... : Wanneer nu de fiest en seven segmenten allemaal gereset zijn zal de buffer zelf gaan resetten. 
+
+In onze code worden bepaalde fouten, zoals een verloren bericht en connectie, opgevangen. Wanneer de buffer namelijk na 15 seconden nog geen nieuw bericht ”newNumber” gekregen heeft zou het kunnen dat een seven segment niet meer werkt/het bericht verloren is gegaan en indien dit het geval is, produceert de buffer zelf een nieuw random getal naar een willekeurig seven segment. Dit gebeurt via volgende code: 
+```c
+ if (millis() - startTime >= 15000) {
+      // 5 seconds have elapsed. ... do something interesting ...
+      if(oldControlSend == controlSend){
+
+          Serial.println("newNumber werd OPNIEUW gestuurd naar buffer");   
+          int randomGetal = random(1,5);
+    
+          itoa(randomGetal,cstr,10);
+          //OORSPRONKELIJK TUSSEN 1 EN 5
+          int randomEsp = random(1,5); //getal 1,2, 3 of 4
+          Serial.println("randomESP");
+          Serial.print("esp: ");
+          Serial.print(randomEsp);
+          Serial.print("\tnummer: ");
+          Serial.print(randomGetal);
+          sendTo7Segment(randomEsp, cstr);
+      }
+          oldControlSend = controlSend;
+          startTime = millis();
+   }
+```
+ Om dit te realiseren maken we dus gebruik van de functie millis(). Dit is een soort counter die bij het opstarten van dit programma is beginnen lopen. Door hier telkens startTime, na het doorlopen van deze if-lus, opnieuw gelijk te stellen aan de huidige millis(), kunnen we als voorwaarde voor onze if-lus  volgende code gebruiken om te controleren of er 15 seconden voorbij zijn: 'millis() - startTime >= 15000'. ControlSend is een variabele die telkens een nieuw bericht "newNumber" verhoogt wordt. Door zijn waarde dan te vergelijken met "oldControlSend" kunnen we controleren of er in de voorbije 15 seconden een bericht is toegekomen.    
+
+ Elke loop wordt hier ook de methode 'setBuffer' opgeroepen. Deze zal naargelang de score van de spelers een bepaald aantal ledstrip laten branden. We doen dit simpelweg via de functie 'digitalWrite' waarmee we elke ledstrip apart aan of uit kunnen zetten.
+ We werken hier met een variabele 'Maxscore' die gelijk gesteld wordt aan '16*interval'. Er kan hier zelf een waarde voor 'interval' gekozen worden naargelang de moeilijkheid van het spel.  
+
+ Als laatste dient de buffer naar de andere escaperoom-games ook nog de zone door te sturen van het energieniveau van de buffer. We kozen ervoor enkel een bericht te sturen wanneer de zonekleur verandert. De code hiervoor is de volgende: 
+ ```c
+if(oldColor != color){
+    if(color == "rood"){
+      client.publish("TrappenMaar/zone", "rood");
+    }
+    else if(color == "oranje"){
+      client.publish("TrappenMaar/zone", "oranje");
+
+    }
+    else if(color == "groen"){
+      client.publish("TrappenMaar/zone", "groen");
+    }
+    else if(color = "niets"){
+      client.publish("TrappenMaar/zone", "niets");
+    }
+     color = oldColor;
+}
+ ```
+ 
 [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/Volledige%20en%20werkende%20code/sender)
 ## realisatie
 FOTO TOEVOEGEN

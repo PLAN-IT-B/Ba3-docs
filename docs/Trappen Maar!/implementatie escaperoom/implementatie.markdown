@@ -16,3 +16,9 @@ waarachter we de elektronica kunnen verstoppen. Om een mooi, verzadigd, lichteff
 maakten we gebruik van kalkpapier.
 De buffer deden we op dezelfde manier als de 7 segement displays, alleen werden hier uiteraard meer (in totaal 16)
 uitsnijdingen gemaakt in het hout en zijn deze allen horizontaal georiënteerd.
+# SolidWorks
+SOLIDWORKS LINK 
+# realisatie
+FOTO TOEVOEGEN
+
+HIER BOM ZETTEN? 
