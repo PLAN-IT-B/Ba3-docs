@@ -16,9 +16,20 @@ waarachter we de elektronica kunnen verstoppen. Om een mooi, verzadigd, lichteff
 maakten we gebruik van kalkpapier.
 De buffer deden we op dezelfde manier als de 7 segement displays, alleen werden hier uiteraard meer (in totaal 16)
 uitsnijdingen gemaakt in het hout en zijn deze allen horizontaal georiënteerd.
-# SolidWorks
+## SolidWorks
+### Fiets
+![](2022-05-15-21-00-39.png)
+[Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Fiets)
+### Buffer
+![](2022-05-15-20-58-54.png)
+[Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Buffer)
+### 7 segment
+![](2022-05-15-21-01-02.png)
+[Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/7segmentKlein)
 SOLIDWORKS LINK 
+
+
 # realisatie
-FOTO TOEVOEGEN
+FOTO TOEVOEGEN?
 
 HIER BOM ZETTEN? 
