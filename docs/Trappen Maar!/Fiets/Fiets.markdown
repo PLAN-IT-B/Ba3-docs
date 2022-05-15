@@ -19,8 +19,6 @@ hij nog heeft om het correcte fietsniveau te bereiken. Via een RGB-led die groen
 De DC spanning die ontstaat door het fietsen wordt tenslotte ook gebruikt om een UV-lamp aan te sturen die nodig is bij de laatste puzzel.
 
 ## KiCad project
-Aangezien hier gebruik wordt gemaakt van een LCD die een voedingsspanning van 5V nodig heeft, is het het eenvoudigste om gebruik te maken van
-een powerbank om de esp te voeden. Deze 5V wordt namelijk rechtstreeks als voeding gebruikt voor de LCD en voedt m.b.v. een LDO de ESP32 die 3.3V nodig heeft.
 
 [Visit our Github to find our Kicad project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/KiCad/Kicad-versie%20Bert/Fiets%20-%20zelfgemaakte%20level%20shifter/Fiets%20-%20zelfgemaakte%20level%20shifter)
 
@@ -29,6 +27,11 @@ een powerbank om de esp te voeden. Deze 5V wordt namelijk rechtstreeks als voedi
 ### PCB ontwerp
 ![](2022-05-13-21-33-13.png)
 ![](2022-05-13-21-33-27.png)
+### Aansluitingen en onderdelen
+We hangen aan de fiets een 20x4 LCD, 3 blauwe leds en 1 RGB led. Voor de LCD gebruiken we een level shifter die ervoor zorgt dat de SDA en SCL lijnen die op 5V staan aan de kant van de LCD op een 3.3 niveau gezet worden vooraleer ze respectievelijk de GPIO21 en GPIO22 pinnen van onze ESP binnenkomen. De cathode van de 4 leds worden met een gezamelijke ground verbonden en de verschillende anode's met verschillende GPIO-pinnen van onze esp.
+### voedinsspanning
+Aangezien hier gebruik wordt gemaakt van een LCD die een voedingsspanning van 5V nodig heeft, is het het eenvoudigste om gebruik te maken van
+een powerbank om de esp te voeden. Deze 5V wordt namelijk rechtstreeks als voeding gebruikt voor de LCD en voedt m.b.v. een LDO de ESP32 die 3.3V nodig heeft.
 
 ## Code
 De code van de fiets bestaat vooral uit het opmeten van het DC signaal (dat door middel van een spanningsdeler maximaal 3.3 volt zal zijn).

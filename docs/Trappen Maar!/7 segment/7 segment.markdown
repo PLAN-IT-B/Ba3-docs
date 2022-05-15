@@ -7,15 +7,18 @@ nav_order: 4
 ---
 # 7 segment
 ## Algemeen
-nog uitleg
+De 4 seven segments in onze escaperoom zullen in willekeurige volgerde een random getal laten tonen met behulp van hun zeven ledstrips. 
 
 ## KiCad project
-Voor het voeden van de 4 seven segments maken we gebruik van twee 12V pc voedingen en twee step-up/buck-boost convertoren (die 5V naar 12V converteren).[Klik hier om het te bestellen.](https://www.tinytronics.nl/shop/nl/power/spanningsconverters/buck-boost-(step-up-down)-converters/usb-verstelbare-dc-dc-converter-3w-met-spanningsmeter). Aan deze convertoren hingen we dan een powerbank wat als voordeel had dat we de PCB ergens konden plaatsen en geen rekening moesten houden met een stopcontact.
 ### Elektrisch schema
 ![](2022-05-13-21-30-33.png)
 ### PCB ontwerp
 ![](2022-05-13-21-30-54.png)
 ![](2022-05-13-21-31-06.png)
+### Aansluitingen en onderdelen
+Aan onze 7 segment worden 7 ledstrip gehangen. We werken hiervoor met een kroonsteentje dat we op onze PCB bevestigden zodat de ledstrip hier stevig aan vast hangen. De RGB ledstrips die wij gebruiken werken op 12V en hun R/G/B-lijnen funcioneren als ground. We sturen deze aan met mosfets (die we hoog/laag zetten en op die manier toe/open schakelen. 
+### voedinsspanning
+Voor het voeden van de 4 seven segments maken we gebruik van twee 12V pc voedingen en twee step-up/buck-boost convertoren (die 5V naar 12V converteren).[Klik hier om het te bestellen.](https://www.tinytronics.nl/shop/nl/power/spanningsconverters/buck-boost-(step-up-down)-converters/usb-verstelbare-dc-dc-converter-3w-met-spanningsmeter). Aan deze convertoren hingen we dan een powerbank wat als voordeel had dat we de PCB ergens konden plaatsen en geen rekening moesten houden met een stopcontact.
 ## Code
 Wij maakten in onze escapreroom gebruik van 4 seven segments. Hierdoor moet er een speler het getal dat oplicht zoeken in de kamer en een andere speler fietsen. Dit zorgt ervoor dat het spel actiever wordt. Uiteraard is de keuze van aantal seven segmenten volledig vrij! Hieronder is een code teruggevonden van ons 'segment 1', voor alle andere segmenten is deze code identiek met uitzondering van het unieke client idee dat in de code onder de volgende vorm teruggevonden kan worden.
 ```c

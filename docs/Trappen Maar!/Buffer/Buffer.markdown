@@ -13,15 +13,18 @@ een bepaalde kleurenzone (rood, oranje of groen) terecht. De kleurenzone bepaalt
 gespeeld kunnen worden/ welke spelletjes geblokkeerd zijn.
 
 ## KiCad project
-Aangezien we hier met ledstrips werken zijn we genoodzaakt gebruik te maken van 12V. We werken hier
-dus met een 12V pc voeding die rechtstreeks onze ledstrips voedt en die via een buck-converter en LDO
-(ingebouwd in onze PCB) onze ESP voedt met 3V3.
-
 ### Elektrisch schema
 ![](2022-05-13-21-31-35.png)
 ### PCB ontwerp
 ![](2022-05-13-21-31-51.png)
 ![](2022-05-13-21-32-12.png)
+### Aansluitingen en onderdelen
+De buffer heeft heel wat aansluitingen, ... (zowa uitleggen met mosfets, ev zelf met schema)
+(aahh en code ledstrips met PWM)
+### voedinsspanning
+Aangezien we hier met ledstrips werken zijn we genoodzaakt gebruik te maken van 12V. We werken hier
+dus met een 12V pc voeding die rechtstreeks onze ledstrips voedt en die via een buck-converter en LDO
+(ingebouwd in onze PCB) onze ESP voedt met 3V3.
 ## Code
 De code van de buffer is in de link hieronder terug te vinden. Aangezien deze het centrale element is in onze escaperoom, zal hij heel wat verschillende taken hebben. Zo zal hij bij het binnenkomen van een nieuw bericht, vanuit de loop() de functie 'control' oproepen. Afhankelijk van het bericht zal hij volgende zaken doen: 
 * newNumber: de buffer zal nu via de methode 'int randomGetal = random(1,5)' een random getal genereren tussen 1 en 4 en dit sturen naar een random esp. Dit laatste doet hij ook via de functie 'random(1,X-1)' met X het aantal 7 segments dat je gebruikt. Via een functie 'sentTo7Segment' wordt nu naar het correct 7 segment dit willekeurige getal gezonden. 
