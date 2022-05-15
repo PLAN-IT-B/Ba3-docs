@@ -26,7 +26,6 @@ uitsnijdingen gemaakt in het hout en zijn deze allen horizontaal georiënteerd.
 ### 7 segment
 ![](2022-05-15-21-01-02.png)
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/7segmentKlein)
-SOLIDWORKS LINK 
 
 
 # realisatie
