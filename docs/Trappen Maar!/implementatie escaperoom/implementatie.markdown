@@ -19,8 +19,8 @@ uitsnijdingen gemaakt in het hout en zijn deze allen horizontaal georiënteerd.
 
 De ontwerpen die wij in onze escaperoom gebruikten zijn hieronder terug te vinden: 
 ## SolidWorks
-### Fiets
 ![](AssemblyFiets.png)
+### Fiets
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Fiets)
 ### Buffer
 ![](AssemblyBuffer.png)
