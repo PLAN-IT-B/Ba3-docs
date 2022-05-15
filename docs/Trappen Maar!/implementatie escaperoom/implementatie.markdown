@@ -20,13 +20,13 @@ uitsnijdingen gemaakt in het hout en zijn deze allen horizontaal georiënteerd.
 De ontwerpen die wij in onze escaperoom gebruikten zijn hieronder terug te vinden: 
 ## SolidWorks
 ### Fiets
-![](2022-05-15-21-30-58.png)
+![](AssemblyFiets.png)
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Fiets)
 ### Buffer
-![](2022-05-15-21-30-40.png)
+![](AssemblyBuffer.png)
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Buffer)
 ### 7 segment
-![](2022-05-15-21-30-17.png)
+![](Assembly7Segment.png)
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/7segmentKlein)
 
 ## Voorzieningen in kamer
