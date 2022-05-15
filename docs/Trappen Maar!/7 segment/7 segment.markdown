@@ -28,6 +28,13 @@ int randomEsp = random(1,5);
 ```
 Bovenstaande lijn komt twee keer in de code buffer en moet gebruikt worden indien er 4 seven segmenten in het spel zitten. 
 
+De code van de seven segment is veel minder uitgebreid dan deze van de fiets en buffer. Zijn voornaamste taak is het displayen van de nummers die de buffer doorstuurt. Deze esp's luisteren naar volgende berichten: 
+
+* '0', '1', '2', '3', '4': dit is het getal dat het seven segment moet displayen. Hier wordt de methode 'schakelLed' opgeroepen die de correcte ledstrips doet branden zodat het correcte getal gevormd wordt. In deze methode worden ook de berichten 'led1', 'led2' en 'led3' gestuurd naar de fiets die deze laat branden. Hiertussen zitten delays zodat in totaal het segment een 5-tal seconden brandt. Hierna wordt de methode 'SendReady()' opgeroepen die naar de fiets het bericht 'send' stuurt en daarna de ledstrippen uitzet.
+* resetSegment: dit wordt gestuurd door de buffer en reset het 7 segment. Hierna stuurt het segment naar de buffer dat hij gereset is zodat de buffer zelf, als laatste, kan resetten.
+
+
+
 [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/Volledige%20en%20werkende%20code/Segment1)
 
 ## realisatie
