@@ -31,7 +31,33 @@ een powerbank om de esp te voeden. Deze 5V wordt namelijk rechtstreeks als voedi
 ![](2022-05-13-21-33-27.png)
 
 ## Code
+De code van de fiets bestaat vooral uit het opmeten van het DC signaal (dat door middel van een spanningsdeler maximaal 3.3 volt zal zijn).
+```c
+  // read the input on analog pin 34:
+  int sensorValue = analogRead(34);
+  // Convert the analog reading (which goes from 0 - 4095) to a   voltage (0 - 3.3V):
+  float voltage = sensorValue * (3.3 / 4095.0);
+  Serial.print(sensorValue);
+  Serial.print(" ");
+  // print out the value you read:
+  Serial.print(voltage);
+  Serial.print(" ");
+  Serial.println(100*voltage);
+  display(100*voltage);
+```
+Wij gebruiken hier dus pin 34 die de spanning opgewekt door de dynamo en daarna opgezet werd naar een DC zal opmeten. Aangezien de esp32 de waarde op deze analoge pin omzet naar een digitale waarde met behulp van een ADC, kunnen we hier een waarde tussen 0 en 4095 uitkomen. We zetten hier dus onze sensorValue om naar de effectieve 'voltage'. 
+Met behulp van de methode display wordt deze waarde omgezet naar een bepaald level tussen 1 en 4 visueel wordt weergeven op een LCD. 
+------- FOTO TOEVOEGEN LCD --------------
+Met behulp van een simpele if-else-if structuur een bepaald deel van het scherm zwart gekleurd. Op die manier wordt een soort snelheidmeter gemaakt.   
+
+Deze code bestaat vooral nog uit een 'control' functie die vanuit de loop opgeroepen wordt telkens wanneer een nieuw bericht van buitenaf toekomt. Zo luistert de fiest naar de volgende berichten en voert daarna volgende acties uit: 
+* send: wanneer een 7 segment 5 seconden gebrand heeft moet de fiets de op dat moment gefietste waarde doorsturen naar de buffer die dan controleert of de speler de correcte snelheid gefietst heeft. 
+* led1, led2 en led3: de fiets zal één voor één drie ledjes laten branden. Deze laten de speler weten hoelang te nog hebben tegen dat het 7 segment uit gaat en ze dus de correcte snelheid moeten fietsen. 
+* correct/false: wanneer de speler correct/foutief gefietst heeft wordt een groene/rode led aangezet waarna die 1 seconde brand en daarna samen met led1, led2 en led3 uitgezet wordt. Hierna wordt naar de buffer "newNumber" gestuurd waarna deze een nieuw seven segment de opdracht zal geven een nummer weer te geven. 
+* resetFiets: nu wordt de fiets gereset. Hierna stuur die naar de buffer dat het resetten voltooid is. De buffer moet namelijk als laatste opgestart/gereset worden om een correcte werking van het spel te verzekeren.
+    
 [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/Volledige%20en%20werkende%20code/MeasuringDcVoltageWithCommunicationBuffer)
+
 
 ## realisatie
 FOTO TOEVOEGEN
