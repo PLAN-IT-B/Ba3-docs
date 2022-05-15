@@ -29,8 +29,11 @@ De ontwerpen die wij in onze escaperoom gebruikten zijn hieronder terug te vinde
 ![](2022-05-15-21-30-17.png)
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/7segmentKlein)
 
+## Voorzieningen in kamer
+Om onze puzzle te kunnen implementeren hebben we twee stopcontacten nodig en een voldoende ruime kamer waar de spelers kunnen zonder problemen kunnen fietsen op de hometrainer. Om het leukste effect te creëren zouden we de seven segmenten wat kunnen vertoppen/ op verschillende plaatsen in de kamer zetten zodat de spelers wat moeten verlopen om ze alle 4 in het oog te kunnen houden. Voor de buffer moeten we een centrale plaats in de kamer zoeken aangezien deze de leidraad zal zijn gedurende het hele spel.
 
 # realisatie
 FOTO TOEVOEGEN?
-
-HIER BOM ZETTEN? 
+# BOM
+[Visit our Github to find our bill of material!](...)
+HIER BOM ZETTEN?
