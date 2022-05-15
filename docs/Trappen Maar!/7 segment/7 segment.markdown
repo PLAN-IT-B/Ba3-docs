@@ -18,11 +18,11 @@ Voor het voeden van de 4 seven segments maken we gebruik van twee 12V pc voeding
 ![](2022-05-13-21-31-06.png)
 ## Code
 Wij maakten in onze escapreroom gebruik van 4 seven segments. Hierdoor moet er een speler het getal dat oplicht zoeken in de kamer en een andere speler fietsen. Dit zorgt ervoor dat het spel actiever wordt. Uiteraard is de keuze van aantal seven segmenten volledig vrij! Hieronder is een code teruggevonden van ons 'segment 1', voor alle andere segmenten is deze code identiek met uitzondering van het unieke client idee dat in de code onder de volgende vorm teruggevonden kan worden.
-```{python}
+```c
     client.connect("segment1")
 ```
 In de code van de buffer moet bovendien ook volgende lijn code aangepast worden:
-```{python}
+```c
 int randomEsp = random(1,5); 
 //dit zal segment 1,2, 3 of 4 roepen
 ```
