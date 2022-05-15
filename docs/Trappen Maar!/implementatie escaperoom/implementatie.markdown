@@ -21,12 +21,15 @@ De ontwerpen die wij in onze escaperoom gebruikten zijn hieronder terug te vinde
 ## SolidWorks
 ### Fiets
 ![](AssemblyFiets.png)
+
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Fiets)
 ### Buffer
 ![](AssemblyBuffer.png)
+
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Buffer)
 ### 7 segment
 ![](Assembly7Segment.png)
+
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/7segmentKlein)
 
 ## Voorzieningen in kamer
