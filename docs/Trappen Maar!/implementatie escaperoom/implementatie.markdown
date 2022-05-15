@@ -18,13 +18,13 @@ De buffer deden we op dezelfde manier als de 7 segement displays, alleen werden 
 uitsnijdingen gemaakt in het hout en zijn deze allen horizontaal georiënteerd.
 ## SolidWorks
 ### Fiets
-![](2022-05-15-21-00-39.png)
+![](2022-05-15-21-30-58.png)
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Fiets)
 ### Buffer
-![](2022-05-15-20-58-54.png)
+![](2022-05-15-21-30-40.png)
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Buffer)
 ### 7 segment
-![](2022-05-15-21-01-02.png)
+![](2022-05-15-21-30-17.png)
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/7segmentKlein)
 
 
