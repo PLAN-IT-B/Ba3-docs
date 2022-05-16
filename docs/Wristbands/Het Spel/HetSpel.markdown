@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Errorhandling
+title: Het Spel
 parent: Wristbands
 grand_parent: Puzzels
 nav_order: 1
