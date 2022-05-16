@@ -20,21 +20,19 @@ uitsnijdingen gemaakt in het hout en zijn deze allen horizontaal georiënteerd.
 De ontwerpen die wij in onze escaperoom gebruikten zijn hieronder terug te vinden: 
 ## SolidWorks
 ### Fiets
-![](AssemblyFiets.png)
+![](2022-05-16-11-37-22.png)
 
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Fiets)
 ### Buffer
-![](AssemblyBuffer.png)
+![](2022-05-16-11-37-42.png)
 
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Buffer)
 ### 7 segment
-![](Assembly7Segment.png)
+![](2022-05-16-11-38-02.png)
 
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/7segmentKlein)
-![](2022-05-16-10-09-45.png)
 
 ## Voorzieningen in kamer
-![](2022-05-16-11-12-17.png)
 Om onze puzzle te kunnen implementeren hebben we twee stopcontacten nodig en een voldoende ruime kamer waar de spelers kunnen zonder problemen kunnen fietsen op de hometrainer. Om het leukste effect te creëren zouden we de seven segmenten wat kunnen vertoppen/ op verschillende plaatsen in de kamer zetten zodat de spelers wat moeten verlopen om ze alle 4 in het oog te kunnen houden. Voor de buffer moeten we een centrale plaats in de kamer zoeken aangezien deze de leidraad zal zijn gedurende het hele spel.
 
 # realisatie
