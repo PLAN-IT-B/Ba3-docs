@@ -16,7 +16,7 @@ De 4 seven segments in onze escaperoom zullen in willekeurige volgerde een rando
 ![](2022-05-13-21-30-54.png)
 ![](2022-05-13-21-31-06.png)
 ### Aansluitingen en onderdelen
-Aan onze 7 segment worden 7 ledstrip gehangen. We werken hiervoor met een kroonsteentje dat we op onze PCB bevestigden zodat de ledstrip hier stevig aan vast hangen. De RGB ledstrips die wij gebruiken werken op 12V en hun R/G/B-lijnen funcioneren als ground. We sturen deze aan met mosfets (die we hoog/laag zetten en op die manier toe/open schakelen. 
+Aan onze 7 segment worden 7 ledstrip gehangen. We werken hiervoor met een kroonsteentje dat we op onze PCB bevestigden zodat de ledstrip hier stevig aan vast hangen. De RGB ledstrips die wij gebruiken werken op 12V en hun R/G/B-lijnen funcioneren als ground. We sturen deze aan met mosfets (2N7002) die we hoog/laag zetten en op die manier toe/open schakelen. 
 ### voedinsspanning
 Voor het voeden van de 4 seven segments maken we gebruik van twee 12V pc voedingen en twee step-up/buck-boost convertoren (die 5V naar 12V converteren).[Klik hier om het te bestellen.](https://www.tinytronics.nl/shop/nl/power/spanningsconverters/buck-boost-(step-up-down)-converters/usb-verstelbare-dc-dc-converter-3w-met-spanningsmeter). Aan deze convertoren hingen we dan een powerbank wat als voordeel had dat we de PCB ergens konden plaatsen en geen rekening moesten houden met een stopcontact.
 ## Code
