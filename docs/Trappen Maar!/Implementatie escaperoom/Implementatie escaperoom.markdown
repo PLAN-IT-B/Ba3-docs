@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Implementatie
+title: Implementatie escaperoom
 parent: Trappen Maar!
 grand_parent: Puzzels
 nav_order: 5
