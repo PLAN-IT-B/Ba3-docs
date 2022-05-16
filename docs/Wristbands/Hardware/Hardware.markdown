@@ -3,7 +3,7 @@ layout: default
 title: Hardware
 parent: Wristbands
 grand_parent: Puzzels
-nav_order: 2
+nav_order: 3
 ---
 # Hardware
 [Visit our Github to find our Kicad project!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/KiCad-project)

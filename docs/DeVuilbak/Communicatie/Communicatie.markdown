@@ -1,10 +1,8 @@
 ---
 layout: default
 title: Communicatie
-parent: Wristbands
+parent: De vuilbak
 grand_parent: Puzzels
-nav_order: 4
+nav_order: 1
 ---
-
-
 # Communicatie
