@@ -30,12 +30,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 remote_theme: pmarsceill/just-the-docs
 logo: /PLANITB.jpg
-tabicon:  /PLANITB.jpg
-
-
 
 aux_links:
-  "PLAN_IT B":
+  "PLAN_IT_B github":
     - "//github.com/PLAN-IT-B/"
 aux_links_new_tab: true
 
