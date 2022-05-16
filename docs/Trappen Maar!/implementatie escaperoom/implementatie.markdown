@@ -41,3 +41,4 @@ Om onze puzzle te kunnen implementeren hebben we twee stopcontacten nodig en een
 FOTO TOEVOEGEN?
 # BOM
 [Visit our Github to find our bill of material!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/blob/main/documentatie/BOM(final%20version).xlsx)
+![](2022-05-16-11-13-17.png)
