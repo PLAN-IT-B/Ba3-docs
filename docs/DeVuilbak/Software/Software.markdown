@@ -18,12 +18,12 @@ Werken met deze staten was zeer handig aangezien er hierdoor geen probleem ontst
 
 Merk op dat er in vrijwel elke staat gebruikt gemaakt wordt van volgend stuk code:
 
-'''c++
+```c++
 if(bl ==false){
       lcd.backlight();
       bl = true;
     }
-'''
+```
 Dit stukje zorgt er voor dat de backlight van de LCD maar 1* wordt opgezet nandat deze door een energietekort uit gaat. Moesten we in de loop altijd lcd.backlight() oproepen krijgen we geflikker van het achtergrondlicht.
 
 ### resetPuzzel
@@ -36,6 +36,7 @@ Wanneer de buffer op rood of oranje staat zal het programma in deze staat komen.
 In deze staat zal het programma enkel luisteren naar input van het toetsenbord. Het programma zal aan de hand van de de inputs van het toetsenbord een array vormen, eventuele typfouten kunnen gedelete worden door de '*'-toets. Wanneer de gebruiken vermoed de juiste code ingevuld te hebben kan deze op '#' drukken. Wanneer er dan 5 cijfers zijn ingegeven zal deze array vergeleken worden met de verkrege code-array van de wristbands en de train-game, als deze overeen komt zal de LCD "Code correct" afbeelden, zal er een succes-sound worden afgespeeld en zal de boolean actief op true worden gezet.
 
 ### puzzel
+Dit is het eigenlijke deel van de puzzel. Deze staat zal beginnen met een simpele uitleg van de puzzel op de LCD te zetten
 
 ### gewichtWachter
 
