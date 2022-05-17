@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Programmeercode
-parent: Software
+parent: TrainGame
 grand_parent: Puzzels
 nav_order: 2
 has_children: true
