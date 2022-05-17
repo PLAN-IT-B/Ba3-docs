@@ -18,7 +18,6 @@ Aangezien we gekozen hebben voor de wristbands, was het belangrijk dat we ons de
 
 ## Componenten
 
-#### Gebruikte componenten:
 
 | Component   |      Type      |  Gebruik |
 |----------|:-------------:|------:|

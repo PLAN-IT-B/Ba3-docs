@@ -10,3 +10,4 @@ nav_order: 5
 ![](totaalplaatje.png)
 **Bovenaanzicht**
 ![](boven_aanzicht.png)
+![](caseWristband3.STL)
