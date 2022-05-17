@@ -6,8 +6,11 @@ grand_parent: Puzzels
 nav_order: 5
 ---
 [Visit our Github to find our SolidWorks project and the STL-files!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/3D-ontwerp)
+
+## 3D-mode Kicad
+
 **Overzichtsmodel**
 ![](totaalplaatje.png)
+
 **Bovenaanzicht**
 ![](boven_aanzicht.png)
-![](caseWristband3.STL)
