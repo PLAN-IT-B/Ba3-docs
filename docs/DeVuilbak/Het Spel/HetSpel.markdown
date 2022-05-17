@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hardware
+title: Het Spel
 parent: De vuilbak
 grand_parent: Puzzels
 nav_order: 1
