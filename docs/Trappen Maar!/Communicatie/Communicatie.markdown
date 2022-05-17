@@ -21,3 +21,5 @@ bij een correct gefietst niveau het bericht ”correct” naar de fiets waarna d
 
 Het laatste deel van de communicatie, is die naar andere puzzels toe. Van zodra de buffer tot een nieuw kleurniveau werd opgeladen (of ontladen), wordt dit doorgegeven aan de andere puzzels. Omgekeerd kunnen ook andere puzzels aan de buffer laten weten dat er een fout werd gemaakt. Afhankelijk van de ernst van die fout, klein of groot, zal de bufferwaarde met 1, respectievelijk 2 waarden verminderd worden.
 
+## Flowchart
+![](flowchart.png)
