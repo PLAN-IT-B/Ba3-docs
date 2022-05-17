@@ -41,19 +41,3 @@ We kunnen de hartratesenor ook in een uitschakelen wanneer we *"hartslagsensor u
 
 Stel dat er tijdens de escaperoom probelemen voordoen, kunnen we ook de wristbands volledig uitschakelen door via een MQTT *"Stop Wristbands"* te sturen. We kunnen die dan later eventueel terug inschakelen met de message "Herstart Wristbands".
 
-  if (messageTemp== "hartslagsensor uit" ){
-    hartratesensorEnable = false;
-  }
-
-  if (messageTemp== "Stop Wristbands"){
-    wristbandEnable = false;
-  }
-
-  if (messageTemp== "hartslagsensor aan" ){
-    hartratesensorEnable = true;
-  }
-
-  if (messageTemp== "Herstart Wristbands"){
-    wristbandEnable = true;
-  }
-
