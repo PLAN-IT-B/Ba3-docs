@@ -33,7 +33,7 @@ Voor Vuilbak publishen we naar ___"Wristbands/3cijfers"___. We sturen hier naar 
 
 ### Subscriben
 
-We luisteren ook naar verschillende directories omdat we graag van buitenaf de wristbands ook wat in de hand hebben. We luisteren naar **"controlpanel/reset"**, **"Wristbands"**, **"controlpanel/status"**, **"trappenmaar/buffer"**. 
+We luisteren ook naar verschillende directories omdat we graag van buitenaf de wristbands ook wat in de hand hebben. We luisteren naar **"controlpanel/reset"** en **"Wristbands"**.
 
 Wanneer we *"Reset escaperoom"* of *"Reset Wristbands"* ontvangen, wordt er een resetfunctie opgeropen die onze wristband gaat resetten.
 
