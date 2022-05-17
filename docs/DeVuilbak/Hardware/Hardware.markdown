@@ -44,7 +44,7 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 ![](randaparatuur2.png)
 ## Level shifters
 ![](Level_shifters.png)
-## Voledig schema
+## Volledig schema
 
 ## Verbeteringen
 
