@@ -16,6 +16,16 @@ Om de code overzichtelijk te maken hebben we gewerkt met verschillende staten. I
 
 Werken met deze staten was zeer handig aangezien er hierdoor geen probleem ontstond wanneer het niveau plots niet meer groen was. Het programma zou gewoon naar zijn "geenEnergie"-state gaan en alle variabelen die in het programma waren opgeslagen blijven ongewijzigd. Wanneer het niveau weer groen wordt kan er zonder problemen verder gedaan worden. 
 
+### resetPuzzel
+
+### geenEnergie
+
+### Puzzel
+
+### gewichtWachter
+
+### eindePuzzel
+
 
 
 
