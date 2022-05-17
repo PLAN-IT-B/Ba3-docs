@@ -3,8 +3,7 @@ layout: default
 title: Programmeercode
 parent: Traingame
 grand_parent: Puzzels
-nav_order: 2
-has_children: true
+nav_order: 3
 ---
 
 # Main

@@ -3,7 +3,7 @@ layout: default
 title: Hardware
 parent: Traingame
 grand_parent: Puzzels
-nav_order: 3
+nav_order: 4
 ---
 #  Opstelling
 
