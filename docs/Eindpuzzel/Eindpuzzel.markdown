@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Eindpuzzels
+title: Eindpuzzel
 parent: Puzzels
 nav_order: 5
 has_children: true
