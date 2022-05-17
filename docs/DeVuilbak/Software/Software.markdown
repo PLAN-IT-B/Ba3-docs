@@ -36,9 +36,10 @@ Wanneer de buffer op rood of oranje staat zal het programma in deze staat komen.
 In deze staat zal het programma enkel luisteren naar input van het toetsenbord. Het programma zal aan de hand van de de inputs van het toetsenbord een array vormen, eventuele typfouten kunnen gedelete worden door de '*'-toets. Wanneer de gebruiken vermoed de juiste code ingevuld te hebben kan deze op '#' drukken. Wanneer er dan 5 cijfers zijn ingegeven zal deze array vergeleken worden met de verkrege code-array van de wristbands en de train-game, als deze overeen komt zal de LCD "Code correct" afbeelden, zal er een succes-sound worden afgespeeld en zal de boolean actief op true worden gezet.
 
 ### puzzel
-Dit is het eigenlijke deel van de puzzel. Deze staat zal beginnen met een simpele uitleg van de puzzel op de LCD te zetten
+Dit is het eigenlijke deel van de puzzel. Deze staat zal beginnen met een simpele uitleg van de puzzel op de LCD te zetten. Hierna gaat hij kijken of een scanknop wordt ingedrukt. Wanneer dit het geval is zal de desbetreffende RFID scanner aangesproken worden, hierover later meer. Ten slotte zal het programma in deze staat checken of al het vuilnis al is gevonden, indien dit het geval is zal de boolean checkVuilnisTotaal op true gezet worden.
 
 ### gewichtWachter
+Deze staat zal er voor zorgen dat het programma niet verder gaat totdat het afval na het scannen in de juiste vuilnisvak geworpen wordt. In de functie waar de RFID-scanner wordt opgeroepen zal indien een juist stuk afval gescand wordt een weegschaalnummer meegegeven worden. Op deze weegschaal wal een gewichtsverschil moeten wijn van minstens 10g voordat de puzzel weer verder kan gaan.
 
 ### eindePuzzel
 
