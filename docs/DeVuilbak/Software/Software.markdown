@@ -10,8 +10,8 @@ nav_order: 3
 
 [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefGarbage/tree/main/Garbage)
 
-- [Verschillende staten](#Verschillende staten)
-- [Communicatie](#Communicatie)
+- [Verschillende staten](#verschillende staten)
+- [Communicatie](#communicatie)
 
 ## Verschillende staten
 Om de code overzichtelijk te maken hebben we gewerkt met verschillende staten. In welke staat de vuilbak zich bevind zal telkens in de loop bekeken worden aan de hand van booleans die veranderen. Deze booleans zijn:
