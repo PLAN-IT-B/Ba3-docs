@@ -16,7 +16,7 @@ Deze randaparaten zijn:
 - 1 toetsenbord
 - 1 luidspreker <br />
 Deze randaparaten willen we aansturen aan de hand van een  ESP32-WROOM-32E ic.
-Om deze randaparatuur naar behoeven te kunnen aansturen zullen er verder ook nog een I<sup>2</sup>C - multplexer en twee level shifters aanwezig moeten zijn.
+Om deze randaparatuur naar behoeven te kunnen aansturen zullen er verder ook nog een I<sup>2</sup>C - multiplexer en twee level shifters aanwezig moeten zijn.
 De level shifters moeten aanwezig zijn om 3 V I<sup>2</sup>C signalen om te zetten naar 5 V signalen.
 De multiplexer is nodig omdat de 3 gebruikte RFID-scanner hetzelfde fixed I<sup>2</sup>C adres hebben.
 Daarnaast willen we ook in staat zijn om de puzzel te voeden aan de hand van een powerbank (of dus met een 5 V - bron).
