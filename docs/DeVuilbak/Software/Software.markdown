@@ -10,7 +10,7 @@ nav_order: 3
 
 [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefGarbage/tree/main/Garbage)
 
-- [Verschillende staten](#verschillende staten)
+- [Verschillende staten](#verschillende-staten)
 - [Communicatie](#communicatie)
 
 ## Verschillende staten
