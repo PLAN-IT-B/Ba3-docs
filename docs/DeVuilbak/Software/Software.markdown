@@ -5,7 +5,14 @@ parent: De vuilbak
 grand_parent: Puzzels
 nav_order: 3
 ---
+
 # Software
+
+[Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefGarbage/tree/main/Garbage)
+
+- [Verschillende staten](#Verschillende staten)
+- [Communicatie](#Communicatie)
+
 ## Verschillende staten
 Om de code overzichtelijk te maken hebben we gewerkt met verschillende staten. In welke staat de vuilbak zich bevind zal telkens in de loop bekeken worden aan de hand van booleans die veranderen. Deze booleans zijn:
 * reset: Moet de ESP gereset worden?
@@ -42,9 +49,8 @@ Dit is het eigenlijke deel van de puzzel. Deze staat zal beginnen met een simpel
 Deze staat zal er voor zorgen dat het programma niet verder gaat totdat het afval na het scannen in de juiste vuilnisvak geworpen wordt. In de functie waar de RFID-scanner wordt opgeroepen zal indien een juist stuk afval gescand wordt een weegschaalnummer meegegeven worden. Op deze weegschaal wal een gewichtsverschil moeten wijn van minstens 10g voordat de puzzel weer verder kan gaan.
 
 ### eindePuzzel
-
-
-
-
+Wanneer al het vuilnis in de vuilnisbak is zal deze staat activeren. Het totale gewicht van alle weegschalen zal slechts 1x genomen worden en zal zo op het LCD scherm worden geprint. De som van deze gewichten is de code die naar het UV-licht zal gestuurd worden. De puzzel is hier op zijn einde. Wanneer er niet genoeg energie is zal het scherm nog uit gaan maar op een reset na is er niets meer mogelijk om de eindcode en het eindbeeld te veranderen.
 
 ## Communicatie
+
+## Overige functies
