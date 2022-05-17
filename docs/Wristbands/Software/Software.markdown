@@ -6,10 +6,16 @@ grand_parent: Puzzels
 nav_order: 2
 ---
 
-
 # Software
 
 [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/Wristband-Code)
+
+- [Algemeen](#algemeen)
+- [Libaries en includes](#libaries-en-includes)
+- [Variabelen](#variabelen)
+- [Functies](#functies)
+- [Setup en Loop](#setup-en-loop)
+
 
 ## Algemeen
 
@@ -220,7 +226,82 @@ De laatste variabelen houden bepaalde tijd bij. Zo moeten we een tijd bijhouden 
 
 ## Functies
 
+We kunnen de functies  groeperen in verschillende groepjes.
 
+### LED
+
+Om te beginnen hebben we voor verschillende functie geschreven om het led in een verschillende kleur te laten branden. Een voorbeeld ziet u hieronder.
+
+ ```c
+ void setCyan(){
+  analogWrite(PIN_RED,  0,255);
+  analogWrite(PIN_GREEN, 255,255);
+  analogWrite(PIN_BLUE,  50,255);
+}
+ ```
+
+Verder hebben we gewoon een **setupLed()** geschreven.
+
+
+### Bluetoothsignaal
+
+Zo hebben we een **scanSetup()** en een **sendSetup()**, maar ook een **scanLoop()** en **sendLoop()**. Met de klasse **AdvertisedDeviceCallbacks()** kunnen we de afstanden met de andere ESP's bepalen.
+
+Om die afstanden verder te gebruiken, maken we gebruik van functies zoals **checkTeVer()** en **checkTeDicht()**. Deze functies geven een boolean terug die zegt of een esp te dicht of te ver van een andere is. Onderstaande code is een voorbeeld om te kijken of 2 esp's te ver van elkaar zijn.
+
+```c++
+if(id==1 ||id ==2){
+    if(distance1 < (-grenswaardeTeVer) || (distance2 < (-grenswaardeTeVer) )){
+
+    return true;
+    }
+```
+Wanneer dit het geval is worden respectievelijk de functies **teVer()** en **teDicht()**, die zowel het ledje van kleur laten veranderen als de juiste foutmelding sturen naar de buffer. Om deze foutmeldingen wat te minimaliseren, houden we de variabel foutCounter bij. In ons geval moeten er dus 15 fouten gebeuren vooralleer effectief een fout wordt verzonden. Dit is natuurlijk rekeninghoudende met het feit dat een esp altijd met minstens 2 in de fout zijn.
+
+### HartrateSensor
+
+Aangezien we alleen maar de infraroodwaarde gebruiken van de hartslagsensor om te kijken of de speler de wristband goed aanheeft, hebben we enkel een functie nodig die de sensor initialiseerd. Dit doen we met de **initializeSensor()**-functie. Deze functie is belangerijk om te weten of de hartslagsensor werkt. Wanner dit niet het geval is wordt er een error geprint in de serial monitor.
+
+### MQTT
+
+Nog een belangrijk deel van de functies, zijn de functies van de wifi. Zo hebben we een **setup_wifi()** om te connecteren met de wifi. Daarnaast hebben we ook een reconnect en een callback. In de reconnect wordt er een MQTT connection aangegaan met de broker, maar er wordt ook beslist naar welke directories we gaan luisteren. Dit doen we aan de hand van een ingebouwde subscribe-functie van de PubSubClient libary. 
+
+```c
+client.subscribe("controlpanel/reset");
+```
+De callback gebruiken we eerder om met de ontvangen boodschappen verder te kunnen werken. Zo kunne we bijvoorbeeld de wristbands uitschakelen met een message die verzonden wordt via MQTT.
+```c
+ if (messageTemp== "Stop Wristbands"){
+    wristbandEnable = false;
+  }
+```
+
+### Partner-rondes en code
+
+Een laatste deel functies die we nog willen bespreken zijn diegene die betrekking hebben op de partnerruil en de code die moet verzonden worden naar de vuilnisbak. De code wordt duidelijk gemaakt aan de hand van een knipperend magenta-kleurig ledje. Elke wristband zal kort op elkaar dit ondergaan. Uit die volgorde kan de code worden gevonden dankzij de genummerde wristbands. De functie, **code()**, laat na een periode van "codetimelong" milliseconde de wristbands flikkeren volgens oplopende id. Dit doet hij gedurende heel de rond een aantal keer. 
+
+In het begin van elke ronde wordt de juiste code verzonden naar de vuilnisbak via de functie **sentCode()**. Dit veranderd telkens omdat de id's elke partnerronde worden aangepast. Dit doen we via de functie: **schuifDoor()**. Deze functie telt gewoon 1 op bij de huidige ID tenzij het id 4 was, dan wordt deze terug op 1 gezet. 
+
+Dankzij voorgaande techniek krijgen we de mogelijkheid om aan partnerruil te doen via de functie fixDistance. Deze functie zorgt ervoor dat de juiste d-variabelen worden gelinkt met de juiste distance-variabelen (zie variabelen voor BLE). Dit hebben we gedaan door een aantal if-lussen. Bovendien wordt hier ook de doorstuurCode aangepast. Een voorbeeld zie je hieronder.
+
+```c
+ if (espNaam.compare("esp1") == 0){
+    if(id==3){
+      distance3 = d1;
+      distance4 = d2;
+      distance1 = d3;
+      distance2 = d4;
+      doorstuurCode = "3412";
+    }
+```
+
+Verder zijn er nog een aantal kleine functies die het coderen makkelijker maken zoals **resetESP()** of **noWristband()**.
+
+## Setup en Loop
+
+Tijdens de setup worden eerst onze startMillis allemaal geinitialliseerd. Dit is zeer belangerijk aangezien de 4 wristbands niet gesynchroniseerd zijn met elkaar. Hierdoor moeten alle wristbands op hetzelfde moment gereset worden zodat ze met een gelijke klok kunnen lopen. Daarnaast wordt alles ook gesetupt via de bijhorende functies.
+
+De loop zelf is relatief simpel geschreven. Dit komt omdat we alles in functies hebben geschreven.
 
 
 
