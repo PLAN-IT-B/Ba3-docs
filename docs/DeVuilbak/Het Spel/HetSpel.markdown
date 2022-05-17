@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Communicatie
+title: Het Spel
 parent: De vuilbak
 grand_parent: Puzzels
-nav_order: 5
+nav_order: 1
 ---
-# Communicatie
+
+# Het spel

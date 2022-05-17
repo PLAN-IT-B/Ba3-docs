@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Communicatie
-parent: Wristbands
+parent: Eindpuzzel
 grand_parent: Puzzels
 nav_order: 4
 ---
