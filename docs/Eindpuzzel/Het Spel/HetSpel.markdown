@@ -30,11 +30,16 @@ Namelijk een puzzel die vanaf begin al in de escape room lag. De puzzelstukken e
 
 Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hun gsms teruig uit de puzzlebox halen, en is dus de escape room gedaan!
 
+![](Flowchart_reset-start_werking.png)
+
+Tussen deze twee delen, is er een periode waar ze de houten puzzel moeten oplossen en het voor het UV-licht moeten houden.
+
 ---
 
 ## Verwachtingen:
 
 ---
 
-Als afleiding en ook als inkleding hebben we brochures en poster geregeld die ook in de kamer zullen liggen. (Brochures en posters over de sustainable development goals.)
-We verwachten dat dit deel binnen de 7 min is opgelost. Inclusief de tijd om vanaf het begin te zoeken achter de puzzel stukken. 
+Als afleiding en ook als inkleding hebben we brochures en poster geregeld die ook in de kamer zullen liggen. (Brochures en posters over de sustainable development goals.) U kunt [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/Te%20printen%20documenten) deze bestanden terugvinden.
+
+We verwachten dat dit deel binnen de 7 min is opgelost. Inclusief de tijd van het zoeken achter de puzzel stukken. 
