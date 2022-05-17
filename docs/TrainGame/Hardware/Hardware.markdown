@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hardware
-parent: TrainGame
+parent: Traingame
 grand_parent: Puzzels
 nav_order: 1
 ---
