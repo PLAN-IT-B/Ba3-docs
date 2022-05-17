@@ -67,16 +67,16 @@ OPGELET: Wanneer aan de esp's andere id's worden gegeven moet de variabele "door
 Vervolgens hebben we een deel variabelen die we kunnen aanpassen naargelang we bepaalde parameters in het spel willen veranderen.
 
 ```c
-    int codetime =5000;
-    int codetimelong =60000;
-    const unsigned long switchPeriod = 600000;
-    int partnerTime = 30;
-    int grenswaardeTeVer  = 50;   
-    int grenswaardeTeDicht = 50; 
-    int irThreshold = 70000;
-    int hartslagFoutenMax = 5;
-    const unsigned long period = 1000;
-    int foutenMarge =5;
+int codetime =5000;
+int codetimelong =60000;
+const unsigned long switchPeriod = 600000;
+int grenswaardeTeVer  = 60;   
+int grenswaardeTeDicht = 40; 
+int irThreshold = 60000;
+int partnerTime = 30;
+int hartslagFoutenMax = 5;
+const unsigned long period = 1000;
+int foutenMarge =10;
 ```
 * **codetime**: 
 Tijdens het spel wordt een code duidelijk gemaakt door knipperlichtjes. Als de code 3412 is, dan gaat esp3 eerst een ledje laten knipperen, vervolgens knipperen respectievelijk esp4, esp1, esp2 ook een ledje. De tijd die hiervoor tussen het knipperen van twee opeenvolgende esp's is hier voorgesteld in milliseconden.
@@ -143,8 +143,10 @@ char msg[50];
 int value = 0;
 ```
 
-```c
 **variabelen en constanten voor de hartslagsensor**
+
+volgende variabelen worden gebruikt tijdens de connectie met de hartslagsensor. De hartslagsensorEnable zorgt er voor dat we de hartslagsensor vanop afstand kunnen uitschakelen.
+```c
 //VARIABLES  AND CONSTANTS HARTSLAGSENSOR ==============================================
 MAX30105 particleSensor;
 
@@ -160,6 +162,8 @@ bool hartratesensorEnable;
 int hartslagFoutenTeller;
 
 ```
+**Constanten voor de LED**
+Via deze constanten kunnen we makkelijk de IO-pinnen van de ESP bepalen die onze LED aansturen
 
 ```c
 //Constants RGB LED ============================================================
@@ -167,6 +171,11 @@ const int PIN_RED   = 16;
 const int PIN_BLUE = 4;
 const int PIN_GREEN  = 2;
 ```
+**Variabelen en constanten voor BLE**
+
+Volgende variabelen en constanten zijn nodig voor het bepalen en bijhouden van de afstand met de andere ESP's
+
+Eenderzijds gebruiken we de d-variabelen om de afstand tot een specifieke esp te weten. Deze waarden wordt dan toegekent aan de juiste distance-variabelen. Deze zijn belangrijk om makkelijk de partnerruil door te voeren via de functie "fixDistance".
 
 ```c
 //VARIABLES AND CONSTANTS BLE ============================================================
@@ -191,6 +200,10 @@ BLEScan *pBLEScan;
 
 
 ```
+**Variabelen voor timing**
+
+De laatste variabelen houden bepaalde tijd bij. Zo moeten we een tijd bijhouden die bepaald wanneer er een bluetooth signaal wordt gescand of verstuurd. Daarnaast houden we ook een tijd bij voor de partnerruil en voor het tonen van de code.
+
 
 ```c
 //VARIABLES TIMING ============================================================
@@ -205,7 +218,7 @@ BLEScan *pBLEScan;
     unsigned long codeCurrentMillis;
 ```
 
-
+## Functies
 
 
 
