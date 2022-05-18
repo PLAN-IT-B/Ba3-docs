@@ -33,6 +33,7 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 
 *Weerstanden en condensatoren werden niet opgenomen in de bill of materials.*
 
+
 ## KiCad-schema's
 ### Power circuit
 
@@ -55,6 +56,7 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 
 ### Volledig schema
 [Hier](Schema_VuilBak.pdf) vindt u het volledige schema terug in pdf-vorm.
+
 ## Verbeteringen
 
 Na het daadwerkelijk vervaadigen van dit schema bleek dat hieraan nog heel wat verbeteringen nodig waren.
@@ -71,5 +73,7 @@ Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze 
 ![](PCB_front.jpg)
 ### Back
 ![](PCB_back.jpg)
-### Opmerking
-Wij zien zlf in dat deze uitvoering van de PCB heel wat kleiner zou kunnen.
+### Opmerkingen
+
+- Wij zien zelf in dat deze uitvoering van de PCB heel wat kleiner zou kunnen.
+- Deze uivoering van de PCB is zonder de hierboven besproken verbeteringen.
