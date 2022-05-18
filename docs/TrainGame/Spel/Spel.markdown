@@ -5,5 +5,4 @@ parent: TrainGame
 grand_parent: Puzzels
 nav_order: 1
 ---
-
 # Spel
