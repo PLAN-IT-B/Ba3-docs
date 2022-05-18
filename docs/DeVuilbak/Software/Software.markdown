@@ -12,6 +12,7 @@ nav_order: 3
 
 - [Verschillende staten](#verschillende-staten)
 - [Communicatie](#communicatie)
+- [Overige functies](#overige-functies)
 
 ## Verschillende staten
 Om de code overzichtelijk te maken hebben we gewerkt met verschillende staten. In welke staat de vuilbak zich bevind zal telkens in de loop bekeken worden aan de hand van booleans die veranderen. Deze booleans zijn:
@@ -52,6 +53,18 @@ Deze staat zal er voor zorgen dat het programma niet verder gaat totdat het afva
 Wanneer al het vuilnis in de vuilnisbak is zal deze staat activeren. Het totale gewicht van alle weegschalen zal slechts 1x genomen worden en zal zo op het LCD scherm worden geprint. De som van deze gewichten is de code die naar het UV-licht zal gestuurd worden. De puzzel is hier op zijn einde. Wanneer er niet genoeg energie is zal het scherm nog uit gaan maar op een reset na is er niets meer mogelijk om de eindcode en het eindbeeld te veranderen.
 
 ## Communicatie
+Zoals besproken in communicatie verbinden we met de MQTT server. We subscriben in de code naar volgende mappen:
+* wristbands/3cijfers (initieel zouden hier 3 cijfers in doorgestuurd worden, pas later werden dit er 4.)
+* treingame/#
+* controlpanel/reset
+* TrappenMaar/zone
+
+In de callback functie luisteren we naar verschillende boodschappen:
+* Reset escaperoom: reset zal op true gezet worden en de ESP wordt gereset.
+* groen, oranje of rood: Aan de hand hiervan zal de variabele "energie" gecontroleerd worden.
+* Wristband-code .... : Wanneer "Wristband-code" in een bericht wordt ontvangen zal character 15-18 in de code array gezet worden. Dit komt overeen met de 4 cijfers die worden doorgestuurd.
+*Trein-code .: Wanneer "Trein-code" in een bericht wordt ontvangen zal character 11 in de code array geplaatst worden.
+
 
 
 ## Overige functies
