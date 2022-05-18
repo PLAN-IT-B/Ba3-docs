@@ -51,3 +51,4 @@ In volgende twee figuren ziet u een afbeelding van ons PCB-design. We hebben erv
 |front | back |
 |:----: |:----: |
 |![](pcb-front.png)|![](pcb-back.png)|
+| [PCB-front in het groot](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefWristbands/main/KiCad-project/Afbeeldingen%20PCB/pcb-front.png)| [PCB-back in het groot](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefWristbands/main/KiCad-project/Afbeeldingen%20PCB/pcb-back.png)|
