@@ -13,14 +13,14 @@ We willen een stevig en netjes spelbord voorzien. Omdat lasercutten en graveren 
 
 ## Voet zonder ondersteuning
 Het nodige oppervlak is redelijk groot dus wordt er gebruik gemaakt van twee tegen elkaar geschoven platen. We bouwden een rechthoekige voet. Om ook in het midden van het bord stevigheid te voorzien gebruiken we een extra middenstuk. Hierbij zijn er inkepingen om ruimte vrij te houden voor de montage van de LEDS.
-![](Box_zonder_ondersteuning.png)
+![](BoxZonder.png)
 
 ## Voet met ondersteuning
 Aan de zijkanten voorzien we extra ondersteuningsstukken en oppervlakken om het bord op vast te lijmen.
-![](Box_met_ondersteuning.png)
+![](BoxOnder.png)
 
 ## Spelbord met voet
 
 We lijmen het spelbord vast aan de voet met houtlijm en monteren de LEDS.
-![](Totale_box.png)
+![](Totaal.png)
 
