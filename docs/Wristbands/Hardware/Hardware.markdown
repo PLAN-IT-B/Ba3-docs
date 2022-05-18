@@ -47,7 +47,7 @@ Je ziet dat we 4 condensatoren gebruiken om onze bron te ontkoppelen. In de prak
 
 ## PCB-design
 In volgende twee figuren ziet u een afbeelding van ons PCB-design. We hebben ervoor gekozen om dubbelzijdig te werken om opnieuw een compact design te realiseren. 
-### front
-![](pcb-front.png)
-### back
-![](pcb-back.png)
+
+|front | back |
+|:----: |:----: |
+|![](pcb-front.png)|![](pcb-back.png)|
