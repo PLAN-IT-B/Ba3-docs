@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Programmeercode
-parent: TrainGame
+title: Software
+parent: Traingame2
 grand_parent: Puzzels
-nav_order: 3
+nav_order: 2
 ---
 
 # Main
@@ -14,4 +14,4 @@ nav_order: 3
 
 ## Joystick
 
-## 
+##

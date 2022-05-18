@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Hardware
-parent: TrainGame
+title: Implementatie
+parent: Traingame2
 grand_parent: Puzzels
 nav_order: 1
 ---
-#  Opstelling
+
+ #  Opstelling
 
 We willen een stevig en netjes spelbord voorzien. Omdat lasercutten en graveren in hout erg kostelijk is maken we gebruik van kartonplaten. We monteren de componenten in het bord. Hiervoor hebben we gaten voorzien waarin we de LEDS kunnen vastklemmen. De joystick monteren we met schroefjes omdat deze echt stevig vast moet zitten, de LCD is met gum bevestigd. De verschillende kabeltjes kunnen we met tape aan de binnenkant bevestigen, alsook onze PCB. 
 
