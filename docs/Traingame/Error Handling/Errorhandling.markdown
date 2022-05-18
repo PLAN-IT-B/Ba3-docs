@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Errorhandling
-parent: Wristbands
+parent: Traingame
 grand_parent: Puzzels
 nav_order: 6
 ---
