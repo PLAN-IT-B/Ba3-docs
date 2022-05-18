@@ -13,8 +13,8 @@ nav_order: 2
 
 
 ## Inleiding
-In deze sectie bespreken we de hardware-implementatie van de elektronische schakeling ter ondersteuning van de software die het gedrag van de escape room implementeert.
-Het doel van deze schakeling is om enkele randaparaten te kunnen aansturen/benuttigen.
+In deze sectie bespreken we de hardware-implementatie van de elektronische schakeling ter ondersteuning van de software die het gedrag van de vuilbak implementeert.
+Het doel van deze schakeling is om enkele randapparaten te kunnen aansturen/uitlezen.
 Deze randaparaten zijn:
 
 - 3 RFID-modules
@@ -25,12 +25,12 @@ Deze randaparaten zijn:
 - 3 knoppen
 
 Deze randaparaten willen we aansturen aan de hand van een  ESP32-WROOM-32E-ic.
-Om deze randaparatuur naar behoeven te kunnen aansturen zullen er verder ook nog een I<sup>2</sup>C - multplexer en twee level shifters aanwezig moeten zijn op de PCB.
-De level shifters moeten aanwezig zijn om 3 V I<sup>2</sup>C signalen om te zetten naar 5 V signalen.
+Om deze randaparatuur te kunnen aansturen zullen er verder ook nog een I<sup>2</sup>C - multiplexer en twee level shifters aanwezig moeten zijn op de PCB.
+De level shifters moeten aanwezig zijn om 3.3 V I<sup>2</sup>C signalen om te zetten naar 5 V signalen.
 De multiplexer is nodig omdat de 3 gebruikte RFID-scanner hetzelfde fixed I<sup>2</sup>C adres hebben.
-Daarnaast willen we ook in staat zijn om de puzzel te voeden aan de hand van een powerbank (of dus met een 5 V - bron).
+Daarnaast willen we ook in staat zijn om de puzzel te voeden aan de hand van een powerbank (5V - bron).
 In de volgende secties vindt u de KiCad-schema's en andere bijkomende informatie voor het vervaardigen van de PCB.
-Alsook vindt u hier de gebruikte randaperatuur voor het opstellen van de schema's.
+Alsook vindt u hier de gebruikte randapperatuur voor het opstellen van de schema's.
 
 ## Randapparaten
 
