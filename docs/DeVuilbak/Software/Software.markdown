@@ -65,8 +65,6 @@ In de callback functie luisteren we naar verschillende boodschappen:
 * Wristband-code .... : Wanneer "Wristband-code" in een bericht wordt ontvangen zal character 15-18 in de code array gezet worden. Dit komt overeen met de 4 cijfers die worden doorgestuurd.
 *Trein-code .: Wanneer "Trein-code" in een bericht wordt ontvangen zal character 11 in de code array geplaatst worden.
 
-
-
 ## Overige functies
 
 ### scanRFID
@@ -76,3 +74,6 @@ Wanneer de tag fout is zal er een failure sound afgaan en zal er "kleine fout" n
 
 ### Sound
 Doordat we gebruik maken van het "Tone32" library konden we noten afspelen via een GPIO pin. Omdat de speaker niet zo luid ging en we controle wouden hebben over het volume hebben we er een versterker tussen geplaatst. 
+
+### TCA9548A
+Deze functie zal naar de multiplexer sturen welk kanaal moet aangesproken worden
