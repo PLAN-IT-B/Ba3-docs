@@ -29,6 +29,7 @@ Hieronder vindt u een overzicht van het model.
 Vorig 3D-model hebben we 4 maal geprint met een 3D-printer, voor elke wristband. Vervolgens hebben we de antenna aan de zijkant van het doosje gelijmd. We gebruikten een ducktape met een leuke structuur om het deskel aan zijn doosje te monteren. Ten slotte lijmden we velcro aan de onderkant. We gebruikten de voorziene gaatjes niet omdat de wristband dan minder goed aansloot aan de arm. 
 
 Voor de afwerking hebben we gaatje voor de led afgeplakt met wat doorzichtig plastic zodat het licht mooier zichtbaar wordt. Daarnaast hebben we met een witte paint marker de cijfers 1 tot en met 4 op de wristbands geschreven in de vorm van 7-segment displays. Het resultaat van dit alles vindt u hieronder:
+
 |Wristband 1| De 4 Wristbands|
 |:---:|:---:|
 |![](Wristband2.jpg)|![](4Wristbands1.jpg)|
