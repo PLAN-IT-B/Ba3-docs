@@ -13,7 +13,7 @@ nav_order: 1
 ## Doel:
 
 ---
-
+TEST   
 Het doel van mijn volledige opdracht is om een leuk einde te maken aan onze escape room. Dit ging sowiezo lostaan van de rest van de escape room, doordat ik een week later ben toegekomen in de bachlorproef van embedded systems.
 
 ---
@@ -34,6 +34,7 @@ Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hu
 
 
 <img src="Flow_UV-Slot.png"  width="400"/>
+
 
 Tussen deze twee delen, is er een periode waar ze de houten puzzel moeten oplossen en het voor het UV-licht moeten houden.
 
