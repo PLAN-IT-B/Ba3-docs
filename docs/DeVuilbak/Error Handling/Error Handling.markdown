@@ -6,3 +6,5 @@ grand_parent: Puzzels
 nav_order: 10
 ---
 # Error Handling
+## Mogelijke problemen omwille van hardware
+
