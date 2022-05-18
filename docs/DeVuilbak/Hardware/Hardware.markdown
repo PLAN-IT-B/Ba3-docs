@@ -10,6 +10,10 @@ nav_order: 2
 - [Inleiding](#inleiding)
 - [Randapparaten](#randapparaten)
 - [PCB](#pcb)
+- [RFID](#rfid)
+- [Toetsenbord](#toetsenbord)
+- [LCD](#lcd)
+- [Gewichtssensoren](#gewichtssensoren)
 
 
 ## Inleiding
@@ -19,7 +23,7 @@ Deze randapparaten zijn:
 
 - 3 RFID-modules
 - 1 LCD-scherm
-- 3 gewichtsensoren
+- 3 gewichtssensoren
 - 1 toetsenbord
 - 1 luidspreker
 - 3 knoppen
@@ -66,7 +70,7 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 ### Verbeteringen
 
 Na het daadwerkelijk vervaadigen van dit schema bleek dat hieraan nog heel wat verbeteringen nodig waren.
-Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze waarvoor we ze aanvankelijk voorzien hadden. Zo zal het booten failen wanneer GPIO 12 hoog getrokken wordt, wat het geval is wanneer deze de gewichtsensor aanstuurt. We hebben deze dan gewisseld met GPIO23 die werd gebruikt voor de speaker. Ook konden we achteraf gezien GPIO's besparen door alle gewichtsensoren op dezelfde klok te hangen.
+Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze waarvoor we ze aanvankelijk voorzien hadden. Zo zal het booten failen wanneer GPIO 12 hoog getrokken wordt, wat het geval is wanneer deze de gewichtsensor aanstuurt. We hebben deze dan gewisseld met GPIO23 die werd gebruikt voor de speaker. Ook konden we achteraf gezien GPIO's besparen door alle gewichtssensoren op dezelfde klok te hangen.
 
 #### Randapperatuur
 ![](randaperatuur_verbetering.jpg)
@@ -91,4 +95,4 @@ Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze 
 
 ## LCD
 
-## Gewichtsensoren
+## Gewichtssensoren
