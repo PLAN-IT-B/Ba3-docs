@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Errorhandling
+title: Error Handling
 parent: Eindpuzzel
 grand_parent: Puzzels
 nav_order: 6
