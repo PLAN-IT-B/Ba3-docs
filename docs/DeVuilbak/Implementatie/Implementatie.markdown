@@ -6,6 +6,13 @@ grand_parent: Puzzels
 nav_order: 4
 ---
 # Mechanische constructie
+
+- [Implementatie](#Implementatie)
+- [Het ontwerp](#Het-ontwerp)
+- [De weegschalen](#de-weegschalen)
+- [Verdere opmerkingen](#verdere-opmerkingen)
+- [Resultaat ](#resultaat)
+
 ## Implementatie
 
 In deze sectie bespreken we de implementatie van de elektronica in één mooi geheel.
@@ -17,7 +24,7 @@ Het ontwerp zag er als volgt uit:
 
 ## Het ontwerp
 
-### top
+### Top
 ![](Top_solidworks.jpg)
 
 De bovenste gaten zullen in werkelijkheid niet gemaakt worden maar zullen eerder ingegraveerd worden zoals te zien is in de lasercut-file aan de verschillende kleur.
@@ -29,7 +36,7 @@ De bovenste gaten zullen in werkelijkheid niet gemaakt worden maar zullen eerder
 ### Back
 ![](Back_solidworks.jpg)
 ![](Back_lasercut.jpg)
-### bottom
+### Bottom
 ![](Bottom_solidworks.jpg)
 ![](Back_lasercut.jpg)
 ### Sides
@@ -37,11 +44,11 @@ De twee zijkanten zijn identiek.
 Hiervoor was het dus maar nodig om 1 enkel ontwerp te maken
 ![](Sides_solidworks.jpg)
 ![](Sides_lasercut.jpg)
-### tussenstukken
+### Tussenstukken
 Ook de tussenstukken zijn identiek
 ![](Tussenstuk_solidworks.jpg)
 ![](Tussenstuk_lasercut.jpg)
-### assembly
+### Assembly
 ![](Assembly.jpg)
 
 ### Files
@@ -59,8 +66,8 @@ Dit werd in deze implementaitie van de vuilbak alst volgt gedaan:
 
 ## Verdere opmerkingen
 
-Om de escaperoom wat in te kleden stellen we voor om de RFID-tags die ingescanned diennen te worden op afval te kleven.
-Daarnaast stellen we ook voor om vuilzakjes te bevestigen in de gaten en op de weegschalen voor extra inkleding en om te garanderen dat het afval daadwerkelijk gemeten wordt.
+Om de escaperoom in te kleden en het spel realistischer te maken kleven we de RFID-stickers op echt afval. We merkten dat de stickers die we gebruiken niet goed worden gescand wanneer we deze op metalen afval kleefden. Hierdoor konden we dus geen caprisun, aluminium, lege deobus, ... gebruiken als afval.
+Daarnaast bevestigen we vuilniszakken in de gaten en op de weegschalen voor extra inkleding en om te garanderen dat het afval daadwerkelijk gemeten wordt.
 
 ## Resultaat
 
