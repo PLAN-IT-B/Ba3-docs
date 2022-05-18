@@ -22,7 +22,8 @@ Voor onze toepassing sturen we een leeg bericht naar de andere wristbands. Vervo
 
 ## MQTT
 ![MQTT](MQTT.jpg)
-Voor de communicatie tussen de andere puzzels maken we gebruik van een MQTT-broker, dit maakt gebruik van een publication en subscribe architectuur. Wij communiceren met Trappen Maar!, Eindpuzzel en Vuilbak.
+Voor de communicatie tussen de andere puzzels maken we gebruik van een MQTT-broker, dit maakt gebruik van een publication en subscribe architectuur. Wij communiceren met Trappen Maar!, Eindpuzzel en Vuilbak. Een mooi overzicht tussen de communicatie met de andere modules vindt u hieronder.
+![MQTT-chart](MQTT-chart.png)
 
 ### Publishen
 Voor Trappen maar! publishen we naar ___"TrappenMaar/buffer"___. We kunnen 2 verschillende foutmelding doorgeven namelijk _"kleine fout"_ en _"grote fout"_ 
