@@ -1,8 +1,13 @@
 ---
 layout: default
-title: Opstelling
+title: Implementatie
 parent: Eindpuzzel
 grand_parent: Puzzels
 nav_order: 5
 ---
-moiulfyutkyrjth
+
+# Implementatie
+
+Ook dit splitsen we op 2 delen.
+
+---
