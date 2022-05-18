@@ -63,7 +63,7 @@ In de callback functie luisteren we naar verschillende boodschappen:
 * Reset escaperoom: reset zal op true gezet worden en de ESP wordt gereset.
 * groen, oranje of rood: Aan de hand hiervan zal de variabele "energie" gecontroleerd worden.
 * Wristband-code .... : Wanneer "Wristband-code" in een bericht wordt ontvangen zal character 15-18 in de code array gezet worden. Dit komt overeen met de 4 cijfers die worden doorgestuurd.
-*Trein-code .: Wanneer "Trein-code" in een bericht wordt ontvangen zal character 11 in de code array geplaatst worden.
+* Trein-code .: Wanneer "Trein-code" in een bericht wordt ontvangen zal character 11 in de code array geplaatst worden.
 
 ## Overige functies
 
