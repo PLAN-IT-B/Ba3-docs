@@ -12,7 +12,7 @@ nav_order: 1
 
 Aan het begin van de escaperoom is de vuilbak niet actief. Deze wordt pas actief wanneer de energiebuffer in de groene zone staat.
 In deze staat staat de LCD uit, en ook het indrukken van de knoppen op het toetsenbord of de knoppen op de scanplatformen doet niets.
-Wanneer de puzzels "Wristbands" en "Traingame" worden opgelost, wordt er een code vrijgegeven die naar de vuilbak wordt gestuurd. De eerste vier cijfers van de code worden door "wristbands" verkregen, het laatste cijfer van de code wordt door "Traingame" verkregen. Vooraleer deze opdrachten opgelost worden kan men geen juiste code ingeven doordat de ingestelde code dan [-1,-1,-1,-1,-1] is.
+Wanneer de puzzels "Wristbands" en "Traingame" worden opgelost, wordt er een code vrijgegeven die naar de vuilbak wordt gestuurd. De eerste vier cijfers van de code worden door "Wristbands" verkregen, het laatste cijfer van de code wordt door "Traingame" verkregen. Vooraleer deze opdrachten opgelost worden kan men geen juiste code ingeven doordat de ingestelde code dan [-1,-1,-1,-1,-1] is.
 
 ## Genoeg energie
 Wanneer de energie-buffer in het groene gebied komt zal de vuilbak actief worden. Het scherm gaat aan en het eerste dat de deelnemers moeten doen is de juiste code ingeven. Foute pogingen worden afgestraft door energieverlies. Wanneer de juiste code is ingegeven kan de puzzel beginnen.
