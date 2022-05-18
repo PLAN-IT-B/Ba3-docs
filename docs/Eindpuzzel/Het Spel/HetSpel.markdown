@@ -30,9 +30,13 @@ Namelijk een puzzel die vanaf begin al in de escape room lag. De puzzelstukken e
 
 Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hun gsms teruig uit de puzzlebox halen, en is dus de escape room gedaan!
 
-![](Flowchart_reset-start_werking.png)
+**Grafische voorstelling via flowcharts**
+
+![](Flow_UV-slot.png)
 
 Tussen deze twee delen, is er een periode waar ze de houten puzzel moeten oplossen en het voor het UV-licht moeten houden.
+
+![](Flow_eindpuzzel-slot.png)
 
 ---
 
