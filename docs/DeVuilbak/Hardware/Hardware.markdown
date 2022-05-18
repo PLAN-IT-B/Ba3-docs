@@ -54,7 +54,7 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 ![](Level_shifters.png)
 
 ### Volledig schema
-
+[Hier](Schema_VuilBak.pdf) vindt u het volledige schema terug in pdf-vorm.
 ## Verbeteringen
 
 Na het daadwerkelijk vervaadigen van dit schema bleek dat hieraan nog heel wat verbeteringen nodig waren.
