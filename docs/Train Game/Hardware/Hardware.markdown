@@ -34,7 +34,7 @@ Hieronder volgt een lijst met componenten.
 
 
 ### ESP 
-![ESP](/docs/TrainGame/Hardware/ESPsch.png)
+![ESP](ESPsch.png)
 
 ### Buck convertor & voeding
 ![BUCK CONVERTOR](Buck12V.png)
