@@ -7,7 +7,5 @@ nav_order: 4
 ---
 # Communicatie
 
-![test](2022-05-18-19-52-50.png)
-test
 
 
