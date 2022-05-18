@@ -15,11 +15,11 @@ nav_order: 4
 
 ## Implementatie
 
-In deze sectie bespreken we de implementatie van de elektronica in één mooi geheel.
-Met andere woorden wordt in deze sectie wat dieper ingegaan op de mechanische constructie die vervaardigt werd zodanig dat alle elektronica mooi weggestopt kan worden.
+In deze sectie bespreken we de implementatie van de elektronica in een behuizing.
+Met andere woorden wordt in deze sectie wat dieper ingegaan op de constructie die vervaardigd werd zodanig dat alle elektronica mooi weggestopt kan worden.
 Wij hebben ervoor gekozen om één grote vuilbak te ontwerpen met aan de bevonkant drie openingen voor het vuilnis alsook drie scanplatformpjes en drie knoppen.
 Voor het toetsenbord, de luidsprekere en de LCD hebben we besloten om deze aan de voorkant te plaatsen.
-De drie vuilbakken worden gescheiden door sheidingswanden met daarin openingen voor de kabels.
+De drie vuilbakken worden gescheiden door scheidingswanden met daarin openingen voor de kabels.
 Het ontwerp zag er als volgt uit:
 
 ## Het ontwerp
@@ -40,8 +40,7 @@ De bovenste gaten zullen in werkelijkheid niet gemaakt worden maar zullen eerder
 ![](Bottom_solidworks.jpg)
 ![](Back_lasercut.jpg)
 ### Sides
-De twee zijkanten zijn identiek.
-Hiervoor was het dus maar nodig om 1 enkel ontwerp te maken
+De twee zijkanten zijn identiek, hiervoor was dus maar 1 ontwerp voldoende.
 ![](Sides_solidworks.jpg)
 ![](Sides_lasercut.jpg)
 ### Tussenstukken
@@ -58,8 +57,7 @@ Ook de tussenstukken zijn identiek
 
 ## De weegschalen
 
-Met de gewichtsensor op zich kan je nog geen gewichten meten.
-We zullen deze eerst moeten vervaardigen tot een weegschaaltje die daarin toe instaat is.
+De gewichtsensoren zullen enkel werken als deze kunnen plooien (in hardware daarover meer).
 Dit werd in deze implementaitie van de vuilbak alst volgt gedaan:
 ![](weegschaal1.jpg)
 ![](weegschaal2.jpg)
