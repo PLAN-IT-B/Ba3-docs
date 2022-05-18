@@ -8,3 +8,26 @@ nav_order: 4
 
 
 # Communicatie
+
+## UV-slot:
+
+---
+
+De puzzel **luistert** naar twee directories:
+* *garbage/eindcode* -> De garbage puzzel zal 4 cijfers doorsturen die de code zal zijn van het cijferslot.
+* *controlpanel/reset* -> Als er hier een bericht "Reset escaperoom" zal worden gepost. Zal deze esp zich resetten.
+
+De puzzel zal voor zijn werking naar één directory **publishen**:
+* *controlpanel/status* -> Na het correct en volledig opstarten van de uv-slot puzzel. Zal hier het bericht, “UV-slot Ready”,  gestuurd worden.
+
+
+
+## Eindpuzzel:
+
+---
+
+Deze esp zal **luisteren** naar één directorie:
+* *controlpanel/status* -> Hier zullen we teweten kommen welke esp's allemaal ready zijn.
+
+Deze esp zal voor zijn werking naar één directory **publishen**:
+* *controlpanel/reset* -> Wanneer de blauwe startup knop wordt ingedrukt. Zal het hier het bericht "Reset escaperoom" sturen.
