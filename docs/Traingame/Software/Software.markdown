@@ -5,16 +5,16 @@ parent: TrainGame
 grand_parent: Puzzels
 nav_order: 2
 ---
+# Software
+## Main
 
-# Main
+### Train Trace
 
-## Train Trace
+### LEDS
 
-## LEDS
+### Joystick
 
-## Joystick
-
-## 
+### 
 
  
 
