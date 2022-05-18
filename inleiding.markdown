@@ -1,6 +1,6 @@
 ---
-title: Inleiding
+title: De escaperoom
 nav_order: 1
 ---
 
-Dit is de inleiding
+# WELKOM BIJ PLAN-IT B   <img src="PLANITB.jpg" width="100" height="60">
