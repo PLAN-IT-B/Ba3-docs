@@ -1,11 +1,17 @@
 ---
 layout: default
-title: Hardware (PCB)
+title: Hardware 
 parent: De vuilbak
 grand_parent: Puzzels
 nav_order: 2
 ---
-# PCB
+# Hardware
+
+- [Inleiding](#inleiding)
+- [Randapparaten](#randapparaten)
+- [PCB](#pcb)
+
+
 ## Inleiding
 In deze sectie bespreken we de hardware-implementatie van de elektronische schakeling ter ondersteuning van de software die het gedrag van de escape room implementeert.
 Het doel van deze schakeling is om enkele randaparaten te kunnen aansturen/benuttigen.
@@ -26,55 +32,71 @@ Daarnaast willen we ook in staat zijn om de puzzel te voeden aan de hand van een
 In de volgende secties vindt u de KiCad-schema's en andere bijkomende informatie voor het vervaardigen van de PCB.
 Alsook vindt u hier de gebruikte randaperatuur voor het opstellen van de schema's.
 
-## Specifieke randaparaten
+## Randapparaten
 
 [Hier](BOM.pdf) vindt u een gedetailleerde bestellijst (BOM) met daarin de componenten die in overweging genomen werden voor het ontwerpen van de PCB.
 Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt werd, en waar deze componenten te vinden zijn.
 
 *Weerstanden en condensatoren werden niet opgenomen in de bill of materials.*
 
+### RFID
 
-## KiCad-schema's
+### Toetsenbord
+
+### LCD
+
+### Gewichtsensoren
+
+## PCB
+### KiCad-schema's
 ### Power circuit
 
 ![](Power_circuit.png)
 
-### ESP32-WROOM-32E
+#### ESP32-WROOM-32E
 ![](esp32.jpg)
-### Multiplexer
+#### Multiplexer
 
 ![](Multiplexer.png)
 
-### Randaparatuur
+#### Randaparatuur
 
 ![](randaparatuur.png)
 ![](randaperatuur2.jpg)
 
-### Level shifters
+#### Level shifters
 
 ![](Level_shifters.png)
 
-### Volledig schema
+#### Volledig schema
 [Hier](Schema_VuilBak.pdf) vindt u het volledige schema terug in pdf-vorm.
 
-## Verbeteringen
+### Verbeteringen
 
 Na het daadwerkelijk vervaadigen van dit schema bleek dat hieraan nog heel wat verbeteringen nodig waren.
 Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze waarvoor we ze aanvankelijk voorzien hadden. (Zo zal bijvoordbeeld het booten failen wanneer GPIO 12 hoog getrokken wordt, wat het geval is wanneer deze de gewichtsensor aanstuurt.)
 
-### Randaperatuur
+#### Randapperatuur
 ![](randaperatuur_verbetering.jpg)
 ![](Buttons_verbetering.jpg)
-### ESP32-WROOM-32E
+#### ESP32-WROOM-32E
 ![](esp32_verbetering.jpg)
 
-## PCB
-### Front
+### PCB
+#### Front
 ![](PCB_front.jpg)
-### Back
+#### Back
 ![](PCB_back.jpg)
 
-### Opmerkingen
+#### Opmerkingen
 
 - Wij zien zelf in dat deze uitvoering van de PCB heel wat kleiner zou kunnen.
 - Deze uivoering van de PCB is zonder de hierboven besproken verbeteringen.
+
+## RFID
+
+## Toetsenbord
+
+## LCD
+
+## Gewichtsensoren
