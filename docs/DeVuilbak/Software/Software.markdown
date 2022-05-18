@@ -53,4 +53,13 @@ Wanneer al het vuilnis in de vuilnisbak is zal deze staat activeren. Het totale 
 
 ## Communicatie
 
+
 ## Overige functies
+
+### scanRFID
+Deze functie wordt opgeroepen wanneer het programma in de puzzel-state is en een scan knop ingedrukt wordt. Eerst wordt de multiplexer ingesteld om te sturen naar de correcte scanner, dan wordt er heb het scherm "Scanning ..." geschreven en daarna wordt er effectief gescand. De scanner zal een halve seconde zoeken achter een tag, wanneer er niets gescand wordt zal de functie beëindigd worden. 
+Als er wel iets gescand wordt zal er gecontroleerd worden of het ID van de tag voorkomt in de rij van tags die bij deze scanner (soort vuilnis) horen. Als dit het geval is zal in de rij deze tag aangepast worden naar [0,0,0,0,0,0,0,0], hierdoor kan deze tag niet 2x gescand worden (In de gebruikelijke werking van de escape room maakt dit niet uit maar in een alternatieve versie waar je energie krijgt voor het correct sorteren wel). Ook zal er een succes geluid afgespeeld worden en zal het programma naar de gewichtWachter-staat gaan. 
+Wanneer de tag fout is zal er een failure sound afgaan en zal er "kleine fout" naar de buffer gestuurd worden.
+
+### Sound
+Doordat we gebruik maken van het "Tone32" library konden we noten afspelen via een GPIO pin. Omdat de speaker niet zo luid ging en we controle wouden hebben over het volume hebben we er een versterker tussen geplaatst. 
