@@ -7,8 +7,8 @@ nav_order: 4
 ---
 # Mechanische constructie
 
-- [Implementatie](#Implementatie)
-- [Het ontwerp](#Het-ontwerp)
+- [Implementatie](#implementatie)
+- [Het ontwerp](#het-ontwerp)
 - [De weegschalen](#de-weegschalen)
 - [Verdere opmerkingen](#verdere-opmerkingen)
 - [Resultaat ](#resultaat)
