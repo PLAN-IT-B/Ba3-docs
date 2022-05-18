@@ -33,19 +33,37 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 
 *Weerstanden en condensatoren werden niet opgenomen in de bill of materials.*
 
-## Power circuit
+## KiCad-schema's
+### Power circuit
+
 ![](Power_circuit.png)
-## ESP32-WROOM-32E
-![](esp_32.png)
-## Multiplexer
+
+### ESP32-WROOM-32E
+![](esp32.jpg)
+### Multiplexer
+
 ![](Multiplexer.png)
-## Randaparatuur
+
+### Randaparatuur
+
 ![](randaparatuur.png)
-![](randaparatuur2.png)
-## Level shifters
+![](randaperatuur2.jpg)
+
+### Level shifters
+
 ![](Level_shifters.png)
-## Volledig schema
+
+### Volledig schema
 
 ## Verbeteringen
+
+Na het daadwerkelijk vervaadigen van dit schema bleek dat hieraan nog heel wat verbeteringen nodig waren.
+Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze waarvoor we ze aanvankelijk voorzien hadden. (Zo zal bijvoordbeeld het booten failen wanneer GPIO 12 hoog getrokken wordt, wat het geval is bij het aansturen van de gewichtsensor.)
+
+### Randaperatuur
+![](randaperatuur_verbetering.jpg)
+![](Buttons_verbetering.jpg)
+### ESP32-WROOM-32E
+![](esp32_verbetering.jpg)
 
 ## PCB
