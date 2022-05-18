@@ -33,12 +33,12 @@ Voor de afwerking hebben we gaatje voor de led afgeplakt met wat doorzichtig pla
 |Wristband 1| De 4 Wristbands|
 |:---:|:---:|
 |![](Wristband2.jpg)|![](4Wristbands1.jpg)|
-|[Wristband 1 groot](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefWristbands/main/Afbeeldingen%20Realisatie/Wristband2.jpg)|[De 4 Wristbands groot](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen%20Realisatie/4Wristbands1.jpg?raw=true)|
+|[Wristband 1 groot](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen/Afbeeldingen%20Realisatie/Wristband2.jpg?raw=true)|[De 4 Wristbands groot](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen/Afbeeldingen%20Realisatie/4Wristbands1.jpg?raw=true)|
 
 |De binnenkant|De onderkant|
 |:---:|:---:|
 |![](Binnenkant1.jpg)|![](Achterkant.jpg)|
-|[De binnenkant groot](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen%20Realisatie/Binnenkant1.jpg?raw=true)|[De onderkant groot](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen%20Realisatie/Achterkant.jpg?raw=true)|
+|[De binnenkant groot](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen/Afbeeldingen%20Realisatie/Binnenkant1.jpg?raw=true)|[De onderkant groot](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen/Afbeeldingen%20Realisatie/Achterkant.jpg?raw=true)|
 
 ### De Ruimte
 

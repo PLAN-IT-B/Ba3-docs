@@ -20,7 +20,10 @@ nav_order: 2
 ## Algemeen
 
 We presenteren eerst een algemene flowchart van de volledige puzzel. Deze vindt u hieronder.
+
 ![](general-flowchart.png)
+
+[Flowchart in het groot](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen/Afbeeldingen%20Charts/general-flowchart.png?raw=true)
 
 De code bestaat uit 3 grote delen. Als eerste hebben we onze variabelen, daarnaast hebben we al onze functie en dan ook nog de setup en de loop. We zullen in deze paragraaf proberen uit te leggen hoe onze code is opgebouwd.
 
