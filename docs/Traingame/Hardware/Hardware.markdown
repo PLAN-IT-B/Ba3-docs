@@ -34,7 +34,7 @@ Hieronder volgt een lijst met componenten.
 
 
 ### ESP 
-![ESP](ESPsch.png)
+![ESP](ESPssch.png)
 
 ### Buck convertor & voeding
 ![BUCK CONVERTOR](Buck12V.png)
