@@ -23,12 +23,24 @@ Zoals u links boven op de schakeling ziet is dit ook het bordje waar de start- e
 
 **Opmerking:** De start- en resetknop die zijn aangesloten op het finale design zijn een volledig ander model dan deze op het pcb design. Dit komt omdat we speciale druknoppen met ingebouwde led voorziening hebben besteld in het begin. Maar deze knoppen zijn niet bij de eerste bestelling toegekomen. Hierdoor dachten we niet dat we deze nog ging krijgen, en hebben we deze niet geintegreerd in het pcb design. Echter zijn deze knoppen wel toegekomen bij de tweede bestelling, die een week later is toegekomen dan de pcb bestelling verstuurd is geweest. Omdat we deze licht functionaliteit zo leuk vonden. Hebben we besloten deze te gebruiken en hebben we handmatig extra pinnen en condensators (voor betere debouncing) aan de pcb moeten solderen. 
 
+## Het schema van de pcb
+
 ![](Schakeling.svg)
 [Klik hier voor het svg bestand van deze schakeling.](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Documentatie%20eindpuzzel/Schakeling/Schakeling.svg)
 
+## 3D view van pcb
 
-[Klik hier voor de KiCad files.](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/Schakeling)
+|Voorkant | Achterkant |
+|:----: |:----: |
+|![](pcb1-voorkant.png)|![](pcb1-achterkant.png)|
+| [PCB-voorkant in het groot](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20eindpuzzel/Schakeling/pcb1-voorkant.png)| [PCB-achterkant in het groot](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20eindpuzzel/Schakeling/pcb1-achterkant.png)|
 
+
+---
+
+Klik [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/Schakeling)  voor alle KiCad files.
+
+---
 
 
 ## Solenoïde
@@ -54,7 +66,21 @@ Dit cijferslot zal via de esp wroom 32 een relais sturen.
 
 Als pin connectoren hebben we suikertjes gebruikt, dit vonden we het gemakkelijkst en het betrouwbaarst.
 
+## Het schema van de pcb
+
 ![](Schakeling_UV-Lock.svg)
 [Klik hier voor het svg bestand van deze schakeling.](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Documentatie%20UV-slot/Schakeling_UV-Lock/Schakeling_UV-Lock.svg)
 
-[Klik hier voor de KiCad files.](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20UV-slot/Schakeling_UV-Lock)
+
+## 3D view van pcb
+
+|Voorkant | Achterkant |
+|:----: |:----: |
+|![](pcb2-voorkant.png)|![](pcb2-achterkant.png)|
+| [PCB-voorkant in het groot](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20UV-slot/Schakeling_UV-Lock/pcb2-voorkant.png)| [PCB-achterkant in het groot](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20UV-slot/Schakeling_UV-Lock/pcb2-achterkant.png)|
+
+---
+
+Klik [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20UV-slot/Schakeling_UV-Lock) voor de KiCad files.
+
+---
