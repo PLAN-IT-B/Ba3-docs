@@ -12,4 +12,4 @@ Ons Belgisch treinverkeer is berucht om zijn stiptheid. Toch is het een belangri
 ALGEMEEN DOEL PUZZEL
 
 BLOKSCHEMA VAN PUZZEL + ONDERDELEN
-ti geupdate wih
+nieuwe update lesgo
