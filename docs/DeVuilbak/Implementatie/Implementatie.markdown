@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Implementatie
+title: Hardware (Mechanische constructie)
 parent: De vuilbak
 grand_parent: Puzzels
 nav_order: 4
 ---
-# Implementatie
-
+# Mechanische constructie
 ## Inleiding
 
 In deze sectie bespreken we de implementatie van de elektronica in één mooi geheel.
@@ -47,4 +46,8 @@ Ook de tussenstukken zijn identiek
 
 ### Files
 
+- [Hier](solidworks_files.zip) vindt u een zipfile met daarin de solidworks-files van het ontwerp
+- [Hier](lasercut_files.zip) vindt u een zipfile met daarind de lasercut-files van het ontwerp
+
+## De weegschalen
 
