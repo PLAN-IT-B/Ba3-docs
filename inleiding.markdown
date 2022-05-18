@@ -8,6 +8,6 @@ nav_order: 1
 ## DE ESCAPEROOM
 ## flow Chart
 ![](Plan-It-B-flowchart.png)
-[Klik hier voor een grote versie van de FlowChart]()
+[Klik hier voor een grote versie van de FlowChart](https://github.com/PLAN-IT-B/PLAN-IT-B-general/blob/main/Plan-It-B-flowchart.png?raw=true)
 
 ## DE PUZZELS
