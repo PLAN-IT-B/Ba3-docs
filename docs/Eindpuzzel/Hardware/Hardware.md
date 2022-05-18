@@ -24,13 +24,16 @@ Zoals u links boven op de schakeling ziet is dit ook het bordje waar de start- e
 **Opmerking:** De start- en resetknop die zijn aangesloten op het finale design zijn een volledig ander model dan deze op het pcb design. Dit komt omdat we speciale druknoppen met ingebouwde led voorziening hebben besteld in het begin. Maar deze knoppen zijn niet bij de eerste bestelling toegekomen. Hierdoor dachten we niet dat we deze nog ging krijgen, en hebben we deze niet geintegreerd in het pcb design. Echter zijn deze knoppen wel toegekomen bij de tweede bestelling, die een week later is toegekomen dan de pcb bestelling verstuurd is geweest. Omdat we deze licht functionaliteit zo leuk vonden. Hebben we besloten deze te gebruiken en hebben we handmatig extra pinnen en condensators (voor betere debouncing) aan de pcb moeten solderen. 
 
 ![](Schakeling.svg)
-[Klik hier voor het svg bestand.](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Documentatie%20eindpuzzel/Schakeling/Schakeling.svg)
+[Klik hier voor het svg bestand van deze schakeling.](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Documentatie%20eindpuzzel/Schakeling/Schakeling.svg)
 
----
 
-### Solenoïde
+[Klik hier voor de KiCad files.](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/Schakeling)
 
----
+
+
+## Solenoïde
+
+
 
 Voor een slot te realiseren heb ik gebruik gemaakt van een solenoïde. Deze solenoïde vraagt meer spanning en trekt meer stroom dan gewenst op een pcb. Omdat het zoveel stroom trekt zou het niet lukken het om in de pcb te integreren. We hebben kegozen voor een aparte lipo batterij in serie met een relais over de solenoïde te schakelen. Door de relais heeft de esp toch controlle over de solenoïde.
 
@@ -52,6 +55,6 @@ Dit cijferslot zal via de esp wroom 32 een relais sturen.
 Als pin connectoren hebben we suikertjes gebruikt, dit vonden we het gemakkelijkst en het betrouwbaarst.
 
 ![](Schakeling_UV-Lock.svg)
-[Klik hier voor het svg bestand.](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Documentatie%20UV-slot/Schakeling_UV-Lock/Schakeling_UV-Lock.svg)
+[Klik hier voor het svg bestand van deze schakeling.](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Documentatie%20UV-slot/Schakeling_UV-Lock/Schakeling_UV-Lock.svg)
 
-
+[Klik hier voor de KiCad files.](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20UV-slot/Schakeling_UV-Lock)
