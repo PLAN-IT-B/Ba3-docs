@@ -32,9 +32,6 @@ Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hu
 
 **Grafische voorstelling via flowcharts**
 
-
-<img src="Flow_UV-Slot.png"  width="400"/>
-
 ![](Flow_UV-slot.png  | width=400)
 
 
