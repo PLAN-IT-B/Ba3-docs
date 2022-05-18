@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spel
-parent: TrainGame2
+parent: Train Game
 grand_parent: Puzzels
 nav_order: 1
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ErrorHandling
-parent: Train Game
+parent: TrainGame
 grand_parent: Puzzels
 nav_order: 5
 ---
