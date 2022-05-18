@@ -39,14 +39,6 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 
 *Weerstanden en condensatoren werden niet opgenomen in de bill of materials.*
 
-### RFID
-
-### Toetsenbord
-
-### LCD
-
-### Gewichtsensoren
-
 ## PCB
 ### KiCad-schema's
 ### Power circuit
@@ -74,7 +66,7 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 ### Verbeteringen
 
 Na het daadwerkelijk vervaadigen van dit schema bleek dat hieraan nog heel wat verbeteringen nodig waren.
-Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze waarvoor we ze aanvankelijk voorzien hadden. (Zo zal bijvoordbeeld het booten failen wanneer GPIO 12 hoog getrokken wordt, wat het geval is wanneer deze de gewichtsensor aanstuurt.)
+Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze waarvoor we ze aanvankelijk voorzien hadden. Zo zal het booten failen wanneer GPIO 12 hoog getrokken wordt, wat het geval is wanneer deze de gewichtsensor aanstuurt. We hebben deze dan gewisseld met GPIO23 die werd gebruikt voor de speaker. Ook konden we achteraf gezien GPIO's besparen door alle gewichtsensoren op dezelfde klok te hangen.
 
 #### Randapperatuur
 ![](randaperatuur_verbetering.jpg)
