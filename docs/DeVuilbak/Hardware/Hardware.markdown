@@ -39,14 +39,6 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 
 *Weerstanden en condensatoren werden niet opgenomen in de bill of materials.*
 
-### RFID
-
-### Toetsenbord
-
-### LCD
-
-### Gewichtsensoren
-
 ## PCB
 ### KiCad-schema's
 ### Power circuit
