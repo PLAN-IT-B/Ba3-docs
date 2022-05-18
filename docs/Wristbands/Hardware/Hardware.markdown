@@ -14,7 +14,7 @@ nav_order: 3
 - [PCB-design](#pcb-design)
 
 ## Algemeen
-Aangezien we gekozen hebben voor de wristbands, was het belangrijk dat we ons design zo compact mogelijk hielden. Daarvoor wilden we er voor zorgen dat de wristbands konden comuniceren met de speler zonder dat we grote LCD-schermen moesten gebruiken.
+Aangezien we gekozen hebben voor de wristbands, was het belangrijk dat we ons design zo compact mogelijk hielden. Daarvoor wilden we er voor zorgen dat de wristbands konden communiceren met de speler zonder dat we grote LCD-schermen moesten gebruiken.
 
 ## Componenten
 
@@ -28,7 +28,8 @@ Aangezien we gekozen hebben voor de wristbands, was het belangrijk dat we ons de
 | Oplaadbare batterij | ... |    Dit gebruiken we als voeding voor onze pcb. Deze batterij heeft een voltage van 3.7V en een capaciteit van 500mAh. |
 | LDO | ... |    Deze LDO zorgt ervoor dat we onze esp en hartslagsensor kunnen voeden met 3,3V. |
 | Weerstanden en condensatoren | SMD0805 | Dienen als pull-up weerstanden en ontkoppelcondensatoren, maar ook voor het aansturen van de LED|
-| Switches | ... |    We gebruiken standaard switches in ons ontwerp. Bij ons zijn deze trough-hole, omdat die steviger zijn op het pcb bord. De switches dienen ervoor te resetten en te programmeren. |
+| Buttons | ... |    We gebruiken standaard switches in ons ontwerp. Bij ons zijn deze trough-hole, omdat die steviger zijn op het pcb bord. De switches dienen ervoor te resetten en te programmeren. |
+|Switches|...|We gebruiken een switch om de batterij te verbinden met ons PCB. Hierdoor moeten kunnen we alles solderen een moeten we niks losmaken.|
 
 ### LED
 
