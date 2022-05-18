@@ -32,7 +32,8 @@ Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hu
 
 **Grafische voorstelling via flowcharts**
 
-![](Flow_UV-slot.png)
+
+<img src="Flow_UV-Slot.png" alt="drawing" width="400"/>
 
 Tussen deze twee delen, is er een periode waar ze de houten puzzel moeten oplossen en het voor het UV-licht moeten houden.
 
