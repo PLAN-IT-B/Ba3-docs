@@ -5,9 +5,8 @@ parent: De vuilbak
 grand_parent: Puzzels
 nav_order: 4
 ---
-# Implementatie
-
-## Inleiding
+# Mechanische constructie
+## Implementatie
 
 In deze sectie bespreken we de implementatie van de elektronica in één mooi geheel.
 Met andere woorden wordt in deze sectie wat dieper ingegaan op de mechanische constructie die vervaardigt werd zodanig dat alle elektronica mooi weggestopt kan worden.
@@ -46,5 +45,24 @@ Ook de tussenstukken zijn identiek
 ![](Assembly.jpg)
 
 ### Files
+
+- [Hier](solidworks_files.zip) vindt u een zipfile met daarin de solidworks-files van het ontwerp
+- [Hier](lasercut_files.zip) vindt u een zipfile met daarind de lasercut-files van het ontwerp
+
+## De weegschalen
+
+Met de gewichtsensor op zich kan je nog geen gewichten meten.
+We zullen deze eerst moeten vervaardigen tot een weegschaaltje die daarin toe instaat is.
+Dit werd in deze implementaitie van de vuilbak alst volgt gedaan:
+![](weegschaal1.jpg)
+![](weegschaal2.jpg)
+
+## Verdere opmerkingen
+
+Om de escaperoom wat in te kleden stellen we voor om de RFID-tags die ingescanned diennen te worden op afval te kleven.
+Daarnaast stellen we ook voor om vuilzakjes te bevestigen in de gaten en op de weegschalen voor extra inkleding en om te garanderen dat het afval daadwerkelijk gemeten wordt.
+
+## Resultaat
+
 
 

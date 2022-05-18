@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Hardware
+title: Hardware (PCB)
 parent: De vuilbak
 grand_parent: Puzzels
 nav_order: 2
 ---
-# Hardware
+# PCB
 ## Inleiding
 In deze sectie bespreken we de hardware-implementatie van de elektronische schakeling ter ondersteuning van de software die het gedrag van de escape room implementeert.
 Het doel van deze schakeling is om enkele randaparaten te kunnen aansturen/benuttigen.
@@ -33,6 +33,7 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 
 *Weerstanden en condensatoren werden niet opgenomen in de bill of materials.*
 
+
 ## KiCad-schema's
 ### Power circuit
 
@@ -55,10 +56,11 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 
 ### Volledig schema
 [Hier](Schema_VuilBak.pdf) vindt u het volledige schema terug in pdf-vorm.
+
 ## Verbeteringen
 
 Na het daadwerkelijk vervaadigen van dit schema bleek dat hieraan nog heel wat verbeteringen nodig waren.
-Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze waarvoor we ze aanvankelijk voorzien hadden. (Zo zal bijvoordbeeld het booten failen wanneer GPIO 12 hoog getrokken wordt, wat het geval is bij het aansturen van de gewichtsensor.)
+Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze waarvoor we ze aanvankelijk voorzien hadden. (Zo zal bijvoordbeeld het booten failen wanneer GPIO 12 hoog getrokken wordt, wat het geval is wanneer deze de gewichtsensor aanstuurt.)
 
 ### Randaperatuur
 ![](randaperatuur_verbetering.jpg)
@@ -67,3 +69,12 @@ Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze 
 ![](esp32_verbetering.jpg)
 
 ## PCB
+### Front
+![](PCB_front.jpg)
+### Back
+![](PCB_back.jpg)
+
+### Opmerkingen
+
+- Wij zien zelf in dat deze uitvoering van de PCB heel wat kleiner zou kunnen.
+- Deze uivoering van de PCB is zonder de hierboven besproken verbeteringen.
