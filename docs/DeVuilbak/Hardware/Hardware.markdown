@@ -73,6 +73,7 @@ Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze 
 ![](PCB_front.jpg)
 ### Back
 ![](PCB_back.jpg)
+
 ### Opmerkingen
 
 - Wij zien zelf in dat deze uitvoering van de PCB heel wat kleiner zou kunnen.
