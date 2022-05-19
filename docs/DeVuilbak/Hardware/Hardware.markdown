@@ -95,7 +95,7 @@ Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze 
 
 ## RFID
 De gebruikte RFID-module is de PN532 - NFC/RFID - Module.
-De datasheet van deze component is [hier](hx711_english.pdf) te vinden
+De datasheet van deze component is [hier](PN532_C1.pdf) te vinden 
 
 
 
@@ -110,7 +110,7 @@ Als gewichtsensor hebben wij gekozen voor een Load cell die een maximaal gewicht
 
 Deze wordt aangestuurd door een signaalversterker.
 Meer precies de HX711 Load Cell versterker.
-De datasheet van deze component is [hier](PN532_C1.pdf) te vinden
+De datasheet van deze component is [hier](hx711_english.pdf) te vinden
 
 ![](HX711.jpg)
 
