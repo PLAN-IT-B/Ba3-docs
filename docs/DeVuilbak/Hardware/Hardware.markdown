@@ -119,7 +119,7 @@ Aan de module worden enkele pinnen naar buiten gebracht.
 Deze pinnen hebben de volgende doeleinden:
 
 - GND : deze pin dient verbonden te worden aan de GND van onze PCB
-- DT : Dit is de data-pin van de signaalversterker. ...
+- DT : Dit is de data-pin van de signaalversterker. ..
 - 
 - 
 - 
