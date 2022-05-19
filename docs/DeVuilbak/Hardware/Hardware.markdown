@@ -103,7 +103,6 @@ Deze module's werkt via I<sup>2</sup>C communicatie. Wanneer deze sensor wordt a
 
 Het probleem bij het gebruiken van meerdere scanners op 1 I<sup>2</sup>C lijn is dat ze allemaal hetzelfde address hebben (0x48). Hierdoor hebben we een I<sup>2</sup>C-multiplexer nodig. Deze chip zal ervoor zorgen dat er slechts 1 module tegelijk wordt aangesproken. 
 We gebruiken de TCA9548A op het ingestelde adres 0x70. Op kanaal 5,6 en 7 sluiten we de scanners aan.
-
 De datasheet van deze component is [hier](TCA.pdf) te vinden 
 
 ![](TCA.png)
@@ -116,6 +115,10 @@ De datasheet van deze component is [hier](4x3_keypad.pdf) te vinden
 ![](keypad.jpg)
 
 ## LCD
+We gebruiken 20x4 LCD scherm via I<sup>2</sup>C. 
+De datasheet van deze component is [hier](LCD.pdf) te vinden 
+
+![](LCD.jpg)
 
 ## Gewichtssensoren
 Als gewichtsensor hebben wij gekozen voor een Load cell die een maximaal gewicht van 5kg aan kan. 
