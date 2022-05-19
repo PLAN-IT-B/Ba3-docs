@@ -7,6 +7,10 @@ nav_order: 5
 ---
 # Communicatie
 
-##Diagram
+## Publishen
+
+## Subscriben
+
+## Diagram
 ![](Communicatie_Diagram.png)
 
