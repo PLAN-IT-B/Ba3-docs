@@ -97,6 +97,17 @@ Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze 
 De gebruikte RFID-module is de PN532 - NFC/RFID - Module.
 De datasheet van deze component is [hier](PN532_C1.pdf) te vinden 
 
+![](pn532.jpg)
+
+Deze module's werkt via I<sup>2</sup>C communicatie. Wanneer deze sensor wordt aangesproken zal hij beginnen zoeken naar een tag. In de code zal ervoor gezorgd worden dat hij maar maximum een halve seconde zoekt.
+
+Het probleem bij het gebruiken van meerdere scanners op 1 I<sup>2</sup>C lijn is dat ze allemaal hetzelfde address hebben (0x48). Hierdoor hebben we een I<sup>2</sup>C-multiplexer nodig. Deze chip zal ervoor zorgen dat er slechts 1 module tegelijk wordt aangesproken. 
+We gebruiken de TCA9548A op het ingestelde adres 0x70. Op kanaal 5,6 en 7 sluiten we de scanners aan.
+
+De datasheet van deze component is [hier](TCA.pdf) te vinden 
+
+![](TCA.png)
+
 
 
 ## Toetsenbord
