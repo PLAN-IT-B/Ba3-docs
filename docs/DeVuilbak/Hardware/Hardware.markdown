@@ -43,9 +43,11 @@ Daarnaast is ook in het bestand te vinden hoeveel van elke component gebruikt we
 
 *Weerstanden en condensatoren werden niet opgenomen in de bill of materials.*
 
+## Breadboardimplementatie
+
 ## PCB
 ### KiCad-schema's
-### Power circuit
+#### Power circuit
 
 ![](Power_circuit.png)
 
@@ -73,8 +75,10 @@ Na het daadwerkelijk vervaadigen van dit schema bleek dat hieraan nog heel wat v
 Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze waarvoor we ze aanvankelijk voorzien hadden. Zo zal het booten failen wanneer GPIO 12 hoog getrokken wordt, wat het geval is wanneer deze de gewichtsensor aanstuurt. We hebben deze dan gewisseld met GPIO23 die werd gebruikt voor de speaker. Ook konden we achteraf gezien GPIO's besparen door alle gewichtssensoren op dezelfde klok te hangen.
 
 #### Randapperatuur
-![](randaperatuur_verbetering.jpg)
+![](randapparatuur_verbetering.jpg)
+
 ![](Buttons_verbetering.jpg)
+
 #### ESP32-WROOM-32E
 ![](esp32_verbetering.jpg)
 
@@ -90,9 +94,30 @@ Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze 
 - Deze uivoering van de PCB is zonder de hierboven besproken verbeteringen.
 
 ## RFID
+De gebruikte RFID-module is de PN532 - NFC/RFID - Module.
+
+
 
 ## Toetsenbord
 
 ## LCD
 
 ## Gewichtssensoren
+Als gewichtsensor hebben wij gekozen voor een Load cell die een maximaal gewicht van 5kg aan kan. 
+![](load_cell_5kg.jpg)
+Deze wordt aangestuurd door een signaalversterker.
+Meer precies de HX711 Load Cell versterker.
+De datasheet van deze component is [hier](hx711_english.pdf) te vinden
+![](HX711.jpg)
+De signaalversterker verwacht een voedingspanning tussen 2.7-en 5.5V.
+Wij hebben hier gekozen voor een voedingsspanning van 3.3V
+Aan de module worden enkele pinnen naar buiten gebracht.
+Deze pinnen hebben de volgende doeleinden:
+
+- GND : deze pin dient verbonden te worden aan de GND van onze PCB
+- DT : Dit is de data-pin van de signaalversterker. ...
+- 
+- 
+- 
+
+### Schema
