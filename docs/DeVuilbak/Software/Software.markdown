@@ -8,7 +8,7 @@ nav_order: 3
 
 # Software
 
-[Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefGarbage/tree/main/Code)
+[Klik hier voor onze code](https://github.com/PLAN-IT-B/BachelorProefGarbage/tree/main/Code)
 
 - [Verschillende staten](#verschillende-staten)
 - [Communicatie](#communicatie)
