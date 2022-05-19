@@ -111,6 +111,9 @@ De datasheet van deze component is [hier](TCA.pdf) te vinden
 
 
 ## Toetsenbord
+We gebruiken een 3x4 keypad met een output van 7 pinnen.
+De datasheet van deze component is [hier](4x3_keypad.pdf) te vinden 
+![](keypad.jpg)
 
 ## LCD
 
