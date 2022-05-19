@@ -110,7 +110,7 @@ Als gewichtsensor hebben wij gekozen voor een Load cell die een maximaal gewicht
 
 Deze wordt aangestuurd door een signaalversterker.
 Meer precies de HX711 Load Cell versterker.
-De datasheet van deze component is [hier](hx711_english.pdf) te vinden
+De datasheet van deze component is [hier](hx711_english.pdf) te vinden.
 
 ![](HX711.jpg)
 
