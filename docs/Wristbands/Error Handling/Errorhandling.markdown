@@ -8,6 +8,14 @@ nav_order: 6
 
 # Error handling
 
+**overzicht:**
+
+- [Communicatie wristbands onderling](#communicatie-wristbands-onderling)
+- [Velcrostrips](#velcrostrips)
+- [De hartslagsensor](#de-hartslagsensor)
+- [De batterijswitch](#de-batterijswitch)
+
+
 ## Communicatie wristbands onderling
 
 Een van de grote problemen is dat er geen MQTT communicatie tussen de wristbands onderling gebeurd. Dit heeft als gevolg dat wanneer er een probleem voordoet met 1 wristband, de volledige puzzel dan moet worden uitgeschakeld. Gelukkig kunnen we dit wel doen door middel van de externe controle.
