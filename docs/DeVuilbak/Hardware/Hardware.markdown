@@ -121,7 +121,7 @@ De datasheet van deze component is [hier](LCD.pdf) te vinden
 ![](LCD.jpg)
 
 ## Gewichtssensoren
-Als gewichtsensor hebben wij gekozen voor een Load cell die een maximaal gewicht van 5kg aan kan. 
+Als gewichtssensor hebben wij gekozen voor een Load cell die een maximaal gewicht van 5kg aan kan. 
 
 ![](load_cell_5kg.jpg)
 
@@ -136,10 +136,19 @@ Wij hebben hier gekozen voor een voedingsspanning van 3.3V
 Aan de module worden enkele pinnen naar buiten gebracht.
 Deze pinnen hebben de volgende doeleinden:
 
-- GND : deze pin dient verbonden te worden aan de GND van onze PCB
-- DT : Dit is de data-pin van de signaalversterker. ..
-- 
-- 
-- 
+- GND : Deze pin dient verbonden te worden aan de GND van onze PCB
+- VCC: Hier moet een voedingsspanning van 2.7-5.5V aangeboden worden. 
+- DT : Dit is de data-pin van de signaalversterker. 
+- SCK: Dit is de pin waar een kloksignaal op aangeboden moet worden
+
+De sensor is verbonden aan de amplifier op deze manier:
+
+- Rood -> E+
+- Zwart -> E-
+- Wit -> A-
+- Groen -> A+
+
+ 
+ 
 
 ### Schema
