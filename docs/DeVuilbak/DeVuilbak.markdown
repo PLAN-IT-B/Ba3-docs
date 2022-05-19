@@ -12,6 +12,8 @@ We moeten niemand meer uitleggen dat het sorteren van afval de dag van vandaag e
 
 ## Blokschema
 
+![](Blok_diagram.png)
+
 ## Flowchart
 ![](FlowchartVuilbak.png)
 
