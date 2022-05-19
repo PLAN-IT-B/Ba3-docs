@@ -18,7 +18,7 @@ nav_order: 6
 
 ## Communicatie wristbands onderling
 
-Een van de grote problemen is dat er geen MQTT communicatie tussen de wristbands onderling gebeurd. Dit heeft als gevolg dat wanneer er een probleem voordoet met 1 wristband, de volledige puzzel dan moet worden uitgeschakeld. Gelukkig kunnen we dit wel doen door middel van de externe controle.
+Een van de grote problemen is dat er geen MQTT communicatie tussen de wristbands onderling gebeurd. Dit heeft als gevolg dat wanneer er een probleem voordoet met 1 wristband, de volledige puzzel dan moet worden uitgeschakeld. Een gevolg hiervan is ook dat de wristbands op hetzelfde moment moeten gereset worden zodat hun klok gelijk loopt. Gelukkig kunnen we dit wel doen door middel van de externe controle.
 
 ## Velcrostrips
 
