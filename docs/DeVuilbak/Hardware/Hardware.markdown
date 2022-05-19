@@ -99,10 +99,13 @@ De datasheet van deze component is [hier](PN532_C1.pdf) te vinden
 
 ![](pn532.jpg)
 
-Deze module's werkt via I<sup>2</sup>C communicatie. Wanneer deze sensor wordt aangesproken zal hij beginnen zoeken naar een tag. In de code zal ervoor gezorgd worden dat hij maar maximum een halve seconde zoekt.
+Deze module's werkt via I<sup>2</sup>C communicatie. Wanneer deze sensor wordt aangesproken zal hij beginnen zoeken naar een tag. In de code zal ervoor gezorgd worden dat hij maar maximum een halve seconde zoekt naar een tag. Wanneer deze dan niets heeft gevonden zal het programma weer terug naar de gewone puzzelstaat gaan.
 
 Het probleem bij het gebruiken van meerdere scanners op 1 I<sup>2</sup>C lijn is dat ze allemaal hetzelfde address hebben (0x48). Hierdoor hebben we een I<sup>2</sup>C-multiplexer nodig. Deze chip zal ervoor zorgen dat er slechts 1 module tegelijk wordt aangesproken. 
-We gebruiken de TCA9548A op het ingestelde adres 0x70. Op kanaal 5,6 en 7 sluiten we de scanners aan.
+We gebruiken de TCA9548A op het ingestelde adres 0x70. Op kanaal 5, 6 en 7 sluiten we de scanners aan.
+
+Samen met de VCC, ground en de I<sup>2</sup>C pinnen moeten ook normaal gezien de reset en IRQ pinnen aangesloten worden. Wij hebben besloten om alle IRQ pinnen op 1 pin aan te sluiten aangezien we maar 1 scanner tegelijk gebruiken. We hebben ondervonden dat de reset pin open mag blijven. 
+Moesten we deze puzzel opnieuw ontwerpen waren we maar voor 1 scanner en scanplatform gegaan aangezien we er uiteindelijk voor hebben gekozen om niet automatisch te scannen maar knoppen te gebruiken. In dit geval zouden we de multiplexer ook niet nodig gehad hebben. 
 De datasheet van deze component is [hier](TCA.pdf) te vinden 
 
 ![](TCA.png)
