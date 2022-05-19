@@ -104,11 +104,15 @@ De gebruikte RFID-module is de PN532 - NFC/RFID - Module.
 
 ## Gewichtssensoren
 Als gewichtsensor hebben wij gekozen voor een Load cell die een maximaal gewicht van 5kg aan kan. 
+
 ![](load_cell_5kg.jpg)
+
 Deze wordt aangestuurd door een signaalversterker.
 Meer precies de HX711 Load Cell versterker.
 De datasheet van deze component is [hier](hx711_english.pdf) te vinden
+
 ![](HX711.jpg)
+
 De signaalversterker verwacht een voedingspanning tussen 2.7-en 5.5V.
 Wij hebben hier gekozen voor een voedingsspanning van 3.3V
 Aan de module worden enkele pinnen naar buiten gebracht.
