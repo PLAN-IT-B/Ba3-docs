@@ -25,11 +25,11 @@ Voor de leds maken we gebruik van WS2811 LEDS. Deze hebben drie aansluitingen: 5
 
 ### LCD
 
-
-
+We maken ge
 
 ### Voeding
 
+We gebruiken een adaptor die onze opstelling van 12 volt voorziet. Deze sluiten we aan op onze PCB aan de hand van een buck convertor.
 
 
 ### PCB
