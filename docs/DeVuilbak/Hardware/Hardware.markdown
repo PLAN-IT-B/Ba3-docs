@@ -95,6 +95,7 @@ Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze 
 
 ## RFID
 De gebruikte RFID-module is de PN532 - NFC/RFID - Module.
+De datasheet van deze component is [hier](PN532_C1.pdf) te vinden 
 
 
 
