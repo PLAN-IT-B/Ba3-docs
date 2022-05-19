@@ -2,7 +2,7 @@
 layout: default
 title: Train Game
 parent: Puzzels
-nav_order: 5
+nav_order: 3
 has_children: true
 ---
 # TrainGame
