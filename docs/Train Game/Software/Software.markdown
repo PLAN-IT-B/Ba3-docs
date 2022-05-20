@@ -118,6 +118,9 @@ Wanneer alle games opgelost zijn wordt er een loopledje over het hele bord weerg
 
 
 ## Joystick
+
+In de Joystick file gaan we de 2 analoge inputs X en Y een betekenisvolle vorm geven. We delen het bereikbare vlak van X- en Y-waarden op in zones. De zones gebruiken we later om te beslissen naar welke stad de trein zal rijd. Hiervoor zijn de parameters onder, boven, w1, w2, w3 en w4 aangemaakt. Deze kunnen aangepast worden zodanig dat de zones eenvoudig veranderd kunnen worden in grootte. De "deadzone" is de rusttoestand, hierbij zal de trein niet bewegen.
+
 ![Zones Joystick](Joystick_cut.png)
 ```c
 #include "Drukknop.h"
@@ -169,6 +172,7 @@ bool Drukknop::deadZone(int x, int y){
 }
 ```
 ## LEDS
+Aan de hand van deze file gaan we functies opbouwen die we gebruiken om de LEDS aan te sturen. Eerst en vooral defigneren we de kleuren die we gebruiken.
 ```c
 #include "LEDS.h"
 
@@ -189,7 +193,9 @@ void LEDS::resetLeds(){
   strip.begin();
   strip.show(); // Initialize all pixels to 'off'
 }
-
+```
+LoopVanXNaarY is de functie die een aantal opeenvolgende leds zal doen oplichten. Dit is de functie die de trein doet bewegen van stad X naar stad Y. Hierbij moet enkel de begin- en eindLED meegegeven worden.
+```c
 //Door de positionering van de LEDS hebben we twee stukken code geschreven 
 //om de leds in de juiste volgorde te laten branden.
 
@@ -218,6 +224,7 @@ void LEDS::loopVanXNaarY(int x, int y, int stad){
   strip.show();
 }
 ```
+Niet in elk geval is het mogelijk om tussen 2 steden bovenstaande functie te gebruiken. Die functie kan enkel gebruikt worden wanneer alle leds in volgorde staan, hieronder kan je een voorbeeld vinden. De oplossing hiervoor is om de route hiertussen Led per Led te bepalen.
 ```c
 //waarbij de LEDS niet op volgorde zitten tussen de steden. 
 void LEDS::AntwerpenBrussel(){
@@ -237,6 +244,7 @@ void LEDS::AntwerpenBrussel(){
     strip.show();
 }
 ```
+Wanneer we in een stad aankomen moeten we ook een functie hebben om aan te geven in welke stad de trein aan het wachten is. Dit indikeren we door die led te doen "blinken". Om de code overzichtelijk te houden geven we de stadsnummer mee. Aan de hand van een switch gaan we de juiste stad doen "blinken".
 ```c
 //LED van stad laten knipperen.
 void LEDS::blinkStad(int stadNr, int aantal, int wacht){
@@ -257,6 +265,7 @@ void LEDS::blinkStad(int stadNr, int aantal, int wacht){
     }
 }
 ```
+Aan het eind van de hele puzzel en wanneer de volgende puzzel gespeeld kan worden gaan we alle leds van 0 tot 99 aflopen om de aandacht te lokken van de spelers.
 ```c
 //Alle leds laten doorlopen (op het einde van de game)
 void LEDS::loopleds() {
@@ -275,7 +284,9 @@ void LEDS::loopleds() {
         delay(100);
     }
 }
+```
 
+```c
 //We laten desteden rood oplichten om aan te tonen dat er een 
 //foute handeling werd uitgevoerd door de spelers.
 void LEDS::reset(){
@@ -361,6 +372,7 @@ void Trein::volgendeStad(int zone){
 }
 ```
 ## TrainTrace
+Nu we een werkende Trein hebben kunnen we beginnen met de games zelf te creëren.
 ```c
 private:
     //Ticket
