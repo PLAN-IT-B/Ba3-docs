@@ -31,5 +31,6 @@ Deze esp zal **luisteren** naar één directorie:
 
 Deze esp zal voor zijn werking naar twee directories **publishen**:
 * *"controlpanel/reset"* -> Wanneer de blauwe startup knop wordt ingedrukt. Zal het hier het bericht "Reset escaperoom" sturen.
-* *"Wristbands"* -> Nadat de gsms in het bakje zitten, zullen zal de solenoïde sluiten, en zal er ook een startsignaal gestuurd worden, zodat op dat moment pas de leds van de wristbands aan gaan.
+* *"Wristbands"* -> Nadat de gsms in het bakje zitten, zal de solenoïde sluiten, en zal er ook een startsignaal gestuurd worden, zodat op dat moment pas de leds van de wristbands aan gaan.
+* *"garbage"* -> Nadat de gsms in het bakje zitten, zal de solenoïde sluiten, en zal er ook een startsignaal gestuurd worden, zodat op dat moment de speaker van de garbage puzzel een buzz lawaai kan maken om aan te duiden dat de game begonnen is. 
 * *"TrappenMaar/buffer"* -> Wanneer er voldoende energie is, en de code wordt fout ingegeven. Dan zullen er hier 6 grote fouten worden naar gestuurd.

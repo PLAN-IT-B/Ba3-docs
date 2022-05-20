@@ -9,10 +9,10 @@ nav_order: 5
 # Implementatie
 
 Er zijn 4 delen geraliseerd:
-* UV-slot box
-* Documentatie SDG's
-* UV-puzzel
-* Puzzelbox
+* [UV-slot box](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#uv-slot-box)
+* [Documentatie SDGs](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#documentatie-sdgs)
+* [UV-puzzel](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#uv-puzzel)
+* [Puzzelbox](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#puzzlebox)
 
 ---
 ## UV-slot box

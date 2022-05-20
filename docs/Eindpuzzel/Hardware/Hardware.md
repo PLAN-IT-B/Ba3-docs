@@ -86,3 +86,5 @@ Voor een slot te realiseren heb ik gebruik gemaakt van een solenoïde. Deze sole
 Op een gegeven moment bleek het dat we de connectie verliezen met de mqqt broker, na de stroom los te laten over de solenoïde. Hierdoor konden we geen berichten sturen op dat gegeven moment. De berichten die we wouden sturen waren van essentieel belang voor de werking van de andere puzzels. Dus hebben we gebruik gemaakt van een boolean in de reconnect functie van de esp, die op een creatieve manier ervoor zorgt dat toch de juiste communicatie afgehandeld wordt.
 
 ---
+
+
