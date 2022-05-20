@@ -12,7 +12,7 @@ Daarnaast moet er ook een code ontvangen worden waarvan de eerste cijfers verstu
 Alsook moet de vuilbak ook meldingen geven van fouten die de spelers maken tijdens het oplossen van de puzzel aan de buffer.
 Ten laatste wordt aan het einde van de puzzel een code doorgestuurd naar het UV-licht.
 
-*Voor een grafisch overzicht over wanneer er precies gecommuniceerd wordt doorheen de loop van het spel zie de [flowhchart](/docs/DeVuilbak/FlowchartVuilbak.png).*
+*Voor een grafisch overzicht over wanneer er precies gecommuniceerd wordt doorheen de loop van het spel zie de [flowhchart](https://plan-it-b.github.io/ba3-docs/docs/DeVuilbak/DeVuilbak.html).*
 
 ## Publishen
 Wanneer we iets willen versturen naar de MQTT serven dan kunnen we dit doen aan de hand van: client.publish(X,Y)
