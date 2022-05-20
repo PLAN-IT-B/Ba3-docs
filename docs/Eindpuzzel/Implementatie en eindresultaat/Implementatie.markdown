@@ -10,7 +10,7 @@ nav_order: 5
 
 Er zijn 4 delen geraliseerd:
 * [UV-slot box](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#uv-slot-box)
-* [Documentatie SDGs](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#documentatie-sdgs)
+* [Documentatie SDG's](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#documentatie-sdgs)
 * [UV-puzzel](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#uv-puzzel)
 * [Puzzelbox](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#puzzlebox)
 
@@ -32,12 +32,12 @@ Dit gaan we vanachter op de fiets van trappenmaar bevestigen. U kunt de doos ter
 
 
 ---
-## Documentatie SDGs
+## Documentatie SDG's
 ---
 
-De SDG die ik wou aanhalen is SDG 4 Quality Education. Dit staat voor qualiteitvolle educatie op alle scholen over gans de wereld. Maar wij gaan ze educeren over de SDGs. We willen dat ze de richtlijnen weten. We willen hun bewust maken dat we moeten streven naar een betere manier van leven.
+De SDG die ik wou aanhalen is SDG 4 Quality Education. Dit staat voor qualiteitvolle educatie op alle scholen over gans de wereld. Maar wij gaan ze educeren over de SDG's. We willen dat ze de richtlijnen weten. We willen hun bewust maken dat we moeten streven naar een betere manier van leven.
 
-Dit gaan we doen, door brochures af te printen, en posters op te hangen over SDGs. In een escaperoom gaan mensen altijd opzoek in de blaadjes achter tips. Dus als we blaadjes over de SDGs in de ruimte leggen, gaan ze automatisch de blaadjes bekijken en lezen. 
+Dit gaan we doen, door brochures af te printen, en posters op te hangen over SDG's. In een escaperoom gaan mensen altijd opzoek in de blaadjes achter tips. Dus als we blaadjes over de SDG's in de ruimte leggen, gaan ze automatisch de blaadjes bekijken en lezen. 
 
 Deze documenten bestaan uit één brochure en 4 posters (die we hebben gelamineerd voor kwaliteit).
 
@@ -50,7 +50,7 @@ Deze documenten bestaan uit één brochure en 4 posters (die we hebben gelaminee
 ## UV-puzzel
 ---
 
-Het was lang zoeken achter de beste vloeistof of met UV-licht geheim schrift te maken. We hebben gin tonic en met citroenen geprobeert maar dit was steeds niet sterk genoeg, of je zag het ook onder normaal licht. Het oorspronkelijke doel was om in de brochures en posters de SDGs te omcirkelen. En de equivalente nummers zou de eindcode zijn. Maar omdat papier te fragiel was, en je steeds de vochtplekken op het papier zag zijn we afgestapt van dit idee. 
+Het was lang zoeken achter de beste vloeistof of met UV-licht geheim schrift te maken. We hebben gin tonic en met citroenen geprobeert maar dit was steeds niet sterk genoeg, of je zag het ook onder normaal licht. Het oorspronkelijke doel was om in de brochures en posters de SDG's te omcirkelen. En de equivalente nummers zou de eindcode zijn. Maar omdat papier te fragiel was, en je steeds de vochtplekken op het papier zag zijn we afgestapt van dit idee. 
 
 Ik heb contact kunnen leggen met een escaperoom (*THE PUSH MYSTERY ROOMS* in dudzele) en zij hebben mij een flesje van hun beste UV-vloeistof gegeven. Dit was idd zeer goeie vloeistof, maar op papier zag je nogsteeds de vochtplekken.
 
