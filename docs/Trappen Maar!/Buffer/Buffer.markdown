@@ -83,4 +83,4 @@ if(oldColor != color){
  
 [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/Volledige%20en%20werkende%20code/sender)
 ## realisatie
-FOTO TOEVOEGEN
+![](buffer.jpg)

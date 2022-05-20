@@ -50,11 +50,11 @@ De code van de fiets bestaat vooral uit het opmeten van het DC signaal (dat door
   display(100*voltage);
 ```
 Wij gebruiken hier dus pin 34 die de spanning, opgewekt door de dynamo en daarna omgezet werd naar een DC, zal opmeten. Aangezien de esp32 de waarde op deze analoge pin omzet naar een digitale waarde met behulp van een ADC, kunnen we hier een waarde tussen 0 en 4095 uitkomen. We zetten hier dus sensorValue om naar de effectieve 'voltage'. 
-Met behulp van de methode 'display' wordt deze waarde omgezet naar een bepaald level tussen 1 en 4 dat visueel wordt weergeven op de LCD. 
+Met behulp van de methode 'display' wordt deze waarde omgezet naar een bepaald level tussen 1 en 4 dat visueel wordt weergeven op de LCD. Op de foto hieronder is eerst de LCD te zien wanneer de fiets niet in gebruik is en daarnaast wanneer een speler aan snelheid 2 fietst.
 
-------- FOTO TOEVOEGEN LCD --------------
+![](lcd_collage.jpg)
 
-Met behulp van een simpele if-else if structuur wordt een bepaald deel van het scherm zwart gekleurd. Op die manier krijgen we een eenvoudige snelheidmeter.   
+Met behulp van een simpele if-else if structuur wordt een bepaald deel van het scherm wit gekleurd. Op die manier krijgen we een eenvoudige snelheidmeter.   
 
 Deze code bestaat vooral nog uit een 'control' functie die vanuit de loop opgeroepen wordt telkens er een nieuw bericht van buitenaf toekomt. Zo luistert de fiets naar de volgende berichten en voert daarna volgende acties uit: 
 * send: wanneer een 7 segment 5 seconden gebrand heeft, moet de fiets de op dat moment gefietste snelheid doorsturen naar de buffer die dan controleert of de speler aan het correcte tempo aan het fietsen was. 
@@ -66,4 +66,4 @@ Deze code bestaat vooral nog uit een 'control' functie die vanuit de loop opgero
 
 
 ## realisatie
-FOTO TOEVOEGEN
+![](doosFiets.jpg)

@@ -14,5 +14,5 @@ In deze puzzel zullen twee Sustainable Development Goals behandeld worden: SDG7 
 
 <br/><br/>
 
-![](foto invoegen.jpg)
+![](alles.jpg)
 

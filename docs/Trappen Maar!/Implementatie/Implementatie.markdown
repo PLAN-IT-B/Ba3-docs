@@ -18,7 +18,7 @@ De buffer deden we op dezelfde manier als de 7-segment displays, alleen werden h
 uitsnijdingen gemaakt in het hout en zijn deze allen horizontaal georiënteerd.
 
 De ontwerpen die wij in onze escaperoom gebruikten zijn hieronder terug te vinden.
-## SolidWorks
+## SolidWorks Assemblies
 ### Fiets
 ![](2022-05-16-11-37-22.png)
 
@@ -27,7 +27,7 @@ De ontwerpen die wij in onze escaperoom gebruikten zijn hieronder terug te vinde
 ![](2022-05-16-11-37-42.png)
 
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/Buffer)
-### 7 segment
+### 7-segment displays
 ![](2022-05-16-11-38-02.png)
 
 [Visit our Github to find our SolidWorks project!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/boxes/7segmentKlein)
@@ -36,7 +36,16 @@ De ontwerpen die wij in onze escaperoom gebruikten zijn hieronder terug te vinde
 Om onze puzzel te kunnen implementeren, zijn er vier stopcontacten nodig en een voldoende ruime kamer waar de spelers zonder problemen kunnen fietsen op de hometrainer. Om het spel wat uitdagender te maken zouden de seven-segment displays wat moeten verstopt worden op verschillende plaatsen in de kamer zodat de spelers zich wat moeten verplaatsen om ze alle 4 in het oog te kunnen houden. Voor de buffer is een centrale plaats in de kamer aangewezen aangezien deze de leidraad zal zijn gedurende het hele spel.
 
 # realisatie
-FOTO TOEVOEGEN?
+
+## Fiets
+![](doosFiets.jpg)
+
+## Buffer
+![](buffer.jpg)
+
+## 7-segment displays
+![](7segment.jpg)
+
 # BOM
-[Visit our Github to find our bill of material!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/blob/main/documentatie/BOM(final%20version).xlsx)
+[Visit our Github to find our bill of materials!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/blob/main/documentatie/BOM(final%20version).xlsx)
 ![](2022-05-16-11-13-17.png)
