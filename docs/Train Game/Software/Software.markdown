@@ -263,6 +263,8 @@ void LEDS::blinkStad(int stadNr, int aantal, int wacht){
         strip.show();
         break;
     }
+
+    ...
 }
 ```
 Aan het eind van de hele puzzel en wanneer de volgende puzzel gespeeld kan worden gaan we alle leds van 0 tot 99 aflopen om de aandacht te lokken van de spelers.
@@ -421,5 +423,28 @@ void TrainTrace::ticketSetAllesKits(bool i){
 
 int TrainTrace::ticketGetBegin(){
     return ticketBeginstad;
+}
+```
+```c
+void TrainTrace::trace1randomroute(int rand){
+    switch (rand){   
+    case 0: {                  
+        int X10[8]={6,7,11,10,6,4,1,3};
+        for (int i=0; i<8; i++){
+        trace3[i] = X10[i];}
+        this->trace3Beginstad=6;
+        this->trace3VergelijkStad=6;
+        break;}
+
+        ...
+    }
+}
+
+void TrainTrace::trace3Voorbeeld(int speed){
+    for(int i=0; i<AANTAL; i++){
+        l3->blinkStad(trace3[i], 2, 20);
+        l3->showSteden();
+        delay(speed);
+    }
 }
 ```
