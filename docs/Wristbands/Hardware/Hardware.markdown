@@ -8,6 +8,8 @@ nav_order: 3
 # Hardware
 [Visit our Github to find our Kicad6.0 project!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/KiCad-project)
 
+**Overzicht:**
+
 - [Algemeen](#algemeen)
 - [Componenten](#componenten)
 - [Elektrisch Schema](#elektrisch-schema)
@@ -29,7 +31,7 @@ Aangezien we gekozen hebben voor de wristbands, was het belangrijk dat we ons de
 | LDO | ... |    Deze LDO zorgt ervoor dat we onze esp en hartslagsensor kunnen voeden met 3,3V. |
 | Weerstanden en condensatoren | SMD0805 | Dienen als pull-up weerstanden en ontkoppelcondensatoren, maar ook voor het aansturen van de LED|
 | Buttons | ... |    We gebruiken standaard switches in ons ontwerp. Bij ons zijn deze trough-hole, omdat die steviger zijn op het pcb bord. De switches dienen ervoor te resetten en te programmeren. |
-|Switches|...|We gebruiken een switch om de batterij te verbinden met ons PCB. Hierdoor moeten kunnen we alles solderen een moeten we niks losmaken.|
+|Switches| MS180 |We gebruiken een switch om de batterij te verbinden met ons PCB. Hierdoor moeten kunnen we alles solderen een moeten we niks losmaken.|
 
 ### LED
 

@@ -12,9 +12,10 @@ nav_order: 1
 
 ## Doel:
 
----
-TEST   
+---   
 Het doel van mijn volledige opdracht is om een leuk einde te maken aan onze escape room. Dit ging sowiezo lostaan van de rest van de escape room, doordat ik een week later ben toegekomen in de bachlorproef van embedded systems.
+
+Men kan ook opmerken dat ik zoveel mogelijk in de we vorm zal werken. Maar het is daadwerkelijk maar één persoon die dit deel heeft gerealiseerd.
 
 ---
 
@@ -47,4 +48,4 @@ Tussen deze twee delen, is er een periode waar ze de houten puzzel moeten oploss
 
 Als afleiding en ook als inkleding hebben we brochures en poster geregeld die ook in de kamer zullen liggen. (Brochures en posters over de sustainable development goals.) U kunt [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/Te%20printen%20documenten) deze bestanden terugvinden.
 
-We verwachten dat dit deel binnen de 7 min is opgelost. Inclusief de tijd van het zoeken achter de puzzel stukken. 
+We verwachten dat dit deel 15 minuten duurt. Inclusief de tijd van het zoeken achter de puzzel stukken en afleiding in de documenten.

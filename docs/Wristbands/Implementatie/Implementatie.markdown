@@ -5,7 +5,16 @@ parent: Wristbands
 grand_parent: Puzzels
 nav_order: 5
 ---
+
+# Implementatie
+
 [Visit our Github to find our SolidWorks project and the STL-files!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/3D-ontwerp)
+
+**Overzicht:**
+
+- [3D-model solidworks](#3d-model-solidworks)
+- [prakstische realisatie](#praktische-realisatie)
+- [De Ruimte](#de-ruimte)
 
 ## 3D-model Solidworks
 Onze module wordt een klein doosje waar onze PCB en de batterij in terecht komen. Deze batterij wordt verbonden met de PCB via een switch. Deze hebben we achteraf pas toegevoegd wanneer de PCB reeds ontworpen was.

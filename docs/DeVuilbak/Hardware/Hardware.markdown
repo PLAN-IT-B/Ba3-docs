@@ -97,14 +97,34 @@ Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze 
 De gebruikte RFID-module is de PN532 - NFC/RFID - Module.
 De datasheet van deze component is [hier](PN532_C1.pdf) te vinden 
 
+![](pn532.jpg)
+
+Deze module's werkt via I<sup>2</sup>C communicatie. Wanneer deze sensor wordt aangesproken zal hij beginnen zoeken naar een tag. In de code zal ervoor gezorgd worden dat hij maar maximum een halve seconde zoekt naar een tag. Wanneer deze dan niets heeft gevonden zal het programma weer terug naar de gewone puzzelstaat gaan.
+
+Het probleem bij het gebruiken van meerdere scanners op 1 I<sup>2</sup>C lijn is dat ze allemaal hetzelfde address hebben (0x48). Hierdoor hebben we een I<sup>2</sup>C-multiplexer nodig. Deze chip zal ervoor zorgen dat er slechts 1 module tegelijk wordt aangesproken. 
+We gebruiken de TCA9548A op het ingestelde adres 0x70. Op kanaal 5, 6 en 7 sluiten we de scanners aan.
+
+Samen met de VCC, ground en de I<sup>2</sup>C pinnen moeten ook normaal gezien de reset en IRQ pinnen aangesloten worden. Wij hebben besloten om alle IRQ pinnen op 1 pin aan te sluiten aangezien we maar 1 scanner tegelijk gebruiken. We hebben ondervonden dat de reset pin open mag blijven. 
+Moesten we deze puzzel opnieuw ontwerpen waren we maar voor 1 scanner en scanplatform gegaan aangezien we er uiteindelijk voor hebben gekozen om niet automatisch te scannen maar knoppen te gebruiken. In dit geval zouden we de multiplexer ook niet nodig gehad hebben. 
+De datasheet van deze component is [hier](TCA.pdf) te vinden 
+
+![](TCA.png)
+
 
 
 ## Toetsenbord
+We gebruiken een 3x4 keypad met een output van 7 pinnen.
+De datasheet van deze component is [hier](4x3_keypad.pdf) te vinden 
+![](keypad.jpg)
 
 ## LCD
+We gebruiken 20x4 LCD scherm via I<sup>2</sup>C. 
+De datasheet van deze component is [hier](LCD.pdf) te vinden 
+
+![](LCD.jpg)
 
 ## Gewichtssensoren
-Als gewichtsensor hebben wij gekozen voor een Load cell die een maximaal gewicht van 5kg aan kan. 
+Als gewichtssensor hebben wij gekozen voor een Load cell die een maximaal gewicht van 5kg aan kan. 
 
 ![](load_cell_5kg.jpg)
 
@@ -119,10 +139,19 @@ Wij hebben hier gekozen voor een voedingsspanning van 3.3V
 Aan de module worden enkele pinnen naar buiten gebracht.
 Deze pinnen hebben de volgende doeleinden:
 
-- GND : deze pin dient verbonden te worden aan de GND van onze PCB
-- DT : Dit is de data-pin van de signaalversterker. ..
-- 
-- 
-- 
+- GND : Deze pin dient verbonden te worden aan de GND van onze PCB
+- VCC: Hier moet een voedingsspanning van 2.7-5.5V aangeboden worden. 
+- DT : Dit is de data-pin van de signaalversterker. 
+- SCK: Dit is de pin waar een kloksignaal op aangeboden moet worden
+
+De sensor is verbonden aan de amplifier op deze manier:
+
+- Rood -> E+
+- Zwart -> E-
+- Wit -> A-
+- Groen -> A+
+
+ 
+ 
 
 ### Schema

@@ -79,8 +79,12 @@ Klik [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/m
 
 
 
-Voor een slot te realiseren heb ik gebruik gemaakt van een solenoïde. Deze solenoïde vraagt meer spanning en trekt meer stroom dan gewenst op een pcb. Omdat het zoveel stroom trekt zou het niet lukken het om in de pcb te integreren. We hebben kegozen voor een aparte lipo batterij in serie met een relais over de solenoïde te schakelen. Door de relais heeft de esp toch controlle over de solenoïde.
+Voor een slot te realiseren heb ik gebruik gemaakt van een solenoïde. Deze solenoïde vraagt meer spanning en trekt meer stroom dan gewenst op een pcb. Omdat het zoveel stroom trekt zou het niet lukken om het in de pcb te integreren. We hebben kegozen voor een aparte lipo batterij in serie met een relais over de solenoïde te schakelen. Door de relais heeft de esp toch controlle over de solenoïde.
 
-**Opmerking:** Eerst was het de bedoeling deze solenoïde op een echte deur te bevestigen. Op een gegeven moment bleek dat we een deftig lokaal kregen en mocht dit niet bevestigd worden. Daardoor heb ik de solenoïde in een doos moeten steken. Pas wanneer de solenoïde dicht bij de pcb staat. Kregen we problemen met de wet van Faraday doordat de solenoïde een grote stroom trek dus een magnetisch veld creëerde die invloed heeft de pcb. We hebben het de ruis op de pcb kunnen beperken door grotere condensators te gebruiken. En het elektromagnetisch veld kunnen beperken door de solenoïde af te schermen met aluminium folie en deze alluminium folie te aarden. Dit tweede is gebaseerd op de kooi van Faraday.
+**Opmerking:** Eerst was het de bedoeling deze solenoïde op een echte deur te bevestigen. Op een gegeven moment bleek dat we een deftig lokaal kregen en mocht dit niet bevestigd worden. Daardoor heb ik de solenoïde in een doos moeten steken. Pas wanneer de solenoïde dicht bij de pcb staat. Kregen we problemen met de wet van Faraday doordat de solenoïde een grote stroom trek dus een magnetisch veld creëerde die invloed heeft op het pcb. Een oplossing hiervoor was het beperken van de ruis op de pcb door grote condensators te gebruiken. 
+
+Op een gegeven moment bleek het dat we de connectie verliezen met de mqqt broker, na de stroom los te laten over de solenoïde. Hierdoor konden we geen berichten sturen op dat gegeven moment. De berichten die we wouden sturen waren van essentieel belang voor de werking van de andere puzzels. Dus hebben we gebruik gemaakt van een boolean in de reconnect functie van de esp, die op een creatieve manier ervoor zorgt dat toch de juiste communicatie afgehandeld wordt.
 
 ---
+
+

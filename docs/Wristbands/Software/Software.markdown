@@ -10,6 +10,8 @@ nav_order: 2
 
 [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/Wristband-Code)
 
+**Overzicht:**
+
 - [Algemeen](#algemeen)
 - [Libaries en includes](#libaries-en-includes)
 - [Variabelen](#variabelen)

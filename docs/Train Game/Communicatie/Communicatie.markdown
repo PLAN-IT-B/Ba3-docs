@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Communicatie
-parent: TrainGame
+parent: Train Game
 grand_parent: Puzzels
 nav_order: 4
 ---
 # Communicatie
-
+TEST
 
 
