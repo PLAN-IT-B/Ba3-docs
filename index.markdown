@@ -9,7 +9,7 @@ nav_order: 1
 ---
 
 
-# WELKOM BIJ PLAN-IT B   <img src="planit B2-modified.jpeg" width="100" height="60" align="right">
+# WELKOM BIJ PLAN-IT B   <img src="planit B2-modified.jpeg" width="150" height="90" align="right">
 
 ## DE ESCAPEROOM
 
