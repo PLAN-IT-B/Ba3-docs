@@ -3,7 +3,7 @@ layout: default
 title: Implementatie
 parent: Trappen Maar!
 grand_parent: Puzzels
-nav_order: 5
+nav_order: 6
 ---
 # Implementatie
 Om alle elektronica achter onze puzzel mooi te kunnen wegsteken kozen we ervoor om houten en kartonnen cases te

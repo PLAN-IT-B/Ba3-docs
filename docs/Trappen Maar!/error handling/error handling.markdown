@@ -3,7 +3,7 @@ layout: default
 title: Error handling
 parent: Trappen Maar!
 grand_parent: Puzzels
-nav_order: 6
+nav_order: 7
 ---
 # Error handling
 

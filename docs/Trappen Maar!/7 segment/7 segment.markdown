@@ -3,7 +3,7 @@ layout: default
 title: 7-segment displays
 parent: Trappen Maar!
 grand_parent: Puzzels
-nav_order: 4
+nav_order: 5
 ---
 # 7-segment displays
 ## Algemeen
