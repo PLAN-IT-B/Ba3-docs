@@ -48,4 +48,4 @@ Tussen deze twee delen, is er een periode waar ze de houten puzzel moeten oploss
 
 Als afleiding en ook als inkleding hebben we brochures en poster geregeld die ook in de kamer zullen liggen. (Brochures en posters over de sustainable development goals.) U kunt [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/Te%20printen%20documenten) deze bestanden terugvinden.
 
-We verwachten dat dit deel binnen de 7 min is opgelost. Inclusief de tijd van het zoeken achter de puzzel stukken. 
+We verwachten dat dit deel 15 minuten duurt. Inclusief de tijd van het zoeken achter de puzzel stukken en afleiding in de documenten.

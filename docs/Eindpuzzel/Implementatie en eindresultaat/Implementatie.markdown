@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Implementatie
+title: Implementatie en eindresultaat
 parent: Eindpuzzel
 grand_parent: Puzzels
 nav_order: 5
 ---
 
-# Implementatie
+# Implementatie en eindresultaat
 
 Er zijn 4 delen geraliseerd:
 * [UV-slot box](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#uv-slot-box)
