@@ -22,7 +22,7 @@ Dit is ideaal voor een escaproom en heeft veel vrijheid gegeven aan de verschill
 
 --- FOTO TOEVOEGEN VAN NETWERK TOPOLOGIE ---
 
-**Voor meer duidelijkeid over wat wie wanneer stuurt, zal er op deze site bij elke puzzel een pagina over cummunicatie zijn.**
+**Voor meer duidelijkeid over wat wie wanneer stuurt, zal er op deze site bij elke puzzel een pagina over communicatie zijn.**
 
 ---
 ## Keuze protocol
