@@ -9,6 +9,11 @@ nav_order: 5
 
 # Communicatie
 
+![](Netwerktopologie_escaperoom.svg)
+
+[Klik hier voor deze figuur in het groot.](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Documentatie%20communicatie/Netwerktopologie%20escaperoom.svg)
+
+
 ## UV-slot:
 
 ---
