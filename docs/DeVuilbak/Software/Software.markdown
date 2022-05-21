@@ -52,7 +52,7 @@ In deze staat zal het programma enkel luisteren naar input van het toetsenbord. 
 ```c++
 void enkelEnergie(){
 
-  key = keypad.getKey(); //Vraag de input van de key op
+  key = keypad.getKey(); //Vraag de input van het toetsenbord op
 
   //Tegen flikkeren
     if(bl ==false){
@@ -143,7 +143,6 @@ void puzzel(){
     codeTekst = true;
     }
 
-
   //Check of knoppen zijn ingedrukt en lees de juiste scanner
   if(digitalRead(Button_pin1) == HIGH){
     scanRFID1();
@@ -160,7 +159,6 @@ void puzzel(){
 
  }}
 ```
-
 ### gewichtWachter
 Deze staat zal er voor zorgen dat het programma niet verder gaat totdat het afval na het scannen in de juiste vuilnisvak geworpen wordt. In de functie waar de RFID-scanner wordt opgeroepen zal indien een juist stuk afval gescand wordt een weegschaalnummer meegegeven worden. Op deze weegschaal wal een gewichtsverschil moeten wijn van minstens 10g voordat de puzzel weer verder kan gaan.
 ```c++
@@ -223,9 +221,6 @@ void eindePuzzel(){
       bl = true;
     }
 
-    
-
-
 if (!defGewicht){ //1 maal het gewicht bepalen
 
 //Lees gewicht
@@ -238,12 +233,12 @@ if (!defGewicht){ //1 maal het gewicht bepalen
   Rrest = round(restG*1000);
   Rpmd = round(pmdG*1000);
   Rp_k = round(p_kG*1000);
- 
-
 
  int eindcodeInt = (Rrest+pmdG+p_kG);
  String eindcodeString;
- if(eindcodeInt <999){
+
+//Zorg dat er altijd 4 cijfers doorgestuurd worden
+ if(eindcodeInt <999){ 
  eindcodeString = "0" + String(eindcodeInt,DEC);
  }
  else if(eindcodeInt <99){
@@ -254,11 +249,8 @@ if (!defGewicht){ //1 maal het gewicht bepalen
    eindcodeString = String(eindcodeInt,DEC);
  }
  Serial.print(eindcodeString);
- const char* eindcode=eindcodeString.c_str();
- 
- 
-  
 
+  const char* eindcode=eindcodeString.c_str();
   client.publish("garbage/eindcode",eindcode); 
 
 
@@ -285,7 +277,6 @@ codeTekst = true;
 
 lcd.setCursor(0,3);
 lcd.print(Rrest);
-  
   
 lcd.setCursor(9,3);
 lcd.print(Rpmd);
