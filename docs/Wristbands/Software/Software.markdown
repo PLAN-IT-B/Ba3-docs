@@ -8,7 +8,7 @@ nav_order: 2
 
 # Software
 
-[Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/Wristband-Code)
+> [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/Wristband-Code)
 
 **Overzicht:**
 
