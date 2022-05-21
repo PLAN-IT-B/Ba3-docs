@@ -3,7 +3,7 @@ layout: default
 title: Software
 parent: Train Game
 grand_parent: Puzzels
-nav_order: 2
+nav_order: 4
 ---
 
 # Software
@@ -61,7 +61,7 @@ Hieronder is er een voorbeeld gegeven van één van de drie games. Om ervoor te 
 
 Ter verduidelijking van de code omtrent het gameverloop is er een flowchart gemaakt. De legende maakt duidelijk over welke code file het gaat.
 
-![Zones Joystick](Software_Flowchart.png)
+![Zones Joystick](Software_Flowchart_2.png)
 ```c
 // Ticket
   if(deel1){

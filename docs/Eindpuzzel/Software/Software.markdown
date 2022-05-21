@@ -9,13 +9,26 @@ nav_order: 3
 
 # Software
 
-Er is veel werk gestoken in de commentaren van de codes. Voor uitleg van delen en functies kunt u op het gemak door de codes gaan op github.
+Er is veel werk gestoken in de commentaren van de codes. Voor uitleg van de verschillende delen en functies kunt u op het gemak door de codes gaan op github.
 
 De programmas zijn allebij gebasseerd op de bassiscode van een cijferslot met 3x4 keypad en lcd display. Maar ook gebasseerd op de bassiscode voor verbinding met wifi en mqtt broker gekregen van de onderzoeksgroep dramco tijdens de projectweek. Ondanks dat de programmas dit gemeenschappelijk hebben. Zijn ze voor de rest volledig verschillend.
 
 Er valt op te merken in de codes dat we vaak booleans gebruik die triggeren in de loop. Dit doen we omdat we de Interupt Service Handlers altijd zo kort mogelijk willen houden. Dit is een goeie gewoonte zodat er voldoende tijd is voor andere interrupts (zoals de timer interrupt) te verwerken.
 
 |[Code van UV-slot ](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20UV-slot/UV_Slot%20-%20code/src/main.cpp)| [Code van de eindpuzzel](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20eindpuzzel/Eindslot%20-%20code/src/main.cpp)|
+
+
+De flow van de UV-slot code komt overeen met de onderstaande figuur (links).  
+De flow van de eindslot code komt overeen met onderstaande figuur (rechts).
+
+![](Flow_eindpuzzel.svg)
+
+Maar de code van de eindpuzzel voert ook deze werkingen correct uit!
+
+![](Flowchart_reset-start_werking.png)
+
+[Eerste figuur](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Algemene%20documentatie/Flow%20eindpuzzel.svg) in het groot.  
+[Tweede figuur](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20eindpuzzel/Blokschema%20Reset-Start_escape_room.png) in het groot.
 
 ---
 ## Error handling

@@ -3,11 +3,16 @@ layout: default
 title: Communicatie
 parent: Eindpuzzel
 grand_parent: Puzzels
-nav_order: 6
+nav_order: 5
 ---
 
 
 # Communicatie
+
+![](Netwerktopologie_escaperoom.svg)
+
+[Klik hier voor deze figuur in het groot.](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Documentatie%20communicatie/Netwerktopologie%20escaperoom.svg)
+
 
 ## UV-slot:
 
@@ -26,7 +31,7 @@ De puzzel zal voor zijn werking naar één directory **publishen**:
 
 ---
 
-Deze esp zal **luisteren** naar één directorie:
+Deze esp zal **luisteren** naar één directory:
 * *"controlpanel/status"* -> Hier zullen we teweten kommen welke esp's allemaal ready zijn.
 
 Deze esp zal voor zijn werking naar twee directories **publishen**:
