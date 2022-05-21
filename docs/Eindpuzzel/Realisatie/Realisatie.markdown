@@ -11,10 +11,10 @@ nav_order: 6
 Dit omvat de implementatie en de eindresulaten.
 
 Het is opgeleed in 4 delen:
-* [UV-slot box](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#uv-slot-box)
-* [Documentatie SDG's](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#documentatie-sdgs)
-* [UV-puzzel](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#uv-puzzel)
-* [Puzzelbox](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#puzzlebox)
+* [UV-slot box](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#uv-slot-box)
+* [Documentatie SDG's](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#documentatie-sdgs)
+* [UV-puzzel](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#uv-puzzel)
+* [Puzzelbox](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#puzzlebox)
 
 ---
 ## UV-slot box
