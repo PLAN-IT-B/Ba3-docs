@@ -21,7 +21,7 @@ Het nodige oppervlak is redelijk groot dus wordt er gebruik gemaakt van twee teg
 
 |:----:|
 |![](BoxZonder.png)|
-|**Box zonder**|
+
 
 
 
@@ -38,8 +38,9 @@ We lijmen het spelbord vast aan de voet met houtlijm en monteren de LEDS.
 
 |:----:|
 |![](Totaal.png)|
-|**Box zonder**|
-|[3D model van het spelbord](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/3D-ontwerp/caseWristband.STL)|[Losse onderdelen van het spelbord](https://github.com/PLAN-IT-B/BachelorProefTrainGame/tree/main/Verslag/3D-modellen/Bouwonderdelen%20Spelbord)|
+
+|[3D model van het spelbord](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/3D-ontwerp/caseWristband.STL)|
+|[Losse onderdelen van het spelbord](https://github.com/PLAN-IT-B/BachelorProefTrainGame/tree/main/Verslag/3D-modellen/Bouwonderdelen%20Spelbord)|
 
 
 # Puzzelstukken en treinkaart
