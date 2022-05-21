@@ -10,10 +10,15 @@ nav_order: 3
 
 [Klik hier voor onze code](https://github.com/PLAN-IT-B/BachelorProefGarbage/tree/main/Code)
 
+- [Flowchart](#flowchart)
 - [Verschillende staten](#verschillende-staten)
 - [Communicatie](#communicatie)
 - [Overige functies](#overige-functies)
-- [Flowchart](#flowchart)
+
+## Flowchart
+
+![](FlowCode.png)
+
 
 ## Verschillende staten
 Om de code overzichtelijk te maken hebben we gewerkt met verschillende staten. In welke staat de vuilbak zich bevind zal telkens in de loop bekeken worden aan de hand van booleans die veranderen. Deze booleans zijn:
@@ -315,6 +320,3 @@ Doordat we gebruik maken van het "Tone32" library konden we noten afspelen via e
 ### TCA9548A
 Deze functie zal naar de multiplexer sturen welk kanaal moet aangesproken worden
 
-## Flowchart
-
-![](FlowCode.png)
