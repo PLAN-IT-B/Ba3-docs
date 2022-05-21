@@ -3,7 +3,7 @@ layout: default
 title: Realisatie
 parent: Eindpuzzel
 grand_parent: Puzzels
-nav_order: 5
+nav_order: 6
 ---
 
 # Realisatie van de puzzel.
