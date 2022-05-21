@@ -30,3 +30,4 @@ De startknop is eenvoudiger. Bij het indrukken gaan we eerst kijken of de escape
 **Flowcharts**
 
 ![](Flowchart_reset-start_werking.png)
+[Klik hier voor deze figuur in het groot.](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20eindpuzzel/Blokschema%20Reset-Start_escape_room.png)
