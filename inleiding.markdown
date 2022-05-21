@@ -1,0 +1,40 @@
+---
+
+
+---
+
+# WELKOM BIJ PLAN-IT B   <img src="planit B2-modified;jpeg" width="100" height="60" align="right">
+
+## DE ESCAPEROOM
+
+### Algemeen
+
+Al gehoord van de SDG's? Het staat voor Substainable Development Goals! 
+
+Dit zijn 17 doelstelling die de Verenigde Naties hebben vastgelegd met als doel te streven naar een betere en duurzamere toekomst voor alles en iedereen. Deze escape room leert je hier alles over! Terwijl men op een duurzame wijze voldoende energie opwekt om elke puzzel van elektriciteit te voorzien, wordt er goed nagedacht om zo snel mogelijk met de trein op de juiste bestemming te geraken. Ondertussen sorteert men het straatafval zonder dat vreemden de spelers onveilig laten voelen. 
+
+De tijd dringt! Los deze escaperoom binnen de 60 minuten op en kom een datum te weten waar we zeker bij moeten stilstaan.
+
+### flow Chart
+
+![](Plan-It-B-flowchart.png)
+[Klik hier voor een grote versie van de FlowChart](https://github.com/PLAN-IT-B/PLAN-IT-B-general/blob/main/Plan-It-B-flowchart.png?raw=true)
+
+## DE PUZZELS
+
+### De wristbands
+Een belangrijk werkpunt binnen de SDG's is het veilig voelen op straat wanneer men bijvoorbeeld 's avonds alleen gaat wandelen. Wij kregen de opdracht om dit te integreren in onze escaperoom. Zo mogen twee mensen dicht bij elkaar lopen, maar wanneer een derde persoon te dicht in de buurt komt gaat er een ledje branden.
+
+### Trappen maar!
+In deze puzzel zullen twee Sustainable Development Goals behandeld worden: SDG7 en SDG13. Die laatste is de recentste jaren wellicht de meest aanwezige in onze levens: actie ondernemen om de klimaatwijzigingen tegen te gaan. Bij 'Trappen Maar' wordt dit gerealiseerd via SDG7, deze gaat over betaalbare en groene energie. De spelers moeten samenwerken om energie op te wekken via een hometrainer.
+
+
+### Treingame
+
+
+### Vuilbak
+
+
+### Eindpuzzel
+
+Wist je dat SDG 14 staat voor het proper houden van de oceanen? Wist je dat SDG 5 staat voor gender equality? SDG 1 voor geen armoede in de wereld? Wel de SDG die wij willen aankaarten is de SDG, quality education. Dit doen we door jullie te educeren over de Sustainabel Development Goals via een leuke puzzel. Een puzzel waar je zal moeten zoeken achter cijfers en spontaan in contact zal komen met informatieve brochures en posters over de SDG's!
