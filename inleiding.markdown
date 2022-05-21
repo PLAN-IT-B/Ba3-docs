@@ -17,3 +17,6 @@ De tijd dringt! Los deze escaperoom binnen de 60 minuten op en kom een datum te 
 Veel plezier!
 
 Team Planit B
+
+GROEPSFOTOOoo
+![groepsfoto]()

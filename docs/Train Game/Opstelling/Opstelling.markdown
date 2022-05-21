@@ -28,3 +28,8 @@ Aan de zijkanten voorzien we extra ondersteuningsstukken en oppervlakken om het 
 We lijmen het spelbord vast aan de voet met houtlijm en monteren de LEDS.
 ![](Totaal.png)
 
+
+# Puzzelstukken en treinkaart
+
+Hier vind je de verwijzing naar de ontwerpen voor de kaart en de puzzelstukken.
+

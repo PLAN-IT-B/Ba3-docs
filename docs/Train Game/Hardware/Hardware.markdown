@@ -55,20 +55,35 @@ Hieronder volgt een lijst met componenten.
 
 
 ### ESP 
-![ESP](ESPsch.png)
+
+|**ESP**|
+|:----:|
+|![ESP](ESPsch.png)|
 
 ### Buck convertor & voeding
-![BUCK CONVERTOR](Buck12V.png)
+
+|**Buck Covertor**|
+|:----:|
+|![BUCK CONVERTOR](Buck12V.png)|
 
 ### Aansluiting pinheaders
-![PINOUT](Pinheaders.png)
+
+|**ESP**|
+|:----:|
+|![PINOUT](Pinheaders.png)|
 
 ### Spanningsregelaar
-![SPANNINGSREGELAAR](spanningsregelaar.png)
 
+|**ESP**|
+|:----:|
+|![SPANNINGSREGELAAR](spanningsregelaar.png)|
 
 ### PCB
 
-Het ontwerp van de PCB bevindt zich hieronder. Er zijn nog een paar aanpassingen gebeurt om fouten op te lossen, deze zullen we verder verklaren. 
-![](PCBfront.png)
-![](PCBback.png)
+Het ontwerp van de PCB bevindt zich hieronder. Er zijn nog een paar aanpassingen gebeurt om fouten op te lossen, deze zullen we verder verklaren.
+
+|**PCB bovenkant**|**PCB onderkant** |
+|:----:|:----:|
+|![](PCBfront.png)|![](PCBback.png)|
+
+
