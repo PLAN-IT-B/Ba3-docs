@@ -111,7 +111,7 @@ Uit deze foto kunt u afleiden hoe we de solenoïde gaan monteren. Dit doen we in
 
 ---
 
-[Alle soldiworks bestanden, lasercut bestanden, flowcharts,... kunt u terugvinden op mijn github pagina.](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde)
+[Alle documentatie zoals de soldiworks bestanden, lasercut bestanden, flowcharts, word documenten, planning,... kunt u terugvinden op mijn github pagina.](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde)
 
 Deze bachlorproef was een extreem leuke ervaring en heeft me doen herinneren waarom ik deze richting leuk vind.
 
