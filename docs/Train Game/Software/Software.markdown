@@ -16,6 +16,8 @@ Het hart van onze software is de main. De belangrijkste delen hiervan zijn de se
 
 ### setup
 In de setup gaan we alle code uitvoeren die moet worden uitgevoerd worden voordat de loop begint. In de realiteit betekend dit begintoestand van de LEDS en LCD initialiseren, verbinding met de MQTT broker tot stand brengen en de pinmode van de joystick instellen.  
+
+|:----:|
 |```c
 void setup() {
   //Baudrate
@@ -40,6 +42,7 @@ void setup() {
   l1->resetLeds();
 }
 ```|
+|**Commmunicatie schema**|
 
 test, is het in kader?
 ### loop
