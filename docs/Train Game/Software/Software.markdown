@@ -58,6 +58,8 @@ Bij de communicatie gaan we iedere keer nagaan of we nog ge connecteerd zijn met
   }
 ```
 Hieronder is er een voorbeeld gegeven van één van de drie games. Om ervoor te zorgen dat de juiste puzzel actief is in de loop hebben we de bool deel1, deel2 en deel3 gemaakt. Op elk moment is er maar één deel actief. De effectieve werking van de game zelf wordt hieronder nog besproken bij het onderdeel TrainTrace.
+
+![Zones Joystick](Software_Flowchart.png)
 ```c
 // Ticket
   if(deel1){
