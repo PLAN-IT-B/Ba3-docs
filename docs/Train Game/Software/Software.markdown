@@ -3,7 +3,7 @@ layout: default
 title: Software
 parent: Train Game
 grand_parent: Puzzels
-nav_order: 2
+nav_order: 4
 ---
 
 # Software
