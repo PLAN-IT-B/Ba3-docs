@@ -23,7 +23,7 @@ De flow van het eindslot is de werking van de einpuzzel code.
 
 ![](Flow_eindpuzzel.svg)
 
-Maar de code van de eindpuzzel voert ook deze werking correct uit!
+Maar de code van de eindpuzzel voert ook deze werkingen correct uit!
 
 ![](Flowchart_reset-start_werking.png)
 
