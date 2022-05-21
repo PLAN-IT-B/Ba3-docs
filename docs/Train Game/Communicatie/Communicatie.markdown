@@ -9,7 +9,7 @@ nav_order: 5
 
 Communicatie is essentiëel voor het verloop van het spel. Sommige puzzels kunnen pas gespeeld worden als er andere zijn opgelost. We communiceren met drie puzzels aan de hand van de MQTT server. Onze puzzel moet zowel statusupdates kunnen versturen als verzenden. We maken gebruik van de "client.publish" en "client.subscribe" commandos. 
 
-
+||
 |:----:|
 |![Communicatie schema](Communicatie_cut.png)|
 |**Commmunicatie schema**|
