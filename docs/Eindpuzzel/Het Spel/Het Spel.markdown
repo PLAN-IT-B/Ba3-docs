@@ -22,13 +22,13 @@ Het doel van mijn volledige opdracht is om een klein maar leuke puzzel te maken 
 
 ---
 
-Na het oplossen van de garbage puzzel, krijgen ze een gewicht op hun lcd te zien. Het gewicht van hun afval, zullen ze als code moeten ingeven op mijn UV-slot.
+Na het oplossen van de garbage puzzel, krijgen ze een gewicht op een lcd te zien. Het gewicht van hun afval, zullen ze als code moeten ingeven op het UV-slot.
 
-Na het ingeven van deze code, zal er iets veranderd zijn. Nu zal bij het fietsen, een voorlicht branden. Dit voorlicht is een UV-licht waarmee ze dingen kunnen zien, die ervoor niet zichtbaar waren.
+Na het ingeven van deze code, zal er iets veranderd zijn. Nu zal bij het fietsen, het voorlicht van de fiets branden. Geen gewoon voorlicht maar een UV-licht. Nu ze dingen kunnen zien, die ervoor niet zichtbaar waren. Namelijk een code geschreven op een puzzel.
 
-Namelijk een puzzel die vanaf begin al in de escape room lag. De puzzelstukken en het bordje waarin ze het moeten leggen, zal verstopt liggen in de ruimte. Wanneer ze deze puzzel voor het UV-licht houden zullen ze mooi de code van het eindslot zien. 
+Deze puzzel is vanaf het begin van de escaperoom oplosbaar. De puzzelstukken en het bordje waarin ze het moeten leggen, zullen verstopt liggen in de ruimte. Wanneer ze deze puzzel voor het UV-licht houden zullen ze de code van het eindslot zien. 
 
-Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hun gsms teruig uit de puzzlebox halen, en is dus de escape room gedaan!
+Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hun gsms teruig uit de puzzlebox halen. De escape room is gedaan!
 
 **Grafische voorstelling via flowcharts**
 
@@ -36,13 +36,7 @@ Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hu
 
 [Klik hier voor deze flowchart in het groot](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Algemene%20documentatie/Flow%20eindpuzzel.svg)
 
-Tussen deze twee delen, is er een periode waar ze de houten puzzel stukken moeten zoeken. Wanneer alles gevonden is moeten nog de puzzel oplossen en het voor het UV-licht houden. 
-
-Dit zal de laatste code van de escaperoom geven.
-
---- Voeg hier foto van blockdiagram puzzle box ---
-
----
+Tussen deze twee delen, is er een periode waar ze de houten puzzel stukken moeten zoeken. Wanneer alles gevonden is moeten nog de puzzel oplossen en het voor het UV-licht houden. Dit zal de laatste code van de escaperoom geven.
 
 ## Verwachtingen:
 

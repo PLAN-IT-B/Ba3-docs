@@ -3,7 +3,7 @@ layout: default
 title: Realisatie
 parent: Eindpuzzel
 grand_parent: Puzzels
-nav_order: 5
+nav_order: 6
 ---
 
 # Realisatie van de puzzel.
@@ -103,3 +103,16 @@ Uit deze foto kunt u afleiden hoe we de solenoïde gaan monteren. Dit doen we in
 ![](Puzzlebox-implementatie.jpg)
 
 [Alle documentatie over de puzzlebox kunt u hier vinden](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/PuzzleBox2)
+
+
+---
+
+## Slotwoord
+
+---
+
+[Alle documentatie zoals de soldiworks bestanden, lasercut bestanden, flowcharts, word documenten, planning,... kunt u terugvinden op mijn github pagina.](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde)
+
+Deze bachlorproef was een extreem leuke ervaring en heeft me doen herinneren waarom ik deze richting leuk vind.
+
+Het volledige deel **Puzzels -> Eindpuzzel** en het algemeen deel **Communicatie** is geschreven door Henri Vandeputte.
