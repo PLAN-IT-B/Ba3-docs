@@ -94,6 +94,8 @@ Zo zou het beter zijn geweest om enkele GPIO's een ander doel te geven dan deze 
 - Deze uivoering van de PCB is zonder de hierboven besproken verbeteringen.
 
 ## RFID
+
+### Scanner
 De gebruikte RFID-module is de PN532 - NFC/RFID - Module.
 De datasheet van deze component is [hier](PN532_C1.pdf) te vinden 
 
@@ -103,6 +105,8 @@ Radio-Frequency identification oftewel RFID is een technologie die in staat is o
 
 Deze module's werkt via I<sup>2</sup>C communicatie. Wanneer deze sensor wordt aangesproken zal hij beginnen zoeken naar een tag. In de code zal ervoor gezorgd worden dat hij maar maximum een halve seconde zoekt naar een tag. Wanneer deze dan niets heeft gevonden zal het programma weer terug naar de gewone puzzelstaat gaan.
 
+### Multiplexer
+
 Het probleem bij het gebruiken van meerdere scanners op 1 I<sup>2</sup>C lijn is dat ze allemaal hetzelfde address hebben (0x48). Hierdoor hebben we een I<sup>2</sup>C-multiplexer nodig. Deze chip zal ervoor zorgen dat er slechts 1 module tegelijk wordt aangesproken. 
 We gebruiken de TCA9548A op het ingestelde adres 0x70. Op kanaal 5, 6 en 7 sluiten we de scanners aan.
 
@@ -111,6 +115,14 @@ Moesten we deze puzzel opnieuw ontwerpen waren we maar voor 1 scanner en scanpla
 De datasheet van de I<sup>2</sup>C-multiplexer is [hier](TCA.pdf) te vinden 
 
 ![](TCA.png)
+
+### Tags
+
+Als tags hebben we stickers gebruikt. Het voordeel hierbij was dat ze op vrijwel alle voorwerpen kunnen geplakt worden zonder dat we op deze voorwerpen ruimte moeten voorzien. Helaas hebben we na enkele testen en opzoekwerk ondervonden dat deze stickers niet werden gescand op voorwerpen waar metaal in zat, waardoor enkele moeilijkere voorwerpen om te sorteren niet gebruikt konden worden (denk maar aan caprisun, vuil aluminiumfolie, ...).
+
+![](tag.png)
+
+
 
 
 
