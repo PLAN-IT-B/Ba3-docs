@@ -29,12 +29,14 @@ Deze joystick heeft vijf pinnen. Twee pinnen zijn voor de voeding: 5V en GND. De
 |**Leds**|
 |:----:|
 |![LEDS](647880_1.png)|
+
 Voor de leds maken we gebruik van WS2811 LEDS. Deze hebben drie aansluitingen: 5 V, GND en data. Het datasignaal moet ook vijf volt bedragen om de leds correct aan te sturen. Het datasignaal van de ESP bedraagt 3,3 volt, we gebruiken een level shifter om het signaal te versterken. De LEDS kunnen elk apart worden aangestuurd. De ledlampjes zijn per vijftig verbonden, er is een koppelstuk voorzien om meerdere ledstrings met elkaar te verbinden. Wij maken gebruik van twee ledstrings zodat we een array van 100 leds bekomen.
 
 ### LCD
+
 |**LCD**|
 |:----:|
-|![LCDa](lcdisplay_spi_tft_a-web.png)|![LCDb](lcdisplay_spi_tft_b-web.png)|![LCDc](lcdisplay_spi_tft_c-web.png)|
+|![LCD](lcdisplay_spi_tft_a-web.png)|![LCDb](lcdisplay_spi_tft_b-web.png)|![LCDc](lcdisplay_spi_tft_c-web.png)|
 
 
 ### Voeding
