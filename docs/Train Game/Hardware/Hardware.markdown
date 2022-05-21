@@ -11,7 +11,7 @@ We bouwden een grote kaart waarop de treintrajecten en steden werden weergegeven
 
 - Joystick              : KY-023 Joystick module (XY-Axis)
 - Ledkaart              : WS2811 Digitale 8mm RGB LED String
-- Lcd scherm            : WELK MODEL???
+- Lcd scherm            : 2.2" SPI TFT Display Module ILI9341 (240x320)
 - PCB                   : 
 - Voeding               : CS1202000 AC-DC convertor 12V 2A
 - Gelasercut spelbord   : Kartonplaat
