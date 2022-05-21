@@ -99,6 +99,8 @@ De datasheet van deze component is [hier](PN532_C1.pdf) te vinden
 
 ![](pn532.jpg)
 
+Radio-Frequency identification oftewel RFID is een technologie die in staat is om op afstand data uit zogenaamde tags te lezen. De scanner zal radiogolven uitzenden en wanneer een tag deze ontvangt zal deze zijn informatie via radiogolven terug sturen. De tag zelf bevat geen batterij maar wordt voorzien van energie door de radiogolven van de scanner.
+
 Deze module's werkt via I<sup>2</sup>C communicatie. Wanneer deze sensor wordt aangesproken zal hij beginnen zoeken naar een tag. In de code zal ervoor gezorgd worden dat hij maar maximum een halve seconde zoekt naar een tag. Wanneer deze dan niets heeft gevonden zal het programma weer terug naar de gewone puzzelstaat gaan.
 
 Het probleem bij het gebruiken van meerdere scanners op 1 I<sup>2</sup>C lijn is dat ze allemaal hetzelfde address hebben (0x48). Hierdoor hebben we een I<sup>2</sup>C-multiplexer nodig. Deze chip zal ervoor zorgen dat er slechts 1 module tegelijk wordt aangesproken. 
