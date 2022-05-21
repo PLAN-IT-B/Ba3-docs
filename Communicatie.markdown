@@ -22,6 +22,8 @@ Dit is ideaal voor een escaproom en heeft veel vrijheid gegeven aan de verschill
 
 --- FOTO TOEVOEGEN VAN NETWERK TOPOLOGIE ---
 
+**Voor meer duidelijkeid over wat wie wanneer stuurt, zal er op deze site bij elke puzzel een pagina over cummunicatie zijn.**
+
 ---
 ## Keuze protocol
 ---
@@ -35,7 +37,6 @@ We hebben besloten dat elke puzzel zijn eigen directory heeft op de MQTT broker.
 
     Maar er is ook een directory zoals "*Trappenmaar/zone"*, bij een verandering van de zone van de buffer wordt er hier gepublished welke zone het nu is. Nu ligt de verantwoordelijkheid bij de andere puzzels om te beslissen wat ze willen doen met deze informatie.
 
-**Voor meer duidelijkeid over wat wie wanneer stuurt, zal er op deze site bij elke puzzel een pagina over cummunicatie zijn.**
 
 ---
 ## Opmerking:
