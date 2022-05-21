@@ -13,9 +13,8 @@ nav_order: 1
 ## Doel:
 
 ---   
-Het doel van mijn volledige opdracht is om een leuk einde te maken aan onze escape room. Dit ging sowiezo lostaan van de rest van de escape room, doordat ik een week later ben toegekomen in de bachlorproef van embedded systems.
 
-Men kan ook opmerken dat ik zoveel mogelijk in de we vorm zal werken. Maar het is daadwerkelijk maar één persoon die dit deel heeft gerealiseerd.
+Het doel van mijn volledige opdracht is om een klein maar leuke puzzel te maken die zal dienen als einde voor onze escape room. Dit gelinkt aan het thema: de Sustainable Development Goals.
 
 ---
 
@@ -33,10 +32,13 @@ Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hu
 
 **Grafische voorstelling via flowcharts**
 
-[<img src="Flow_UV-slot.png" width="400"/>](Flow_UV-slot.png)
+![](Flow_eindpuzzel.svg)
 
+[Klik hier voor deze flowchart in het groot](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Algemene%20documentatie/Flow%20eindpuzzel.svg)
 
-Tussen deze twee delen, is er een periode waar ze de houten puzzel moeten oplossen en het voor het UV-licht moeten houden.
+Tussen deze twee delen, is er een periode waar ze de houten puzzel stukken moeten zoeken. Wanneer alles gevonden is moeten nog de puzzel oplossen en het voor het UV-licht houden. 
+
+Dit zal de laatste code van de escaperoom geven.
 
 --- Voeg hier foto van blockdiagram puzzle box ---
 
@@ -48,4 +50,4 @@ Tussen deze twee delen, is er een periode waar ze de houten puzzel moeten oploss
 
 Als afleiding en ook als inkleding hebben we brochures en poster geregeld die ook in de kamer zullen liggen. (Brochures en posters over de sustainable development goals.) U kunt [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/Te%20printen%20documenten) deze bestanden terugvinden.
 
-We verwachten dat dit deel 15 minuten duurt. Inclusief de tijd van het zoeken achter de puzzel stukken en afleiding in de documenten.
+We verwachten dat dit deel ongeveer 15 minuten duurt. Inclusief de afleiding in de brochure en inclusief de tijd van het zoeken achter de puzzel stukken.
