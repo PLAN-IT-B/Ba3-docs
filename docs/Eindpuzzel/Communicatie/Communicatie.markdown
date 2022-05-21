@@ -26,7 +26,7 @@ De puzzel zal voor zijn werking naar één directory **publishen**:
 
 ---
 
-Deze esp zal **luisteren** naar één directorie:
+Deze esp zal **luisteren** naar één directory:
 * *"controlpanel/status"* -> Hier zullen we teweten kommen welke esp's allemaal ready zijn.
 
 Deze esp zal voor zijn werking naar twee directories **publishen**:
