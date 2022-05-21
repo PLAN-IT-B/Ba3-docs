@@ -124,11 +124,16 @@ De datasheet van deze component is [hier](LCD.pdf) te vinden
 ![](LCD.jpg)
 
 ## Gewichtssensoren
-Als gewichtssensor hebben wij gekozen voor een Load cell die een maximaal gewicht van 5kg aan kan. 
+Als gewichtssensor hebben wij gekozen voor een Load cell die een maximaal gewicht van 10kg aan kan. 
 
 ![](load_cell_5kg.jpg)
 
-Deze wordt aangestuurd door een signaalversterker.
+Deze sensor werkt met zogenaamde "strain gauges", dit zijn vervormbare weerstanden waarvan de weerstand veranderd naargelang hun vervorming. Hoe meer gewicht op de load cell komt, hoe meer de weerstanden zullen vervormen. Deze weerstanden worden dan in een wheatstone bridge configuratie gezet waardoor een verschil in weerstand aanleiding geeft tot een spanningsverschil.
+
+![](strain-gauge.png)
+![](Wheatstonebridge.png)
+
+Omdat het uitgangsignaal van deze sensor te klein is gebruiken we een versterker om hiervan bruikbare waarden voor de esp te maken.
 Meer precies de HX711 Load Cell versterker.
 De datasheet van deze component is [hier](hx711_english.pdf) te vinden.
 
