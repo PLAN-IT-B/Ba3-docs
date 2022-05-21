@@ -124,4 +124,6 @@ Kabels, connectoren, leds en smd componenten zoals NPN transistors, weerstanden,
 
 De blacklight is besteld geweest door het team van TrappenMaar en zit niet in deze kostenanalyse.
 
+Men kan opmerken, dat het 7segment clock display, de solenoïde, de keypads, de twee lcd's en de drukknoppen. Allemaal makkelijl af te breken zijn en geen verloren geld is. Met dit in gedachte te houden zit ik onder de beschikbaar gestelde 50 euro.
+
 ---
