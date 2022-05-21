@@ -35,11 +35,13 @@ We hebben besloten dat elke puzzel zijn eigen directory heeft op de MQTT broker.
 
     Maar er is ook een directory zoals "*Trappenmaar/zone"*, bij een verandering van de zone van de buffer wordt er hier gepublished welke zone het nu is. Nu ligt de verantwoordelijkheid bij de andere puzzels om te beslissen wat ze willen doen met deze informatie.
 
+**Voor meer duidelijkeid over wat wie wanneer stuurt, zal er op deze site bij elke puzzel een pagina over cummunicatie zijn.**
+
 ---
 ## Opmerking:
 --- 
-Na de eerste week had de communicatie verantwoordelijke al samengezeten met alle teams over welke berichten ze willen ontvangen van wie, en naar wie ze wat sturen. 
+Na de eerste week had de communicatie verantwoordelijke al samengezeten met alle teams over welke berichten ze willen ontvangen van wie, en naar wie ze wat willen sturen. 
 
 Dit heeft deze persoon dan in een overzichtelijk word document gestoken, genaamd *"[Datacommunicatie.docx](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20communicatie/Datacommunicatie.docx)"*, dit gaf alle puzzels veel structuur, en zo konden ze al coderen, zonder te wachten op de andere puzzels. 
 
-Dit samen met de *"[Basic-communicatie-code](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20communicatie/Basic-communicatie-code)"* zorgde ervoor dat alle teams snel wegwaren met deze manier van communiceren.
+Dit samen met de zijn *"[Basic-communicatie-code](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20communicatie/Basic-communicatie-code)"* zorgde ervoor dat alle teams snel wegwaren met deze manier van communiceren.
