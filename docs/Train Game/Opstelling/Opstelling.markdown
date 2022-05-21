@@ -8,7 +8,9 @@ nav_order: 2
 # Opstelling
 
 Onze puzzel bestaat uit vier belangrijke elementen. De ESP staat centraal, deze voert het programma uit en communiceert met de andere puzzels en randapparaten. Een van deze randapparaten is de joystick. Deze geeft inputwaarden door aan de ESP waarmee de stand van de joystick kan berekend worden. Zo kunnen treintjes de juiste richting uitgestuurd worden. Dit wordt weergegeven aan de hand van LEDS, die we ook aansluiten op de ESP. Het laatste belangrijke element is een LCD waarmee we hints of informatie kunnen weergeven. \
+\
 We willen een stevig en net ogend spelbord voorzien. Omdat lasercutten en graveren in hout erg kostelijk is maken we gebruik van kartonplaten. We monteren de componenten in het bord. Hiervoor hebben we gaten voorzien waarin we de LEDS kunnen vastklemmen. De joystick monteren we met schroefjes omdat deze echt stevig vast moet zitten, de LCD is met gum bevestigd. De verschillende kabeltjes kunnen we met tape aan de binnenkant bevestigen, alsook onze PCB. 
+We plaatsen het spelbord in de buurt van een stopcontact omdat we een voeding nodig hebben. De puzzelstukken, treintickets en treinkaart verspreiden we over de escaperoom.
 
 ||
 |:----:|
