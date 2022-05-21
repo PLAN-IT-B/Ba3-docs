@@ -6,6 +6,6 @@ grand_parent: Puzzels
 nav_order: 4
 ---
 # Communicatie
-TEST
+![Zones Joystick](Communicatie_cut.png)
 
 
