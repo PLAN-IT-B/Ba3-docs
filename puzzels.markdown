@@ -5,12 +5,13 @@ has_children: true
 ---
 # DE PUZZELS
 
-## De wristbands
-Een belangrijk werkpunt binnen de SDG's is het veilig voelen op straat wanneer men bijvoorbeeld 's avonds alleen gaat wandelen. Wij kregen de opdracht om dit te integreren in onze escaperoom. Zo mogen twee mensen dicht bij elkaar lopen, maar wanneer een derde persoon te dicht in de buurt komt gaat er een ledje branden.
 
 ## Trappen maar
 Wie denkt aan sustainable development goals, denkt aan het klimaat en hoe we dit vandaag de dag nog steeds vervuilen om energie te winnen. Bij deze puzzel zullen de spelers zelf, op een groene manier, energie winnen waarmee ze vervolgens de escape-room kunnen trotseren!
 Hiervoor zal het team een sportieve speler moeten selecteren en deze fietser helpen om het vullen van de energiebuffer tot een goed einde te brengen.
+
+## De wristbands
+Een belangrijk werkpunt binnen de SDG's is het veilig voelen op straat wanneer men bijvoorbeeld 's avonds alleen gaat wandelen. Wij kregen de opdracht om dit te integreren in onze escaperoom. Zo mogen twee mensen dicht bij elkaar lopen, maar wanneer een derde persoon te dicht in de buurt komt gaat er een ledje branden.
 
 ## Treingame
 Er is nog heel wat werk om de SDG’s te bereiken. Voor SDG11: “steden inclusief, veilig, veerkrachtig en duurzaam maken” en SDG13: “actie ondernemen om klimaatverandering en de gevolgen ervan bestrijden” kan een vlot en groen treinverkeer ons daarbij helpen. Maar ons Belgisch treinverkeer is berucht om zijn stiptheid. Toch is het een belangrijke vorm van publiek transport waar we op moeten inzetten. Daarom hebben we de hulp van de spelers nodig. Zij zullen verschillende puzzels moeten oplossen om met de treinen de juiste trajecten af te leggen.
