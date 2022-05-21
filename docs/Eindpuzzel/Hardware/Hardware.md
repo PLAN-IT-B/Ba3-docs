@@ -75,6 +75,7 @@ Klik [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/m
 ---
 
 
+
 ## Solenoïde
 
 
