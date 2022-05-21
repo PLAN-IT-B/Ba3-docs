@@ -28,11 +28,11 @@ Deze randapparaten zijn:
 - 1 luidspreker
 - 3 knoppen
 
-Deze randapparaten willen we aansturen aan de hand van een  ESP32-WROOM-32E-ic.
-Om deze randapparatuur te kunnen aansturen zullen er verder ook nog een I<sup>2</sup>C - multiplexer en twee level shifters aanwezig moeten zijn op de PCB.
+Deze randapparaten willen we aansturen aan de hand van een  ESP32-WROOM-32E-ic. Deze zal werken op een voedingsspanning van 3.3 volt geleverd door een powerbank via een micro-usb op 5V. Om deze 5V om te zetten naar 3.3V gebruiken we een LDO samen met 2 ontkoppelcondensatoren van 10uF.
+Daarnaast hebben we om de ESP32 te laten booten drukknoppen, debounce condensatoren en weerstanden nodig die zijn aangesloten volgens de kicad schema's. Ook hebben we pinheaders nodig om GPIO's naar buiten te kunnen brengen.
+Om de randapparatuur te kunnen aansturen zullen er verder ook nog een I<sup>2</sup>C - multiplexer en twee level shifters aanwezig moeten zijn op de PCB.
 De level shifters moeten aanwezig zijn om 3.3 V I<sup>2</sup>C signalen om te zetten naar 5 V signalen.
 De multiplexer is nodig omdat de 3 gebruikte RFID-scanner hetzelfde fixed I<sup>2</sup>C adres hebben.
-Daarnaast willen we ook in staat zijn om de puzzel te voeden aan de hand van een powerbank (5V - bron).
 In de volgende secties vindt u de KiCad-schema's en andere bijkomende informatie voor het vervaardigen van de PCB.
 Alsook vindt u hier de gebruikte randapperatuur voor het opstellen van de schema's.
 
