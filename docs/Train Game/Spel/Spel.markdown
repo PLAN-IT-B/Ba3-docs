@@ -11,3 +11,7 @@ Op een grote kaart staat het Belgische treinnetwerk uitgestippeld. De spelers ku
 Om de eerste puzzel op te lossen zijn er vier treintickets nodig, het juiste traject staat er op afgeprint. Deze tickets bevinden zich verspreidt in de escaperoom. Eenmaal de eerste puzzel is opgelost krijgen de spelers het laatste cijfer van de code om de vuilnisbak te openen. Deze wordt afgebeeld op een LCD scherm dat is ingebouwd in het bord. Vanaf dat de code correct is ingegeven in de vuilbak kan de volgende puzzel gespeeld worden. De treintickets dienen als afval en ze moeten correct gesorteerd worden. De tweede puzzel gaat als volgt te werk: een voorbeeldtraject wordt uitgebeeld, de steden lichten op in een bepaalde willekeurige volgorde. Vervolgens is het aan de beurt van de spelers, zij moeten zelf het traject opnieuw afleggen. Als uitdaging wordt deze kleine puzzel herhaald met telkens een nieuw traject waarbij de steden telkens sneller oplichten. Als deze opdracht is opgelost wordt de code voor een cijferslot gegeven. Met deze code kan men het cijferslot van een kistje openen. Dit kistje bevat twee soorten puzzelstukken en afval. Het afval moet opnieuwe in de juiste vuilnisbak terechtkomen. Het ene soort puzzelstuk dient om het juiste treintraject te bepalen voor de laatste puzzel. Het andere soort puzzelstuk dient om de laatste code te bepalen die nodig is om uit de escaperoom te ontsnappen.
 
 
+![](Blokschema_simpel.png)
+
+![](Flowchart_Traingame.png)
+
