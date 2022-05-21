@@ -9,7 +9,7 @@ nav_order: 3
 
 # Software
 
-Er is veel werk gestoken in de commentaren van de codes. Voor uitleg van delen en functies kunt u op het gemak door de codes gaan op github.
+Er is veel werk gestoken in de commentaren van de codes. Voor uitleg van de verschillende delen en functies kunt u op het gemak door de codes gaan op github.
 
 De programmas zijn allebij gebasseerd op de bassiscode van een cijferslot met 3x4 keypad en lcd display. Maar ook gebasseerd op de bassiscode voor verbinding met wifi en mqtt broker gekregen van de onderzoeksgroep dramco tijdens de projectweek. Ondanks dat de programmas dit gemeenschappelijk hebben. Zijn ze voor de rest volledig verschillend.
 
