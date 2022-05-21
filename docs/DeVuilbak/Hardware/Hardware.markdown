@@ -106,7 +106,7 @@ We gebruiken de TCA9548A op het ingestelde adres 0x70. Op kanaal 5, 6 en 7 sluit
 
 Samen met de VCC, ground en de I<sup>2</sup>C pinnen moeten ook normaal gezien de reset en IRQ pinnen aangesloten worden. Wij hebben besloten om alle IRQ pinnen op 1 pin aan te sluiten aangezien we maar 1 scanner tegelijk gebruiken. We hebben ondervonden dat de reset pin open mag blijven. 
 Moesten we deze puzzel opnieuw ontwerpen waren we maar voor 1 scanner en scanplatform gegaan aangezien we er uiteindelijk voor hebben gekozen om niet automatisch te scannen maar knoppen te gebruiken. In dit geval zouden we de multiplexer ook niet nodig gehad hebben. 
-De datasheet van deze component is [hier](TCA.pdf) te vinden 
+De datasheet van de I<sup>2</sup>C-multiplexer is [hier](TCA.pdf) te vinden 
 
 ![](TCA.png)
 
@@ -150,8 +150,3 @@ De sensor is verbonden aan de amplifier op deze manier:
 - Zwart -> E-
 - Wit -> A-
 - Groen -> A+
-
- 
- 
-
-### Schema
