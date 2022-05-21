@@ -20,7 +20,7 @@ Dit is ideaal voor een escaproom en heeft veel vrijheid gegeven aan de verschill
 ## Netwerktopologie
 ---
 
---- FOTO TOEVOEGEN VAN NETWERK TOPOLOGIE ---
+![](Netwerktopologie_escaperoom.svg)
 
 **Voor meer duidelijkeid over wat wie wanneer stuurt, zal er op deze site bij elke puzzel een pagina over communicatie zijn.**
 
