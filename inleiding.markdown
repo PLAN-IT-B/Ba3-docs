@@ -1,15 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 
-layout: home
-title: De escaperoom
-nav_order: 1
 ---
 
-
-# WELKOM BIJ PLAN-IT B   <img src="planit B2-modified.jpeg" width="150" height="90" align="right">
+# WELKOM BIJ PLAN-IT B   <img src="planit B2-modified;jpeg" width="100" height="60" align="right">
 
 ## DE ESCAPEROOM
 
@@ -31,15 +25,15 @@ De tijd dringt! Los deze escaperoom binnen de 60 minuten op en kom een datum te 
 ### De wristbands
 Een belangrijk werkpunt binnen de SDG's is het veilig voelen op straat wanneer men bijvoorbeeld 's avonds alleen gaat wandelen. Wij kregen de opdracht om dit te integreren in onze escaperoom. Zo mogen twee mensen dicht bij elkaar lopen, maar wanneer een derde persoon te dicht in de buurt komt gaat er een ledje branden.
 
-### Trappen maar
+### Trappen maar!
+In deze puzzel zullen twee Sustainable Development Goals behandeld worden: SDG7 en SDG13. Die laatste is de recentste jaren wellicht de meest aanwezige in onze levens: actie ondernemen om de klimaatwijzigingen tegen te gaan. Bij 'Trappen Maar' wordt dit gerealiseerd via SDG7, deze gaat over betaalbare en groene energie. De spelers moeten samenwerken om energie op te wekken via een hometrainer.
 
 
 ### Treingame
 
 
 ### Vuilbak
-We moeten niemand meer uitleggen dat het sorteren van afval de dag van vandaag een must is. Het verminderen van de afvalproductie is dan ook niet voor niets een belangrijk punt binnen de SDG's. SDG 12 "Verantwoorde consumtie en productie" zegt dat we de afvalproductie aanzienlijk moeten beperken via preventie, vermindering, recyclage en hergebruik. Recyclage verloopt het best wanneer al het afval goed gesorteerd is. 
-Toch loopt dit in sommige gevallen nog eens fout. Waar moest dat capri-sun pakje ook al weer? Het doel van deze puzzel is het vinden en juist sorteren van afval. Aan de hand van het totale gewicht van het afval de code tot UV-licht verkrijgen.
+We moeten niemand meer uitleggen dat het sorteren van afval de dag van vandaag een must is. Het verminderen van de afvalproductie is dan ook niet voor niets een belangrijk punt binnen de SDG’s. SDG 12 “Verantwoorde consumtie en productie” zegt dat we de afvalproductie aanzienlijk moeten beperken via preventie, vermindering, recyclage en hergebruik. Recyclage verloopt het best wanneer al het afval goed gesorteerd is. Toch loopt dit in sommige gevallen nog eens fout. Waar moest dat capri-sun pakje ook al weer? Het doel van deze puzzel is het vinden en juist sorteren van afval. Aan de hand van het totale gewicht van het afval de code tot UV-licht verkrijgen.
 
 
 ### Eindpuzzel

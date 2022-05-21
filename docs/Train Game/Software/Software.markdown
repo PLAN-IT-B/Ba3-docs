@@ -58,6 +58,10 @@ Bij de communicatie gaan we iedere keer nagaan of we nog ge connecteerd zijn met
   }
 ```
 Hieronder is er een voorbeeld gegeven van één van de drie games. Om ervoor te zorgen dat de juiste puzzel actief is in de loop hebben we de bool deel1, deel2 en deel3 gemaakt. Op elk moment is er maar één deel actief. De effectieve werking van de game zelf wordt hieronder nog besproken bij het onderdeel TrainTrace.
+
+Ter verduidelijking van de code omtrent het gameverloop is er een flowchart gemaakt. De legende maakt duidelijk over welke code file het gaat.
+
+![Zones Joystick](Software_Flowchart.png)
 ```c
 // Ticket
   if(deel1){
@@ -339,10 +343,11 @@ void LEDS::showSteden(){
     strip.show();
 }
 ```
-## LCD
-```c
-```
+
 ## Trein
+In Trein.h wordt de besturing van de trein geregeld. Je kan een trein toevoegen aan het spel door er een beginstad aan mee te geven. Vanaf we een trein hebben kunnen we die verplaatsen door de functie volgendeStad() uit te voeren.
+
+VolgendeStad() gaat de zone die gemaakt is in Drukknop.h gebruiken voor de bepaling van de volgende stad. Aan de hand van een switch gaan we naar het juiste deeltje code binnen deze code. Met behulp van de kaart en de zones hebben we bepaald welke zones naar welke stad wijzen. Als de juiste zone actief is gaan we de stad van de trein verplaatsen en de trein doen lopen naar de volgende stad m.b.v. LEDS.h. Indien geen enkele zone overeen komt met een volgende stad gaan we de huidige stad doen "blinken".
 ```c
 #include <Trein.h>
 
@@ -359,7 +364,7 @@ Trein::Trein(int start){
 void Trein::volgendeStad(int zone){
     switch(this->stad) {
   case 1:   // Van Brugge
-    if(zone==1 || zone==2 || zone==15 || zone==16) {  //Naar Gent
+    if(zone==1 || zone==2 || zone==15 || zone==16) {    //Naar Gent
       this->setStad(3); 
       l2->loopVanXNaarY(6,8,stad);
       break;}
@@ -374,7 +379,7 @@ void Trein::volgendeStad(int zone){
 }
 ```
 ## TrainTrace
-Nu we een werkende Trein hebben kunnen we beginnen met de games zelf te creëren.
+Nu we een werkende Trein hebben kunnen we beginnen met de games zelf te creëren. We gaan voorafaan de routes al bepalen. Dit doen we door een array bij te houden die de steden die gepasseerd moeten worden in volgorde zal bijhouden.
 ```c
 private:
     //Ticket
@@ -385,6 +390,7 @@ private:
         bool ticketCheckComplete = false;
         int ticketVergelijkStad = 7;
 ```
+We hebben nu een manier nodig om te bepalen of we nog steeds het correcte traject aan het volgen zijn. Als de trein zich verplaatst naar een volgende stad gaan we bekijken of die gelijk is aan de volgende stad in de array. Indien dit niet het geval is gaan we de fout doorgeven door AllesKits=false te plaatsen en de trein weer in zijn beginpositie te plaatsen. Als de trein toch juist aan het rijden is controleren we of we al bij de laatste stad is aangekomen. Dit signaal gebruiken we om mee te geven dat dit spel is afgerond. 
 ```c
 //We controleren of het juiste traject werd afgelegd.
 //We houden in een array ticket[] de juiste volgorde bij.
@@ -425,6 +431,7 @@ int TrainTrace::ticketGetBegin(){
     return ticketBeginstad;
 }
 ```
+Voor het tweede spel 'Traintrace' te spelen kiezen we random uit 10 routes die we op voorhand gemaakt hebben. Dit doen we om variëteit te brengen in de routes. Dit doen we door een random getal van 0 tot 9 te laten beslissen welke route we gebruiken bij dit spel. Dit doen we 3 maal na elkaar. Als laatste hebben we nog een functie die de route zal weergeven door de steden in de trace één voor één te doen oplichten. We geven een parameter speed mee om een moeilijkheidsgraad mee te geven.  
 ```c
 void TrainTrace::trace1randomroute(int rand){
     switch (rand){   

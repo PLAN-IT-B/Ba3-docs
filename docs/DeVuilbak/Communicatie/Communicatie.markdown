@@ -38,7 +38,7 @@ In de volgende listing ziet u de verschillende directories waar wij naar publish
 
 Behalve zaken publishen moet de vuilbak natuurlijk ook van bepaalde zaken op de hoogte gebracht worden.
 Dit gebeurt zoals hierboven kort beschreven door te subscriben op een bepaalde directory.
-*Voor meer informatie over de werking van een MQTT-server klik [hier]().*
+*Voor meer informatie over de werking van een MQTT-server klik [hier](https://plan-it-b.github.io/ba3-docs/Communicatie.html).*
 
 In de volgende listing worden de directories beschreven met daarbij vermeld welke berichten we van deze directories verwachten
 

@@ -1,14 +1,16 @@
 ---
 layout: default
-title: Implementatie en eindresultaat
+title: Realisatie
 parent: Eindpuzzel
 grand_parent: Puzzels
 nav_order: 5
 ---
 
-# Implementatie en eindresultaat
+# Realisatie van de puzzel.
 
-Er zijn 4 delen geraliseerd:
+Dit omvat de implementatie en de eindresulaten.
+
+Het is opgeleed in 4 delen:
 * [UV-slot box](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#uv-slot-box)
 * [Documentatie SDG's](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#documentatie-sdgs)
 * [UV-puzzel](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Implementatie/Implementatie.html#uv-puzzel)
