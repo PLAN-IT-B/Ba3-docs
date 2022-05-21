@@ -84,22 +84,27 @@ Op een gegeven moment bleek het dat we de connectie verliezen met de mqqt broker
 
 ---
 
-## Componentenlijst
+## **Puzzelbox componenten:**
 
 ---
 
-### **Puzzelbox:**
-
-| Component|  Prijs | Betaald? |Afbeelding|
-|:----: |:----: |:----: |:----: |
-|20x4 LCD display met I<sup>2</sup>C backpack  | [9 euro](https://www.tinytronics.nl/shop/nl/displays/lcd/lcd-display-20*4-karakters-met-witte-tekst-en-blauwe-backlight-met-i2c-backpack)| Ter beschikking op campus | ![<img src="LCD.jpg" height="250"/>](LCD.jpg) |
-|Deur Solenoïde 12V 1A| [10 euro](https://www.tinytronics.nl/shop/nl/mechanica-en-actuatoren/elektromagneten/solenoids/deur-solenoid-12v-1a-jf-s1040dl) | Ter beschikking op campus| ![](Solenoid.jfif) |
-|3x4 keypad| [3,75 euro](https://www.tinytronics.nl/shop/nl/schakelaars/manuele-schakelaars/keypads/keypad-3x4-matrix-membraan) | Bestelling tinytronics| ![](keypad.jfif) |
+| Component|  Prijs | Aantal| Betaald? |Afbeelding|
+|:----: |:----: |:----:|:----: |:----: |
+|20x4 LCD display met I<sup>2</sup>C backpack  | [9 euro](https://www.tinytronics.nl/shop/nl/displays/lcd/lcd-display-20*4-karakters-met-witte-tekst-en-blauwe-backlight-met-i2c-backpack)|1| Ter beschikking op campus | ![<img src="LCD.jpg" height="250"/>](LCD.jpg) |
+|Deur Solenoïde 12V 1A| [10 euro](https://www.tinytronics.nl/shop/nl/mechanica-en-actuatoren/elektromagneten/solenoids/deur-solenoid-12v-1a-jf-s1040dl) |1 | Ter beschikking op campus| ![](Solenoid.jfif) |
+|3x4 keypad| [3,75 euro](https://www.tinytronics.nl/shop/nl/schakelaars/manuele-schakelaars/keypads/keypad-3x4-matrix-membraan) | 1 | Bestelling tinytronics | ![](keypad.jfif) |
 
 
-### **UV-slot:**
 
-| Component| Prijs | Betaald? |Afbeelding|
-|:----: |:----: |:----: |:----: |
-|16x2 LCD display met I<sup>2</sup>C backpack | [7 euro](https://www.tinytronics.nl/shop/nl/displays/lcd/lcd-display-16*2-karakters-met-witte-tekst-en-blauwe-backlight-met-i2c-backpack) | Bestelling tinytronics| ![](LCD2.jpg)|
-|3x4 keypad| [3,75 euro](https://www.tinytronics.nl/shop/nl/schakelaars/manuele-schakelaars/keypads/keypad-3x4-matrix-membraan) | Bestelling tinytronics| ![](keypad.jfif) |
+
+---
+
+## **UV-slot componenten:**
+
+---
+
+
+| Component| Prijs | Aantal | Betaald? |Afbeelding|
+|:----: |:----: |:----:|:----: |:----: |
+|16x2 LCD display met I<sup>2</sup>C backpack | [7 euro](https://www.tinytronics.nl/shop/nl/displays/lcd/lcd-display-16*2-karakters-met-witte-tekst-en-blauwe-backlight-met-i2c-backpack) |1| Bestelling tinytronics| ![](LCD2.jpg)|
+|3x4 keypad| [3,75 euro](https://www.tinytronics.nl/shop/nl/schakelaars/manuele-schakelaars/keypads/keypad-3x4-matrix-membraan) |1| Bestelling tinytronics| ![](keypad.jfif) |
