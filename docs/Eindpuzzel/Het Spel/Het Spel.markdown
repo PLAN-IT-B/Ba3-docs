@@ -36,13 +36,7 @@ Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hu
 
 [Klik hier voor deze flowchart in het groot](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Algemene%20documentatie/Flow%20eindpuzzel.svg)
 
-Tussen deze twee delen, is er een periode waar ze de houten puzzel stukken moeten zoeken. Wanneer alles gevonden is moeten nog de puzzel oplossen en het voor het UV-licht houden. 
-
-Dit zal de laatste code van de escaperoom geven.
-
---- Voeg hier foto van blockdiagram puzzle box ---
-
----
+Tussen deze twee delen, is er een periode waar ze de houten puzzel stukken moeten zoeken. Wanneer alles gevonden is moeten nog de puzzel oplossen en het voor het UV-licht houden. Dit zal de laatste code van de escaperoom geven.
 
 ## Verwachtingen:
 
