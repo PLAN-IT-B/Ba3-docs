@@ -15,3 +15,4 @@ Om de eerste puzzel op te lossen zijn er vier treintickets nodig, het juiste tra
 
 ![](Flowchart_Traingame.png)
 [Hier kan men de flowchart in het groot bezichtigen.](https://raw.githubusercontent.com/PLAN-IT-B/ba3-docs/gh-pages/docs/Train%20Game/Spel/Flowchart_Traingame.png)
+geupdate n shi

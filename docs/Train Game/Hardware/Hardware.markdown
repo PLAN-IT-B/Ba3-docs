@@ -32,7 +32,6 @@ Voor de leds maken we gebruik van WS2811 LEDS. Deze hebben drie aansluitingen: 5
 ![LCDb](lcdisplay_spi_tft_b-web.png)
 ![LCDc](lcdisplay_spi_tft_c-web.png)
 
-We maken ge
 
 ### Voeding
 
