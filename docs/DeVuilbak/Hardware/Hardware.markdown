@@ -14,7 +14,7 @@ nav_order: 2
 - [Toetsenbord](#toetsenbord)
 - [LCD](#lcd)
 - [Gewichtssensoren](#gewichtssensoren)
-- [Audio-versterker](#aduioversterker)
+- [Audio-versterker](#audio-versterker)
 
 
 ## Inleiding
@@ -175,7 +175,7 @@ De sensor is verbonden aan de amplifier op deze manier:
 
 We wouden dat onze puzzel gebruiksvriendelijk was en deze genoeg indicatoren had om te weten of de gebruiker iets goed of slecht deed. Al snel was er het idee om een speaker te gebruiken die deze indicaties kon geven. We merkten dat wanneer we deze speaker rechtstreeks op een gpio aansloten we een zwak en minder helder geluid kregen. Ook vonden we het handig om de mogelijkheid te hebben om het volume van het geluid aan te passen. Daarom hebben we gekozen voor een audioversterker (PAM8403) met regelbaar volume. De datasheet van deze chip is [hier](PAM8403.pdf) te vinden. 
 
-Omdat wij niet goed wisten hoe groot de versterking moest zijn hebben we voor de gemakkelijke oplossing gekozen en een bordje met regelbaar volume gekozen. Wanneer de nodige versterking geweten is zou deze versterker rechtstreeks op de PCB geïmplementeerd kunnen worden. 
+Omdat wij niet goed wisten hoe groot de versterking moest zijn hebben we dit niet rechtstreeks op onze pcb geplaatst. Wanneer de nodige versterking geweten is zou deze versterker rechtstreeks op de PCB geïmplementeerd kunnen worden. 
 
 ![](PAM8403t.jfif)
 
