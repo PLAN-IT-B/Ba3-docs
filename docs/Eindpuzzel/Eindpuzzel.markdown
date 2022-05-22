@@ -13,10 +13,6 @@ Wist je dat SDG 14 staat voor het proper houden van de oceanen? Wist je dat SDG 
 
 **Sneakpeak van de eindresultaten:**
 
-|[<img src="Uv-slot-implementatie.jpg" height="250"/>](Uv-slot-implementatie.jpg)|[<img src="Documentatie-implementatie.jpg" height="250"/>](Documentatie-implementatie.jpg)|[<img src="Uv-puzzel-Realisatie.jpg" height="250"/>](Uv-puzzel-Realisatie.jpg)|[<img src="Puzzlebox-implementatie.jpg" height="250"/>](Puzzlebox-implementatie.jpg)|
 
-
-
-
-
-
+| [<img src="Uv-slot-implementatie.jpg" height="250"/>](Uv-slot-implementatie.jpg)|[<img src="Documentatie-implementatie.jpg" height="250"/>](Documentatie-implementatie.jpg)|[<img src="Uv-puzzel-Realisatie.jpg" height="250"/>](Uv-puzzel-Realisatie.jpg)|[<img src="Puzzlebox-implementatie.jpg" height="250"/>](Puzzlebox-implementatie.jpg)|
+|:----: | :----: |:----:  | :----: |
