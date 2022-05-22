@@ -14,7 +14,7 @@ nav_order: 2
 - [Toetsenbord](#toetsenbord)
 - [LCD](#lcd)
 - [Gewichtssensoren](#gewichtssensoren)
-- [Audio-versterker](#audioversterker)
+- [Audio-versterker](#audio-versterker)
 
 
 ## Inleiding
