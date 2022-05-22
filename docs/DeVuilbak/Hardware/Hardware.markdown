@@ -178,5 +178,4 @@ We wouden dat onze puzzel gebruiksvriendelijk was en deze genoeg indicatoren had
 Omdat wij niet goed wisten hoe groot de versterking moest zijn hebben we voor de gemakkelijke oplossing gekozen en een bordje met regelbaar volume gekozen. Wanneer de nodige versterking geweten is zou deze versterker rechtstreeks op de PCB geïmplementeerd kunnen worden. 
 
 ![](PAM8403t.jfif)
-![](PAM8403.jpg)
 
