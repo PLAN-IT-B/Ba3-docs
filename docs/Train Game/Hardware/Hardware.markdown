@@ -91,5 +91,4 @@ Het ontwerp van de PCB bevindt zich hieronder. Er zijn nog een paar aanpassingen
 |**PCB bovenkant**|**PCB onderkant** |
 |:----:|:----:|
 |![](FINAL_SCH_front.png)|![](FINAL_SCH_back.png)|
-
-
+|[PCB bovenkant groot](https://github.com/PLAN-IT-B/ba3-docs/blob/gh-pages/docs/Train%20Game/Hardware/FINAL_SCH_front.png?raw=true)|[PCB onderkant groot](https://github.com/PLAN-IT-B/ba3-docs/blob/gh-pages/docs/Train%20Game/Hardware/FINAL_SCH_back.png?raw=true)|
