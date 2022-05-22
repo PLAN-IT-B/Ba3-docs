@@ -10,7 +10,7 @@ nav_order: 6
 
 Dit omvat de implementatie en de eindresulaten.
 
-Het is opgeleed in 4 delen:
+Het is opgedeeld in 4 delen:
 * [UV-slot box](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#uv-slot-box)
 * [Documentatie SDG's](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#documentatie-sdgs)
 * [UV-puzzel](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#uv-puzzel)
@@ -19,7 +19,7 @@ Het is opgeleed in 4 delen:
 ---
 ## UV-slot box
 ---
-Dit is een houten kistje, voorzien met mounting holes, plaats voor het lcd scherm, plaats voor een 4x3keypad en een extra gat waar kabels door kunnen. Deze kist is gelazercut uit minder dan één houten MDF plaat (60x30cm) met dikte 6mm.
+Dit is een houten kistje, voorzien met mounting holes, plaats voor het lcd scherm, plaats voor een 4x3keypad en een extra gat waar kabels door kunnen. Deze kist is gelasercut uit minder dan één houten MDF plaat (60x30cm) met dikte 6mm.
 
 **Vooraanzicht**
 ![](UV_slot_box.png) 
