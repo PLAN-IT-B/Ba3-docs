@@ -86,16 +86,10 @@ Hieronder volgt een lijst met componenten.
 
 ### PCB
 
-<<<<<<< Updated upstream
 Het ontwerp van de PCB bevindt zich hieronder. Er zijn nog een paar aanpassingen gebeurt om fouten op te lossen, deze zullen we verder verklaren.
 
 |**PCB bovenkant**|**PCB onderkant** |
 |:----:|:----:|
-|![](PCBfront.png)|![](PCBback.png)|
+|![](FINAL_SCH_front.png)|![](FINAL_SCH_back.png)|
 
 
-=======
-Het ontwerp van de PCB bevindt zich hieronder. Er zijn nog een paar aanpassingen gebeurt om fouten op te lossen, deze zullen we verder verklaren. 
-![](FINAL_SCH_front.png)
-![](FINAL_SCH_back.png)
->>>>>>> Stashed changes
