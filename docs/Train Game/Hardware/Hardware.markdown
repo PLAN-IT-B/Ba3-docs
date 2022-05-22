@@ -52,7 +52,7 @@ Hieronder volgt een lijst met componenten.
 - Spanningsregelaar: AMS1117
 - Level shifter: BSS138
 - Boot/Enable switches: ?????
-- Barrel jack: ???
+- Barrel jack: Voedingchassisdeel 2,1mm
 - Buck convertor
 - Pin header    
 - Condensatoren
@@ -86,6 +86,7 @@ Hieronder volgt een lijst met componenten.
 
 ### PCB
 
+<<<<<<< Updated upstream
 Het ontwerp van de PCB bevindt zich hieronder. Er zijn nog een paar aanpassingen gebeurt om fouten op te lossen, deze zullen we verder verklaren.
 
 |**PCB bovenkant**|**PCB onderkant** |
@@ -93,3 +94,8 @@ Het ontwerp van de PCB bevindt zich hieronder. Er zijn nog een paar aanpassingen
 |![](PCBfront.png)|![](PCBback.png)|
 
 
+=======
+Het ontwerp van de PCB bevindt zich hieronder. Er zijn nog een paar aanpassingen gebeurt om fouten op te lossen, deze zullen we verder verklaren. 
+![](FINAL_SCH_front.png)
+![](FINAL_SCH_back.png)
+>>>>>>> Stashed changes
