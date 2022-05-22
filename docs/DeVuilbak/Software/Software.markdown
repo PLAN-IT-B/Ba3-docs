@@ -314,8 +314,69 @@ Deze functie wordt opgeroepen wanneer het programma in de puzzel-state is en een
 Als er wel iets gescand wordt zal er gecontroleerd worden of het ID van de tag voorkomt in de rij van tags die bij deze scanner (soort vuilnis) horen. Als dit het geval is zal in de rij deze tag aangepast worden naar [0,0,0,0,0,0,0,0], hierdoor kan deze tag niet 2x gescand worden (In de gebruikelijke werking van de escape room maakt dit niet uit maar in een alternatieve versie waar je energie krijgt voor het correct sorteren wel). Ook zal er een succes geluid afgespeeld worden en zal het programma naar de gewichtWachter-staat gaan. 
 Wanneer de tag fout is zal er een failure sound afgaan en zal er "kleine fout" naar de buffer gestuurd worden.
 
+```c++
+void scanRFID1(){
+  if(energie && actief){
+    Serial.println("Scanning ...");
+    TCA9548A(7);
+    uint8_t success = false;
+    schrijfScannen();
+   
+
+    //Probeer te lezen voor 500ms
+    success = nfc.readPassiveTargetID(PN532_MIFARE_ISO14443A, uid, &uidLength,500);
+
+    //Als er iets is gelezen
+    if (success) {
+      Serial.print("Succesvol gelezen: ");
+      nfc.PrintHex(uid, uidLength);
+    //Check of de RFID juist is
+    bool juist = false;
+      for(int j = 0;j<aantalVuilnis;j++){
+        checkVuilnis = true;
+      
+        for(int i = 0;i<uidLength;i++){
+          if( uid[i]!= juisteWaardes1[j][i]){
+            checkVuilnis = false;
+          }
+        }
+
+        if (checkVuilnis == true){
+          juist = true; //Er is een juiste tag gevonden
+          for(int k = 0;k<uidLength;k++){
+          
+          juisteWaardes1[j][k] = 0;
+        
+        }
+          rest++;
+          
+          Serial.println("correct!");
+          Serial.println(rest);
+
+
+          //Ga naar de Gewichttester staat
+          codeTekst = false;
+          wachtOpGewicht = true;
+          nummerWeegschaal = 1;
+        }
+      }
+
+      if(!juist){
+       client.publish("TrappenMaar/buffer","grote fout");
+       Serial.println("Fout");
+       failureSound();
+      }
+      else(succesSound());
+  }
+
+}}
+```
+
 ### Sound
 Doordat we gebruik maken van het "Tone32" library konden we noten afspelen via een GPIO pin. Omdat de speaker niet zo luid ging en we controle wouden hebben over het volume hebben we er een versterker tussen geplaatst. 
+```c++
+
+
 
 ### TCA9548A
 Deze functie zal naar de multiplexer sturen welk kanaal moet aangesproken worden
