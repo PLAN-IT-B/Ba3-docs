@@ -3,7 +3,7 @@ title: Communicatie
 nav_order: 3
 ---
 
-# Communicatie
+# Communicatie  <img src="planit B2-modified.jpeg" width="150" height="90" align="right">
 
 ---
 ## Communicatie methode
