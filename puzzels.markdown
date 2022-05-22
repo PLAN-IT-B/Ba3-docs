@@ -3,7 +3,7 @@ title: Puzzels
 nav_order: 2
 has_children: true
 ---
-# DE PUZZELS
+# DE PUZZELS    <img src="planit B2-modified.jpeg" width="150" height="90" align="right">
 
 
 ## Trappen maar
