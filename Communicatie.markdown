@@ -45,6 +45,6 @@ We hebben besloten dat elke puzzel zijn eigen directory heeft op de MQTT broker.
 --- 
 Na de eerste week had de communicatie verantwoordelijke al samengezeten met alle teams over welke berichten ze willen ontvangen van wie, en naar wie ze wat willen sturen. 
 
-Dit heeft deze persoon dan in een overzichtelijk word document gestoken, genaamd *"[Datacommunicatie.docx](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20communicatie/Datacommunicatie.docx)"*, dit gaf alle puzzels veel structuur, en zo konden ze al coderen, zonder te wachten op de andere puzzels. 
+Dit heeft deze persoon dan in een overzichtelijk word document gestoken, genaamd *"[Datacommunicatie.docx](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20communicatie/Datacommunicatie.pdf)"*, dit gaf alle puzzels veel structuur, en zo konden ze al coderen, zonder te wachten op de andere puzzels. 
 
 Dit samen met de zijn *"[Basic-communicatie-code](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20communicatie/Basic-communicatie-code)"* zorgde ervoor dat alle teams snel wegwaren met deze manier van communiceren.

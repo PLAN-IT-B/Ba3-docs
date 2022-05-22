@@ -9,11 +9,14 @@ nav_order: 4
 # Software
 Om de code voor onze bachelorproef overzichtelijk te houden hebben we ervoor gekozen om per onderdeel een apparte c++ file te voorzien. Elk stuk hardware werd eerst grondig getest los van elkaar zodat we stap voor stap tewerk konden gaan. elke C++ file bestaat uit een klasse met enkele functies. Deze functies worden nadeien opgeroepen in de main. Dit heeft ervoor gezorgd dat we een overzicht konden houden over de software.
 
+[Github: code]()
+
 ## Main
 Het hart van onze software is de main. De belangrijkste delen hiervan zijn de setup() en loop(). De setup maakt mogelijk op bepaalde functies uit te voeren die slechts één keer doorlopen moeten worden helemaal aan het begin van de code. De loop wordt uitgevoert net na de setup. Deze zal telkens weer uit gevoerd worden wanneer we aan het einde komen van deze loop.
 
 ### setup
 In de setup gaan we alle code uitvoeren die moet worden uitgevoerd worden voordat de loop begint. In de realiteit betekend dit begintoestand van de LEDS en LCD initialiseren, verbinding met de MQTT broker tot stand brengen en de pinmode van de joystick instellen.  
+
 ```c
 void setup() {
   //Baudrate
@@ -38,6 +41,8 @@ void setup() {
   l1->resetLeds();
 }
 ```
+
+test, is het in kader?
 ### loop
 De loop is opgedeeld in verschillende delen. De communicatie en de 3 apparte games.
 Bij de communicatie gaan we iedere keer nagaan of we nog ge connecteerd zijn met de MQTT broker. Als dit het geval is gaan we de reconnect functie uitvoeren om de verbinding te herstellen.
@@ -61,7 +66,7 @@ Hieronder is er een voorbeeld gegeven van één van de drie games. Om ervoor te 
 
 Ter verduidelijking van de code omtrent het gameverloop is er een flowchart gemaakt. De legende maakt duidelijk over welke code file het gaat.
 
-![Zones Joystick](Software_Flowchart_2.png)
+|![Zones Joystick](Software_Flowchart_2.png)|
 ```c
 // Ticket
   if(deel1){

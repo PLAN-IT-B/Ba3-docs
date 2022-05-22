@@ -6,7 +6,8 @@ grand_parent: Puzzels
 nav_order: 3
 ---
 # Hardware
-[Visit our Github to find our Kicad6.0 project!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/KiCad-project)
+
+>[Visit our Github to find our Kicad6.0 project!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/KiCad-project)
 
 **Overzicht:**
 

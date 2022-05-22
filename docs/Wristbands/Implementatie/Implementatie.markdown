@@ -8,7 +8,7 @@ nav_order: 5
 
 # Implementatie
 
-[Visit our Github to find our SolidWorks project and the STL-files!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/3D-ontwerp)
+> [Visit our Github to find our SolidWorks project and the STL-files!](https://github.com/PLAN-IT-B/BachelorProefWristbands/tree/main/3D-ontwerp)
 
 **Overzicht:**
 
