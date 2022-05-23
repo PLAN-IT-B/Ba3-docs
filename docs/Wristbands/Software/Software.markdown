@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Software
+title: Software 
 parent: Wristbands
 grand_parent: Puzzels
 nav_order: 2
@@ -85,7 +85,7 @@ int codetime =5000;
 int codetimelong =60000;
 const unsigned long switchPeriod = 600000;
 int grenswaardeTeVer  = 60;   
-int grenswaardeTeDicht = 40; 
+int grenswaardeTeDicht = 47; 
 int irThreshold = 60000;
 int partnerTime = 30;
 int hartslagFoutenMax = 5;
