@@ -122,7 +122,7 @@ void enkelEnergie(){
 ```
 
 ### puzzel
-Dit is het eigenlijke deel van de puzzel. Deze staat zal beginnen met een simpele uitleg van de puzzel op de LCD te zetten. Hierna gaat hij kijken of een **scanknop** wordt ingedrukt. Wanneer dit het geval is zal de desbetreffende **RFID scanner** aangesproken worden, hierover later meer. Ten slotte zal het programma in deze staat checken of al het vuilnis is gevonden, indien dit het geval is zal de boolean checkVuilnisTotaal op true gezet worden.
+Dit is het eigenlijke deel van de puzzel. Deze staat zal beginnen met een simpele uitleg van de puzzel op de LCD te zetten. Hierna wordt er gekeken of een **scanknop** wordt ingedrukt. Wanneer dit het geval is zal de desbetreffende **RFID scanner** aangesproken worden, hierover later meer. Ten slotte zal het programma in deze staat checken of al het vuilnis is gevonden, indien dit het geval is zal de boolean checkVuilnisTotaal op true gezet worden.
 
 ```c++
 void puzzel(){
@@ -166,7 +166,7 @@ void puzzel(){
  }}
 ```
 ### gewichtWachter
-Deze staat zal er voor zorgen dat het programma niet verder gaat totdat het **afval** na het scannen in de **juiste vuilnisvak** geworpen wordt. In de functie waar de RFID-scanner wordt opgeroepen zal indien een juist stuk afval gescand wordt een weegschaalnummer meegegeven worden. Op deze weegschaal wal een gewichtsverschil moeten wijn van minstens **10g** voordat de puzzel weer verder kan gaan.
+Deze staat zal er voor zorgen dat het programma niet verder gaat totdat het **afval** na het scannen in de **juiste vuilnisvak** geworpen wordt. In de functie waar de RFID-scanner wordt opgeroepen zal indien een juist stuk afval gescand wordt een weegschaalnummer meegegeven worden. Op deze weegschaal Zal een gewichtsverschil moeten zijn van minstens **10g** voordat de puzzel weer verder kan gaan.
 ```c++
 void gewichtWachter(){ 
     if (codeTekst == false){
@@ -310,8 +310,8 @@ In de callback functie luisteren we naar verschillende boodschappen:
 ## Overige functies
 
 ### scanRFID
-Deze functie wordt opgeroepen wanneer het programma in de puzzel-state is en een scan knop ingedrukt wordt. Eerst wordt de multiplexer ingesteld om te sturen naar de correcte scanner, dan wordt er heb het scherm "Scanning ..." geschreven en daarna wordt er effectief gescand. De scanner zal een halve seconde zoeken achter een tag, wanneer er niets gescand wordt zal de functie beëindigd worden. 
-Als er wel iets gescand wordt zal er gecontroleerd worden of het ID van de tag voorkomt in de rij van tags die bij deze scanner (soort vuilnis) horen. Als dit het geval is zal in de rij deze tag aangepast worden naar [0,0,0,0,0,0,0,0], hierdoor kan deze tag niet 2x gescand worden (In de gebruikelijke werking van de escape room maakt dit niet uit maar in een alternatieve versie waar je energie krijgt voor het correct sorteren wel). Ook zal er een succes geluid afgespeeld worden en zal het programma naar de gewichtWachter-staat gaan. 
+Deze functie wordt opgeroepen wanneer het programma in de puzzel-state is en een scan knop ingedrukt wordt. Eerst wordt de multiplexer ingesteld om te sturen naar de correcte scanner, dan wordt er op het scherm "Scanning ..." afgebeeld en daarna wordt er effectief gescand. De scanner zal een halve seconde zoeken achter een tag, wanneer er niets gescand wordt zal de functie beëindigd worden. 
+Als er wel iets gescand wordt zal er gecontroleerd worden of het ID van de tag voorkomt in de rij van tags die bij deze scanner (soort vuilnis) horen. Als dit het geval is zal in de rij deze tag aangepast worden naar [0,0,0,0,0,0,0,0], hierdoor kan deze tag niet 2x gescand worden. Ook zal er een succes geluid afgespeeld worden en zal het programma naar de gewichtWachter-staat gaan. 
 Wanneer de tag fout is zal er een failure sound afgaan en zal er "kleine fout" naar de buffer gestuurd worden.
 
 ```c++
