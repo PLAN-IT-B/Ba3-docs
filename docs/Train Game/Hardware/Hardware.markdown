@@ -52,7 +52,7 @@ Hieronder volgt een lijst met componenten.
 - Spanningsregelaar: AMS1117
 - Level shifter: BSS138
 - Boot/Enable switches: ?????
-- Barrel jack: ???
+- Barrel jack: Voedingchassisdeel 2,1mm
 - Buck convertor
 - Pin header    
 - Condensatoren
@@ -90,6 +90,5 @@ Het ontwerp van de PCB bevindt zich hieronder. Er zijn nog een paar aanpassingen
 
 |**PCB bovenkant**|**PCB onderkant** |
 |:----:|:----:|
-|![](PCBfront.png)|![](PCBback.png)|
-
-
+|![](FINAL_SCH_front.png)|![](FINAL_SCH_back.png)|
+|[PCB bovenkant groot](https://github.com/PLAN-IT-B/ba3-docs/blob/gh-pages/docs/Train%20Game/Hardware/FINAL_SCH_front.png?raw=true)|[PCB onderkant groot](https://github.com/PLAN-IT-B/ba3-docs/blob/gh-pages/docs/Train%20Game/Hardware/FINAL_SCH_back.png?raw=true)|

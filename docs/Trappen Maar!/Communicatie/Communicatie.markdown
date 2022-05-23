@@ -11,7 +11,7 @@ Elke ronde van het fietsspel begint met het random genereren van een getal tusse
 door de buffer en die stuurt dit naar een willekeurig seven-segment display. Het display toont vervolgens het getal
 gedurende 5 seconden. Tijdens deze 5 seconden stuurt dit segment naar de fiets de boodschappen ”LED1”,
 ”LED2" en ”LED3” die de speler duidelijk maken hoeveel tijd hij of zij nog heeft om het correcte niveau te
-fietsen. Wanneer de 5 seconden voorbij zijn, roept het seven-segment display zijn methode ’sendready()’ op. In
+fietsen. Wanneer de 5 seconden voorbij zijn, roept het seven-segment display zijn methode "sendready()" op. In
 deze methode wordt eerst ”send” gestuurd naar de fiets waarna de fiets het gefietste level doorstuurt naar de
 buffer, hierna worden de ledstrips van dit segment uit gezet.   
 
