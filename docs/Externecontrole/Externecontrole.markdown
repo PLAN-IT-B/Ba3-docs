@@ -11,6 +11,6 @@ Wanneer er een puzzel niet meer werkt moeten we dit kunnen opvangen. Daarom hebb
 
 Hiermee kunnen delen van een puzzel makkelijk overgeslagen worden of kan een puzzel in een bepaalde toestand gebracht worden. Moest er dan een puzzel niet meer werken loopt niet heel de escaperoom vast. 
 
-[Klik hier voor de code](https://github.com/PLAN-IT-B/BachelorProefGarbage/tree/main/Code)
+[Klik hier voor de code](https://github.com/PLAN-IT-B/PLAN-IT-B-general/tree/main/Override)
 
 
