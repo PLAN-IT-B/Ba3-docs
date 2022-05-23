@@ -14,7 +14,7 @@ nav_order: 2
 - [Toetsenbord](#toetsenbord)
 - [LCD](#lcd)
 - [Gewichtssensoren](#gewichtssensoren)
-- [Audio-versterker](#aduioversterker)
+- [Audio-versterker](#audio-versterker)
 
 
 ## Inleiding
@@ -29,7 +29,7 @@ Deze randapparaten zijn:
 - 1 luidspreker
 - 3 knoppen
 
-Deze randapparaten willen we aansturen aan de hand van een  ESP32-WROOM-32E-ic. Deze zal werken op een voedingsspanning van 3.3 volt geleverd door een powerbank via een micro-usb op 5V. Om deze 5V om te zetten naar 3.3V gebruiken we een LDO samen met 2 ontkoppelcondensatoren van 10uF.
+Deze randapparaten willen we aansturen aan de hand van een  ESP32-WROOM-32E microcontroller. Deze zal werken op een voedingsspanning van 3.3 volt geleverd door een powerbank via een micro-usb op 5V. Om deze 5V om te zetten naar 3.3V gebruiken we een LDO samen met 2 ontkoppelcondensatoren van 10uF.
 Daarnaast hebben we om de ESP32 te laten booten drukknoppen, debounce condensatoren en weerstanden nodig die zijn aangesloten volgens de kicad schema's. Ook hebben we pinheaders nodig om GPIO's naar buiten te kunnen brengen.
 Om de randapparatuur te kunnen aansturen zullen er verder ook nog een I<sup>2</sup>C - multiplexer en twee level shifters aanwezig moeten zijn op de PCB.
 De level shifters moeten aanwezig zijn om 3.3 V I<sup>2</sup>C signalen om te zetten naar 5 V signalen.
@@ -175,7 +175,7 @@ De sensor is verbonden aan de amplifier op deze manier:
 
 We wouden dat onze puzzel gebruiksvriendelijk was en deze genoeg indicatoren had om te weten of de gebruiker iets goed of slecht deed. Al snel was er het idee om een speaker te gebruiken die deze indicaties kon geven. We merkten dat wanneer we deze speaker rechtstreeks op een gpio aansloten we een zwak en minder helder geluid kregen. Ook vonden we het handig om de mogelijkheid te hebben om het volume van het geluid aan te passen. Daarom hebben we gekozen voor een audioversterker (PAM8403) met regelbaar volume. De datasheet van deze chip is [hier](PAM8403.pdf) te vinden. 
 
-Omdat wij niet goed wisten hoe groot de versterking moest zijn hebben we voor de gemakkelijke oplossing gekozen en een bordje met regelbaar volume gekozen. Wanneer de nodige versterking geweten is zou deze versterker rechtstreeks op de PCB geïmplementeerd kunnen worden. 
+Omdat wij niet goed wisten hoe groot de versterking moest zijn hebben we dit niet rechtstreeks op onze pcb geplaatst. Wanneer de nodige versterking geweten is zou deze versterker rechtstreeks op de PCB geïmplementeerd kunnen worden. 
 
 ![](PAM8403t.jfif)
 
