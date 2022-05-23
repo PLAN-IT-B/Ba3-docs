@@ -10,7 +10,7 @@ nav_order: 2
 
 ---
 
-## Waarom
+## Waarom?
 
 ---
 
@@ -20,7 +20,7 @@ De startknop is vanzelfsprekend handig. Voor het startsignaal te geven en voor d
 Er worden namelijk twee startsignalen gestuurd. Een startsignaal naar de wristbands voor hun leds aan te zetten. Maar ook een startsignaal naar de garbage puzzel omdat zij via hun speaker een buzz lawaai gaan laten afspelen.
 
 ---
-## Wat doen ze
+## Wat doen ze?
 ---
 
 De reset knop stuurt een message *Reset escaperoom* naar een bepaalde directory. Iedereen luistert naar deze directory, en iedereen zal resetten. Nadat elke individuele puzzel klaar is, zal elke puzzel dit signaleren. Als elke esp in de escaproom dit correct uitvoert, weten we dat de escaproom klaar is om te spelen. De led van de startknop zal licht geven, en de startknop zal werken.
