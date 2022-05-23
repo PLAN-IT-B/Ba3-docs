@@ -59,7 +59,10 @@ Omdat de kleurencode van dit spel niet zo van zelfsprekend is, wordt er een lege
 
 ![](LEGENDE.png)
 
+[Legende in github](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen/Afbeeldingen%20Realisatie/LEGENDE.png?raw=true)
+
 
 Daarnaast wordt er vermeld dat de wristbands in een bepaalde volgorde paars flikkeren. Dit ziet er uit als volgt:
 
 ![](TIP.png)
+[Tip in github](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen/Afbeeldingen%20Realisatie/TIP.png?raw=true)
