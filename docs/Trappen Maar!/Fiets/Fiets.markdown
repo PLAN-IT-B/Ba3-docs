@@ -60,7 +60,7 @@ Deze code bestaat vooral nog uit een 'control' functie die vanuit de loop opgero
 * send: wanneer een 7 segment 5 seconden gebrand heeft, moet de fiets de op dat moment gefietste snelheid doorsturen naar de buffer die dan controleert of de speler aan het correcte tempo aan het fietsen was. 
 * led1, led2 en led3: de fiets zal één voor één drie ledjes laten branden. Deze laten de speler weten hoelang nog te hebben alvorens het 7-segment display uit gaat en ze dus de correcte snelheid moeten bereikt hebben. 
 * correct/false: wanneer de speler correct/foutief gefietst heeft, wordt een groene/rode led aangezet waarna die 1 seconde brandt en daarna samen met led1, led2 en led3 uitgezet wordt. Hierna wordt naar de buffer "newNumber" gestuurd waarna deze een nieuw seven-segment display de opdracht zal geven een nummer weer te geven. 
-* resetFiets: nu wordt de fiets gereset. Hierna stuurt die naar de buffer dat het resetten voltooid is. De buffer moet namelijk als laatste opgestart/gereset worden om een correcte werking van het spel te verzekeren.
+* resetFiets: dit wordt gestuurd door de buffer en reset de fiets.
     
 [Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/Volledige%20en%20werkende%20code/MeasuringDcVoltageWithCommunicationBuffer)
 
