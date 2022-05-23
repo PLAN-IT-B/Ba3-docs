@@ -44,7 +44,7 @@ Dit stukje zorgt er voor dat de backlight van de LCD maar 1* wordt opgezet nanda
 Deze staat heeft de hoogste prioriteit. Wanneer het resetsignaal is ontvangen zal de ESP resetten.
 
 ### geenEnergie
-Wanneer de buffer op rood of oranje staat zal het programma in deze staat komen. De backlight van de LCD zal uit blijven en het programma zal niet meer naar inputs luisteren (buiten de communicatie).
+Wanneer de buffer op **rood of oranje** staat zal het programma in deze staat komen. De backlight van de LCD zal uit blijven en het programma zal niet meer naar inputs luisteren (buiten de communicatie).
 ```c++
 void geenEnergie(){
 lcd.noBacklight();
@@ -122,7 +122,7 @@ void enkelEnergie(){
 ```
 
 ### puzzel
-Dit is het eigenlijke deel van de puzzel. Deze staat zal beginnen met een simpele uitleg van de puzzel op de LCD te zetten. Hierna gaat hij kijken of een scanknop wordt ingedrukt. Wanneer dit het geval is zal de desbetreffende RFID scanner aangesproken worden, hierover later meer. Ten slotte zal het programma in deze staat checken of al het vuilnis al is gevonden, indien dit het geval is zal de boolean checkVuilnisTotaal op true gezet worden.
+Dit is het eigenlijke deel van de puzzel. Deze staat zal beginnen met een simpele uitleg van de puzzel op de LCD te zetten. Hierna gaat hij kijken of een **scanknop** wordt ingedrukt. Wanneer dit het geval is zal de desbetreffende **RFID scanner** aangesproken worden, hierover later meer. Ten slotte zal het programma in deze staat checken of al het vuilnis is gevonden, indien dit het geval is zal de boolean checkVuilnisTotaal op true gezet worden.
 
 ```c++
 void puzzel(){
@@ -166,7 +166,7 @@ void puzzel(){
  }}
 ```
 ### gewichtWachter
-Deze staat zal er voor zorgen dat het programma niet verder gaat totdat het afval na het scannen in de juiste vuilnisvak geworpen wordt. In de functie waar de RFID-scanner wordt opgeroepen zal indien een juist stuk afval gescand wordt een weegschaalnummer meegegeven worden. Op deze weegschaal wal een gewichtsverschil moeten wijn van minstens 10g voordat de puzzel weer verder kan gaan.
+Deze staat zal er voor zorgen dat het programma niet verder gaat totdat het **afval** na het scannen in de **juiste vuilnisvak** geworpen wordt. In de functie waar de RFID-scanner wordt opgeroepen zal indien een juist stuk afval gescand wordt een weegschaalnummer meegegeven worden. Op deze weegschaal wal een gewichtsverschil moeten wijn van minstens **10g** voordat de puzzel weer verder kan gaan.
 ```c++
 void gewichtWachter(){ 
     if (codeTekst == false){
@@ -217,7 +217,7 @@ void gewichtWachter(){
 
 
 ### eindePuzzel
-Wanneer al het vuilnis in de vuilnisbak is zal deze staat activeren. Het totale gewicht van alle weegschalen zal slechts 1x genomen worden en zal zo op het LCD scherm worden geprint. De som van deze gewichten is de code die naar het UV-licht zal gestuurd worden. De puzzel is hier op zijn einde. Wanneer er niet genoeg energie is zal het scherm nog uit gaan maar op een reset na is er niets meer mogelijk om de eindcode en het eindbeeld te veranderen.
+Wanneer al het vuilnis in de vuilnisbak is zal deze staat activeren. Het **totale gewicht** van alle weegschalen zal slechts 1x genomen worden en zal zo op het LCD scherm worden geprint. De som van deze gewichten is de code die naar het UV-licht zal gestuurd worden. De puzzel is hier op zijn einde. Wanneer er niet genoeg energie is zal het scherm nog uit gaan maar op een reset na is er niets meer mogelijk om de eindcode en het eindbeeld te veranderen.
 ```c++
 void eindePuzzel(){
 
