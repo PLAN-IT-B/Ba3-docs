@@ -45,3 +45,5 @@ Tussen deze twee delen, is er een periode waar ze de houten puzzel stukken moete
 Als afleiding en ook als inkleding hebben we brochures en poster geregeld die ook in de kamer zullen liggen. (Brochures en posters over de sustainable development goals.) U kunt [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/Te%20printen%20documenten) deze bestanden terugvinden.
 
 We verwachten dat dit deel ongeveer 15 minuten duurt. Inclusief de afleiding in de brochure en inclusief de tijd van het zoeken achter de puzzel stukken.
+
+Na een paar keer de escaperoom te laten spelen door testpersonen, bleek het dat ze veel in die brochure zaten te zoeken. Om dit te verminderen, heb ik een [tip](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20eindpuzzel/Te%20printen%20documenten/Tip.pdf) verstopt in het lokaal die zegt dat deze brochure niet belangrijk is.
