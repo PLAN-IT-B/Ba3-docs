@@ -39,7 +39,7 @@ Alle documentatie zoals de lasercut files, solidworks files en de STL files van 
 
 De SDG die ik wou aanhalen is SDG 4 Quality Education. Dit staat voor qualiteitvolle educatie op alle scholen over gans de wereld. Maar wij gaan ze educeren over de SDG's. We willen dat ze de richtlijnen weten. We willen hun bewust maken dat we moeten streven naar een betere manier van leven.
 
-Dit gaan we doen, door brochures af te printen, en posters op te hangen over SDG's. In een escaperoom gaan mensen altijd opzoek in de blaadjes achter tips. Dus als we blaadjes over de SDG's in de ruimte leggen, gaan ze automatisch de blaadjes bekijken en lezen. 
+Dit gaan we doen, door brochures en posters over de SDG's af te printen en op te hangen. In een escaperoom gaan mensen altijd opzoek in de blaadjes achter tips. Dus als we blaadjes over de SDG's in de ruimte leggen, zullen de spelers automatisch de blaadjes bekijken en lezen. 
 
 Deze documenten bestaan uit één brochure en 4 posters (die we hebben gelamineerd voor kwaliteit).
 
