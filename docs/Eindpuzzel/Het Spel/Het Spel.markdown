@@ -16,6 +16,8 @@ nav_order: 1
 
 Het doel van mijn volledige opdracht is om een klein maar leuke puzzel te maken die zal dienen als einde voor onze escaperoom. Dit gelinkt aan het thema: de Sustainable Development Goals.
 
+De laatste opdrachten heb ik zeer duidelijk gemaakt, zodat ze deze snel kunnen oplossen. De spelers zullen denken dat ze slim zijn en zullen zo met een goed gevoel uit de escaperoom komen. 
+
 ---
 
 ## De flow van het spel:
