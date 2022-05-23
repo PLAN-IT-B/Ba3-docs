@@ -17,7 +17,7 @@ nav_order: 2
 Als we escaperoom willen starten, moeten we eerst alles resetten. Dit zou veel werk zijn om handmatig te doen bij elke esp. Om deze tijd uit te sparen kwamen we tot de functionaliteit van de reset knop. 
 
 De startknop is vanzelfsprekend handig. Voor het startsignaal te geven en voor de timer starten.
-(Er word ook een startsignaal gestuurd naar de wristbands omdat dan de leds van hun bandjes zullen aangaan.)
+Er worden namelijk twee startsignalen gestuurd. Een startsignaal naar de wristbands voor hun leds aan te zetten. Maar ook een startsignaal naar de garbage puzzel omdat zij via hun speaker een buzz lawaai gaan laten afspelen.
 
 ---
 ## Wat doen ze
