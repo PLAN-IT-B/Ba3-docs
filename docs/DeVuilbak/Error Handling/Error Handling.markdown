@@ -6,7 +6,7 @@ grand_parent: Puzzels
 nav_order: 10
 ---
 # Error Handling
-## Mogelijke problemen omwille van hardware
+## Mogelijke problemen
 ### RFID scanner
 Tijdens het testen hebben we gemerkt dat soms enkel de restafval scanner het niet doet. Na een reset werkt dit wel weer. We vermoeden dat dit komt doordat onze draadjes niet robuust genoeg verbonden zijn en dit soms even los komt waardoor de communicatie wordt verbroken, hierdoor zal de scanner niet meer weten wanneer hij moet scannen. Normaal gezien zou dit geen probleem mogen zijn aangezien de scanner via het resetsignaal na elke scan weer wordt gereset maar omdat wij deze niet hebben verbonden kan hij dit niet doen. Een mogelijkheid om dit te verbeteren zou zijn om draadjes rechtstreeks aan de RFID module te solderen of om de reset wel te verbinden. Helaas kunnen we deze fout niet opvangen.
 
@@ -16,4 +16,9 @@ Het is mogelijk om nadat er vuilnis in een zak is gegooid dit er terug uit te ha
 Het probleem dat er na het scannen en ander stuk vuil in de zak kan gesmeten worden kan worden opgelost door aan elke tag een bepaald gewicht te koppelen dat overeen komt met het voorwerp waar de tag aan zit.
 
 Uiteindelijk zullen deze methodes om het spel te omzeilen niet direct voor problemen zorgen in het verdere verloop van de escaperoom aangezien op het einde de totale gewichten slechts 1x worden gelezen en deze waarden worden afgebeeld op het LCD.
+
+## Oplossing
+Helaas kunnen we weinig doen om fouten op te vangen als het neer komt op hardware. Daarom hebben we in de ESP die extern communicatie kan overnemen enkele functies geschreven die de werking van onze puzzel kunnen overnemen. We kunnen via deze ESP volgende zaken doen om onze fouten op te vangen:
+- Ingangscode van Wristbands of train-game overlappen of zelfs overbodig maken
+- Outputcode van 1,234 Kg geven
 
