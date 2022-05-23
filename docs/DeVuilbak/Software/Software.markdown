@@ -53,7 +53,7 @@ lcd.noBacklight();
 }
 ```
 ### enkelEnergie
-In deze staat zal het programma enkel luisteren naar input van het toetsenbord. Het programma zal aan de hand van de de inputs van het toetsenbord een array vormen, eventuele typfouten kunnen gedelete worden door de '*'-toets. Wanneer de gebruiken vermoed de juiste code ingevuld te hebben kan deze op '#' drukken. Wanneer er dan 5 cijfers zijn ingegeven zal deze array vergeleken worden met de verkrege code-array van de wristbands en de train-game, als deze overeen komt zal de LCD "Code correct" afbeelden, zal er een succes-sound worden afgespeeld en zal de boolean actief op true worden gezet.
+In deze staat zal het programma enkel luisteren naar input van het toetsenbord. Het programma zal aan de hand van de de inputs van het toetsenbord een array vormen, eventuele typfouten kunnen gedelete worden door de '*'-toets. Wanneer de gebruiken vermoed de juiste code ingevuld te hebben kan deze op '#' drukken. Wanneer er dan 5 cijfers zijn ingegeven zal deze array vergeleken worden met de verkregen code-array van de wristbands en de train-game, als deze overeen komt zal de LCD "Code correct" afbeelden, zal er een succes-sound worden afgespeeld en zal de boolean actief op true worden gezet.
 
 ```c++
 void enkelEnergie(){
