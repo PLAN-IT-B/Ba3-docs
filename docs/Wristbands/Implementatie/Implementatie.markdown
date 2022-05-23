@@ -52,3 +52,14 @@ Voor de afwerking hebben we gaatje voor de led afgeplakt met wat doorzichtig pla
 ### De Ruimte
 
 Aangezien onze modules afstanden bekijken ten opzicht van elkaar is het aangewezen om een ruimte te voorzien waar de spelers effectief afstand van elkaar kunnen houden. Wanneer men de escaperoom zou uitbereiden en een grotere kamer zou nodig hebben, kan men de variabelen *grensWaardeTeVer* en *grensWaardeTeDicht* in de code aanpassen tot men waarden komt die voldoende aangepast zijn aan ruimte.
+
+### Extra blaadjes in de ruimte
+
+Omdat de kleurencode van dit spel niet zo van zelfsprekend is, wordt er een legende opgehangen in de kamer. Deze ziet er uit als volgt: 
+
+![](LEGENDE.png)
+
+
+Daarnaast wordt er vermeld dat de wristbands in een bepaalde volgorde paars flikkeren. Dit ziet er uit als volgt:
+
+![](TIP.png)
