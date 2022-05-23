@@ -37,7 +37,7 @@ De code van de displays is veel minder uitgebreid dan deze van de fiets en buffe
 
 
 
-[Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/Volledige%20en%20werkende%20code/Segment1)
+[Visit our Github to find our code!](https://github.com/PLAN-IT-B/BachelorProefTrappenMaar/tree/main/Volledige%20en%20werkende%20code/7-segment%20displays/Segment1)
 
 ## realisatie
 ![](7segment.jpg)
