@@ -8,9 +8,8 @@ nav_order: 4
 # Buffer
 ## Algemeen
 De buffer bestaat uit 16 ledstrips waarvan de onderste 5 rood zijn, de middelste 6 oranje en de bovenste 5
-groen. Afhankelijk van de score van de spelers gaat er een ander aantal ledstrips branden en komt het spel in
-een bepaalde kleurenzone (rood, oranje of groen) terecht. De kleurenzone bepaalt welke andere escaperoom puzzels
-gespeeld kunnen worden/ welke puzzels geblokkeerd zijn.
+groen. Het aantal ledstrip die gaan branden is afhankelijk van de score van de spelers waardoor het spel in een bepaalde kleurenzone terecht komt. De kleurenzone bepaalt welke andere escaperoom puzzels
+gespeeld kunnen worden en welke puzzels geblokkeerd zijn.
 
 ## KiCad project
 ### Elektrisch schema
@@ -19,7 +18,7 @@ gespeeld kunnen worden/ welke puzzels geblokkeerd zijn.
 ![](2022-05-13-21-31-51.png)
 ![](2022-05-13-21-32-12.png)
 ### Aansluitingen en onderdelen
-De buffer heeft heel wat aansluitingen die nodig zijn om de 16 energieniveaus individueel te kunnen bedienen. Gezien deze is opgebouwd uit ledstrips die een spanning van 12 volt vereisen, was het niet mogelijk deze rechtstreeks te voeden via de esp. Het was dan ook nodig om te werken met een externe voedingsbron die de ledstrips voedt. Om toch de ledstrips aan- en uit te kunnen schakelen, was het aangewezen te werken met MOSFETs (hier type 2N7002). De gate van die componenten kan dan rechtstreeks verbonden worden met een unieke GPIO-pin van de esp. Vervolgens is het een kwestie van drain en source te verbinden met een R, G of B pin respectievelijk ground. Zo zullen deze N-type MOSFET's een gesloten lus vormen naar ground en de ledstrip laten branden wanneer die GPIO-pin hoog staat. Op deze manier kunnen de kleuren rood en groen eenvoudig gerealiseerd worden. Om geel/oranje te bekomen, moet er een extra MOSFET en GPIO-pin gebruikt worden die een duty-cycle genereren. Wanneer alle G-aansluitingen van de ledstrips in zone oranje via hun eigen MOSFET op deze duty-cycle-MOSFET worden aangesloten alvorens naar ground te gaan, zal groen heel snel knipperen. Op deze manier kan, in combinatie met het wel constant branden (wanneer gewenst) van de rode LEDs op die strips, oranje/geel licht gecreëerd worden.
+De buffer heeft heel wat aansluitingen die nodig zijn om de 16 energieniveaus individueel te kunnen bedienen. Gezien deze is opgebouwd uit ledstrips die een spanning van 12 volt vereisen, was het niet mogelijk deze rechtstreeks te voeden via de ESP. Het was dan ook nodig om te werken met een externe voedingsbron die de ledstrips voedt. Om de ledstrips toch aan- en uit te kunnen schakelen, was het aangewezen te werken met MOSFETs (wij gebruikten het type 2N7002). De gate van die componenten kan dan rechtstreeks verbonden worden met een unieke GPIO-pin van de ESP. Vervolgens moeten we enkel nog de drain en source te verbinden met een R, G of B pin die functioneren al ground. Zo zullen deze N-type MOSFET's een gesloten lus vormen naar ground en de ledstrip laten branden wanneer die GPIO-pin hoog staat. Op deze manier kunnen de kleuren rood en groen eenvoudig gerealiseerd worden. Om geel/oranje te bekomen, moet er een extra MOSFET en GPIO-pin gebruikt worden die een duty-cycle genereren. Wanneer alle G-aansluitingen van de ledstrips in zone oranje via hun eigen MOSFET op deze duty-cycle-MOSFET worden aangesloten alvorens naar ground te gaan, zal groen heel snel knipperen. Op deze manier kan, in combinatie met het wel constant branden (wanneer gewenst) van de rode LEDs op die strips, oranje/geel licht gecreëerd worden.
 
 ### voedingsspanning
 Aangezien we hier met ordinaire ledstrips werken, zijn we genoodzaakt gebruik te maken van 12V. We werken hier

@@ -10,7 +10,7 @@ nav_order: 6
 
 Dit omvat de implementatie en de eindresulaten.
 
-Het is opgeleed in 4 delen:
+Het is opgedeeld in 4 delen:
 * [UV-slot box](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#uv-slot-box)
 * [Documentatie SDG's](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#documentatie-sdgs)
 * [UV-puzzel](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#uv-puzzel)
@@ -19,7 +19,7 @@ Het is opgeleed in 4 delen:
 ---
 ## UV-slot box
 ---
-Dit is een houten kistje, voorzien met mounting holes, plaats voor het lcd scherm, plaats voor een 4x3keypad en een extra gat waar kabels door kunnen. Deze kist is gelazecut uit een houten MDF plaat met dikte 6mm.
+Dit is een houten kistje, voorzien met mounting holes, plaats voor het lcd scherm, plaats voor een 4x3keypad en een extra gat waar kabels door kunnen. Deze kist is gelasercut uit minder dan één houten MDF plaat (60x30cm) met dikte 6mm.
 
 **Vooraanzicht**
 ![](UV_slot_box.png) 
@@ -29,7 +29,7 @@ Dit gaan we vanachter op de fiets van trappenmaar bevestigen. U kunt de doos ter
 **Eindresultaat**
 ![](Uv-slot-implementatie.jpg) 
 
-[Alle files van de UV-slot box kunt u hier vinden.](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20UV-slot/UV-slot%20Box)
+Alle documentatie zoals de lasercut files, solidworks files en de STL files van het UV-slot kunt u [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20UV-slot/UV-slot%20Box) vinden.
 
 
 
@@ -63,7 +63,7 @@ De puzzel is zo ontworpen zodat de puzzelstukken er maar op één volgorde inkun
 **Bordje UV-puzzel**
 ![](UV-puzzel.png)
 
-Dit bordje bestaat uit één gelasercutte plaat, en één kartone achterkant die ertegen is gelijmd. Op de puzzelstukjes zelf staat er met de UV-vloeistof de cijfers van de eindcode. 
+Dit bordje bestaat uit één gelasercutte plaat, en één kartone achterkant die ertegen is gelijmd. Op de puzzelstukjes zelf staat er met de UV-vloeistof de cijfers van de eindcode. Klik [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/UV-puzzel) voor de solidworks, stl en lasercut files van dit bordje te bekijken.
 
 **Eindresultaat**
 ![](Uv-puzzel-implementatie.jpg)
@@ -72,8 +72,6 @@ Voor de eindcode hebben we 2603 gekozen. Of 26/03 dit is de overshoot day van di
 
 Als u meer informatie wilt over overshoot day kunt deze [hier](https://wwf.be/nl/rapporten/overshoot-dag-belgie#:~:text=Earth%20Overshoot%20Day%20is%20de,komt%20hij%20zelfs%20nóg%20vroeger.) vinden.
 
-[De files van deze puzzel vindt u hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/UV-puzzel)
-
 ---
 ## Puzzlebox
 ---
@@ -81,6 +79,8 @@ Als u meer informatie wilt over overshoot day kunt deze [hier](https://wwf.be/nl
 Aangezien ik geen deurslot ging kunnen realiseren heb ik besloten een soort puzzlebox te maken. Hieronder ziet u het design waarvoor ik heb gekozen.
 
 We hebben hier gebruik gemaakt van de lasercutter en van de 3D printers die we mochten gebruiken.
+De afmetingen van de doos zijn speciaal gekozen zodat het perfect op twee MDF platen zou passen van 60x30cm.
+De platen hebben een dikte van 6mm.
 
 **Voorkant puzzlebox**
 ![](puzzlebox.png) 
@@ -99,10 +99,16 @@ Als we nu langs de achterkant kijken, zien we aan de linkerkant van de doos, hoe
 
 Uit deze foto kunt u afleiden hoe we de solenoïde gaan monteren. Dit doen we in het middenste compartiment, en we gaan ervoor zorgen dat het slot uitsteekt tot het rechter compartiment. We gaan aan het luikje die uit de deur kan gehaald worden. Een 3D geprinte lockfit bevestigen. Het is zo ontworpen dat we de luik altijd erin kunnen steken, maar pas enkel kunnen uithalen als de solenoïde onder stroom staat, en dus is ingetrokken.
 
+Klik [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20eindpuzzel/PuzzleBox2/STL%20files%20Puzzlebox/LockFit.STL) voor het 3D model van de lockfit te bekijken.
+
 **Eindresultaat**
 ![](Puzzlebox-implementatie.jpg)
 
-[Alle documentatie over de puzzlebox kunt u hier vinden](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/PuzzleBox2)
+Alle documentatie zoals de lasercut files, solidworks files en de STL files van de puzzlebox kunt u [hier](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/tree/main/Documentatie%20eindpuzzel/PuzzleBox2) vinden.
+
+
+
+
 
 
 ---
@@ -112,7 +118,5 @@ Uit deze foto kunt u afleiden hoe we de solenoïde gaan monteren. Dit doen we in
 ---
 
 Alle documentatie zoals de soldiworks bestanden, lasercut bestanden, flowcharts, word documenten, planning,... kunt u terugvinden op mijn [github pagina](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde).
-
-Deze bachlorproef was een extreem leuke ervaring en heeft me doen herinneren waarom ik deze richting leuk vind.
 
 Het volledige deel **Puzzels -> Eindpuzzel** en het algemeen deel **Communicatie** is geschreven door Henri Vandeputte.

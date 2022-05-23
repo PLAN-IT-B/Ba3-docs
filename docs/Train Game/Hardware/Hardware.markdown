@@ -17,20 +17,26 @@ We bouwden een grote kaart waarop de treintrajecten en steden werden weergegeven
 - Gelasercut spelbord   : Kartonplaat
 
 ### Joystick
-![JOYSTICK](analog-joystick.png)
+
+|**Joystick**|
+|:----:|
+|![JOYSTICK](analog-joystick.png)|
 
 Deze joystick heeft vijf pinnen. Twee pinnen zijn voor de voeding: 5V en GND. De drie andere pinnen geven data door. De joystick kan over twee assen bewegen, de x-as en de y-as. Twee pinnen worden gebruikt om een signaal tussen 0 en 4095 te sturen, afhankelijk van de positie van de joystick. De laatste pin bevat het signaal van de drukknop, deze genereert een signaal dat 0 of niet 0 is, afhankelijk of de knop wordt ingedrukt of niet. We maken geen gebruik van de drukknop.
 
 ### LEDS
-![JOYSTICK](647880_1.png)
+
+|**Leds**|
+|:----:|
+|![LEDS](647880_1.png)|
 
 Voor de leds maken we gebruik van WS2811 LEDS. Deze hebben drie aansluitingen: 5 V, GND en data. Het datasignaal moet ook vijf volt bedragen om de leds correct aan te sturen. Het datasignaal van de ESP bedraagt 3,3 volt, we gebruiken een level shifter om het signaal te versterken. De LEDS kunnen elk apart worden aangestuurd. De ledlampjes zijn per vijftig verbonden, er is een koppelstuk voorzien om meerdere ledstrings met elkaar te verbinden. Wij maken gebruik van twee ledstrings zodat we een array van 100 leds bekomen.
 
 ### LCD
 
-![LCDa](lcdisplay_spi_tft_a-web.png)
-![LCDb](lcdisplay_spi_tft_b-web.png)
-![LCDc](lcdisplay_spi_tft_c-web.png)
+|**LCD**|
+|:----:|
+|![LCD](lcdisplay_spi_tft_a-web.png)|![LCDb](lcdisplay_spi_tft_b-web.png)|![LCDc](lcdisplay_spi_tft_c-web.png)|
 
 
 ### Voeding
@@ -46,7 +52,7 @@ Hieronder volgt een lijst met componenten.
 - Spanningsregelaar: AMS1117
 - Level shifter: BSS138
 - Boot/Enable switches: ?????
-- Barrel jack: ???
+- Barrel jack: Voedingchassisdeel 2,1mm
 - Buck convertor
 - Pin header    
 - Condensatoren
@@ -55,20 +61,34 @@ Hieronder volgt een lijst met componenten.
 
 
 ### ESP 
-![ESP](ESPsch.png)
+
+|**ESP**|
+|:----:|
+|![ESP](ESPsch.png)|
 
 ### Buck convertor & voeding
-![BUCK CONVERTOR](Buck12V.png)
+
+|**Buck Convertor**|
+|:----:|
+|![BUCK CONVERTOR](Buck12V.png)|
 
 ### Aansluiting pinheaders
-![PINOUT](Pinheaders.png)
+
+|**Aansluiting pinheaders**|
+|:----:|
+|![PINOUT](Pinheaders.png)|
 
 ### Spanningsregelaar
-![SPANNINGSREGELAAR](spanningsregelaar.png)
 
+|**Spanningsregelaar**|
+|:----:|
+|![SPANNINGSREGELAAR](spanningsregelaar.png)|
 
 ### PCB
 
-Het ontwerp van de PCB bevindt zich hieronder. Er zijn nog een paar aanpassingen gebeurt om fouten op te lossen, deze zullen we verder verklaren. 
-![](PCBfront.png)
-![](PCBback.png)
+Het ontwerp van de PCB bevindt zich hieronder. Er zijn nog een paar aanpassingen gebeurt om fouten op te lossen, deze zullen we verder verklaren.
+
+|**PCB bovenkant**|**PCB onderkant** |
+|:----:|:----:|
+|![](FINAL_SCH_front.png)|![](FINAL_SCH_back.png)|
+|[PCB bovenkant groot](https://github.com/PLAN-IT-B/ba3-docs/blob/gh-pages/docs/Train%20Game/Hardware/FINAL_SCH_front.png?raw=true)|[PCB onderkant groot](https://github.com/PLAN-IT-B/ba3-docs/blob/gh-pages/docs/Train%20Game/Hardware/FINAL_SCH_back.png?raw=true)|

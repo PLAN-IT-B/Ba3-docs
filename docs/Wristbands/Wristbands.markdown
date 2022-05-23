@@ -15,7 +15,6 @@ Een belangrijk werkpunt binnen de SDG's is het veilig voelen op straat wanneer m
 
 <br/><br/>
 
-![](4Wristbands1.jpg)
 
 
 

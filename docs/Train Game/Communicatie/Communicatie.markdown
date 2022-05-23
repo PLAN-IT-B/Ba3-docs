@@ -3,14 +3,16 @@ layout: default
 title: Communicatie
 parent: Train Game
 grand_parent: Puzzels
-nav_order: 4
+nav_order: 5
 ---
 # Communicatie
 
 Communicatie is essentiëel voor het verloop van het spel. Sommige puzzels kunnen pas gespeeld worden als er andere zijn opgelost. We communiceren met drie puzzels aan de hand van de MQTT server. Onze puzzel moet zowel statusupdates kunnen versturen als verzenden. We maken gebruik van de "client.publish" en "client.subscribe" commandos. 
 
-
-![Communicatie schema](Communicatie_cut.png)
+||
+|:----:|
+|![Communicatie schema](Communicatie_cut.png)|
+|**Commmunicatie schema**|
 
 ## Eindpuzzel
 We ontvangen het resetsignaal van de eindpuzzel. Hiervoor luisteren we naar de “controlpanel/reset” directory. Bij het ontvangen van een resetsignaal komt onze puzzel terug in zijn begintoestand terecht. De PCB wordt softwarematig gereset, dit is te vergelijken met een druk op de resetknop. Eenmaal gereset stuurt onze puzzel een antwoord zodat de eindpuzzel node weet dat er gereset werd en dat onze game klaarstaat. We sturen "Traingame Ready" naar de “controlpanel/status” directory. 

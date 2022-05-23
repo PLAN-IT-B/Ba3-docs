@@ -14,7 +14,7 @@ nav_order: 1
 
 ---   
 
-Het doel van mijn volledige opdracht is om een klein maar leuke puzzel te maken die zal dienen als einde voor onze escape room. Dit gelinkt aan het thema: de Sustainable Development Goals.
+Het doel van mijn volledige opdracht is om een klein maar leuke puzzel te maken die zal dienen als einde voor onze escaperoom. Dit gelinkt aan het thema: de Sustainable Development Goals.
 
 ---
 
@@ -24,11 +24,11 @@ Het doel van mijn volledige opdracht is om een klein maar leuke puzzel te maken 
 
 Na het oplossen van de garbage puzzel, krijgen ze een gewicht op een lcd te zien. Het gewicht van hun afval, zullen ze als code moeten ingeven op het UV-slot.
 
-Na het ingeven van deze code, zal er iets veranderd zijn. Nu zal bij het fietsen, het voorlicht van de fiets branden. Geen gewoon voorlicht maar een UV-licht. Nu ze dingen kunnen zien, die ervoor niet zichtbaar waren. Namelijk een code geschreven op een puzzel.
+Na het ingeven van deze code, zal er iets veranderd zijn. Nu zal bij het fietsen, het voorlicht van de fiets branden. Geen gewoon voorlicht maar een UV-licht. Nu kunnen ze dingen zien, die ervoor niet zichtbaar waren. Namelijk een code geschreven op een puzzel.
 
 Deze puzzel is vanaf het begin van de escaperoom oplosbaar. De puzzelstukken en het bordje waarin ze het moeten leggen, zullen verstopt liggen in de ruimte. Wanneer ze deze puzzel voor het UV-licht houden zullen ze de code van het eindslot zien. 
 
-Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hun gsms teruig uit de puzzlebox halen. De escape room is gedaan!
+Wanneer ze deze code ingeven op de puzzlebox, zal de timer stoppen, kunnen ze hun gsm's terug uit de puzzlebox halen. De escaperoom is gedaan!
 
 **Grafische voorstelling via flowcharts**
 
