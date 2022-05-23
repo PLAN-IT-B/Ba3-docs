@@ -10,17 +10,17 @@ nav_order: 2
 
 ---
 
-## Waarom
+## Waarom?
 
 ---
 
 Als we escaperoom willen starten, moeten we eerst alles resetten. Dit zou veel werk zijn om handmatig te doen bij elke esp. Om deze tijd uit te sparen kwamen we tot de functionaliteit van de reset knop. 
 
 De startknop is vanzelfsprekend handig. Voor het startsignaal te geven en voor de timer starten.
-(Er word ook een startsignaal gestuurd naar de wristbands omdat dan de leds van hun bandjes zullen aangaan.)
+Er worden namelijk twee startsignalen gestuurd. Een startsignaal naar de wristbands voor hun leds aan te zetten. Maar ook een startsignaal naar de garbage puzzel omdat zij via hun speaker een buzz lawaai gaan laten afspelen.
 
 ---
-## Wat doen ze
+## Wat doen ze?
 ---
 
 De reset knop stuurt een message *Reset escaperoom* naar een bepaalde directory. Iedereen luistert naar deze directory, en iedereen zal resetten. Nadat elke individuele puzzel klaar is, zal elke puzzel dit signaleren. Als elke esp in de escaproom dit correct uitvoert, weten we dat de escaproom klaar is om te spelen. De led van de startknop zal licht geven, en de startknop zal werken.
@@ -29,5 +29,5 @@ De startknop is eenvoudiger. Bij het indrukken gaan we eerst kijken of de escape
 
 **Flowcharts**
 
-![](Flowchart_reset-start_werking.png)
-[Klik hier voor deze figuur in het groot.](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20eindpuzzel/Blokschema%20Reset-Start_escape_room.png)
+![](Blokschema-Reset-Start.svg)
+[Klik hier voor deze figuur in het groot.](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Documentatie%20eindpuzzel/Blokschema-Reset-Start.svg)

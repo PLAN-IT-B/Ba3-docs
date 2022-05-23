@@ -10,7 +10,7 @@ nav_order: 6
 
 Dit omvat de implementatie en de eindresulaten.
 
-Het is opgeleed in 4 delen:
+Het is opgedeeld in 4 delen:
 * [UV-slot box](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#uv-slot-box)
 * [Documentatie SDG's](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#documentatie-sdgs)
 * [UV-puzzel](https://plan-it-b.github.io/ba3-docs/docs/Eindpuzzel/Realisatie/Realisatie.html#uv-puzzel)
@@ -19,7 +19,7 @@ Het is opgeleed in 4 delen:
 ---
 ## UV-slot box
 ---
-Dit is een houten kistje, voorzien met mounting holes, plaats voor het lcd scherm, plaats voor een 4x3keypad en een extra gat waar kabels door kunnen. Deze kist is gelazercut uit minder dan één houten MDF plaat (60x30cm) met dikte 6mm.
+Dit is een houten kistje, voorzien met mounting holes, plaats voor het lcd scherm, plaats voor een 4x3keypad en een extra gat waar kabels door kunnen. Deze kist is gelasercut uit minder dan één houten MDF plaat (60x30cm) met dikte 6mm.
 
 **Vooraanzicht**
 ![](UV_slot_box.png) 
@@ -39,7 +39,7 @@ Alle documentatie zoals de lasercut files, solidworks files en de STL files van 
 
 De SDG die ik wou aanhalen is SDG 4 Quality Education. Dit staat voor qualiteitvolle educatie op alle scholen over gans de wereld. Maar wij gaan ze educeren over de SDG's. We willen dat ze de richtlijnen weten. We willen hun bewust maken dat we moeten streven naar een betere manier van leven.
 
-Dit gaan we doen, door brochures af te printen, en posters op te hangen over SDG's. In een escaperoom gaan mensen altijd opzoek in de blaadjes achter tips. Dus als we blaadjes over de SDG's in de ruimte leggen, gaan ze automatisch de blaadjes bekijken en lezen. 
+Dit gaan we doen, door brochures en posters over de SDG's af te printen en op te hangen. In een escaperoom gaan mensen altijd opzoek in de blaadjes achter tips. Dus als we blaadjes over de SDG's in de ruimte leggen, zullen de spelers automatisch de blaadjes bekijken en lezen. 
 
 Deze documenten bestaan uit één brochure en 4 posters (die we hebben gelamineerd voor kwaliteit).
 
@@ -118,7 +118,5 @@ Alle documentatie zoals de lasercut files, solidworks files en de STL files van 
 ---
 
 Alle documentatie zoals de soldiworks bestanden, lasercut bestanden, flowcharts, word documenten, planning,... kunt u terugvinden op mijn [github pagina](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde).
-
-Deze bachlorproef was een extreem leuke ervaring en heeft me doen herinneren waarom ik deze richting leuk vind.
 
 Het volledige deel **Puzzels -> Eindpuzzel** en het algemeen deel **Communicatie** is geschreven door Henri Vandeputte.

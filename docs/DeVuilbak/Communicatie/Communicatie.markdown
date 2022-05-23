@@ -6,7 +6,7 @@ grand_parent: Puzzels
 nav_order: 5
 ---
 # Communicatie
-Doorheen de escaperoom zijn er heel wat zaken waarmee de vuilbak moet communiceren.
+Doorheen de escaperoom zijn er heel wat zaken waarmee de vuilbak moet **communiceren**.
 Zo moet de vuilbak doorheen het gehele spel op de hoogte worden gehouden wanneer de buffer in de groene zone komt en wanneer de buffer weer uit de groene zone gaat.
 (De vuilbak mag enkel actief zijn wanneer de buffer zich in de groene zonde bevindt.)
 Daarnaast moet er ook een code ontvangen worden waarvan de eerste cijfers verstuurd worden vanaf "'k ga meegaan" en het laatste cijfer verstuurd wordt vanaf "De trein is altijd een beetje reizen".
@@ -16,7 +16,7 @@ Ten slotte wordt aan het einde van de puzzel een code doorgestuurd naar het UV-l
 *Voor een grafisch overzicht over wanneer er precies gecommuniceerd wordt doorheen de loop van het spel zie de [deze](https://plan-it-b.github.io/ba3-docs/docs/DeVuilbak/DeVuilbak.html) pagina voor de flowchart.*
 
 ## Publishen
-Wanneer we iets willen versturen naar de MQTT server kunnen we dit doen aan de hand van het client.publish(X,Y) commando.
+Wanneer we iets willen versturen naar de MQTT server kunnen we dit doen aan de hand van het **client.publish(X,Y)** commando.
 Hierin is X de directory waarin we het bericht willen plaatsen en Y is het te versturen bericht zelf.
 De andere componenten van het systeem kunnen wat de vuilbak gestuurd heeft ontvangen door te subscriben op de correcte directory.
 Het bericht wordt dus niet rechtstreeks gestuurd naar andere puzzels maar naar de gemeenschappelijke broker.

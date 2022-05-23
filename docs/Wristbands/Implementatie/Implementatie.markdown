@@ -15,6 +15,7 @@ nav_order: 5
 - [3D-model solidworks](#3d-model-solidworks)
 - [prakstische realisatie](#praktische-realisatie)
 - [De Ruimte](#de-ruimte)
+- [Extra blaadjes in de ruimte](#extra-blaadjes-in-de-ruimte)
 
 ## 3D-model Solidworks
 Onze module wordt een klein doosje waar onze PCB en de batterij in terecht komen. Deze batterij wordt verbonden met de PCB via een switch. Deze hebben we achteraf pas toegevoegd wanneer de PCB reeds ontworpen was.
@@ -52,3 +53,17 @@ Voor de afwerking hebben we gaatje voor de led afgeplakt met wat doorzichtig pla
 ### De Ruimte
 
 Aangezien onze modules afstanden bekijken ten opzicht van elkaar is het aangewezen om een ruimte te voorzien waar de spelers effectief afstand van elkaar kunnen houden. Wanneer men de escaperoom zou uitbereiden en een grotere kamer zou nodig hebben, kan men de variabelen *grensWaardeTeVer* en *grensWaardeTeDicht* in de code aanpassen tot men waarden komt die voldoende aangepast zijn aan ruimte.
+
+### Extra blaadjes in de ruimte
+
+Omdat de kleurencode van dit spel niet zo van zelfsprekend is, wordt er een legende opgehangen in de kamer. Deze ziet er uit als volgt: 
+
+![](LEGENDE.png)
+
+[Legende in github](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen/Afbeeldingen%20Realisatie/LEGENDE.png?raw=true)
+
+
+Daarnaast wordt er vermeld dat de wristbands in een bepaalde volgorde paars flikkeren. Dit ziet er uit als volgt:
+
+![](TIP.png)
+[Tip in github](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen/Afbeeldingen%20Realisatie/TIP.png?raw=true)
