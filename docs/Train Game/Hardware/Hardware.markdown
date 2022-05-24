@@ -62,7 +62,7 @@ Hieronder volgt een lijst met componenten.
 
 - Spanningsregelaar: AMS1117
 - Level shifter: BSS138
-- Boot/Enable switches: ?????
+- Boot/Enable: drukknop
 - Barrel jack: Voedingchassisdeel 2,1mm
 - Buck convertor
 - Pin header    

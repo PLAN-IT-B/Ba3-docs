@@ -44,19 +44,17 @@ We lijmen het spelbord vast aan de voet met houtlijm en monteren de LEDS.
 ||
 |:----:|
 |![](Totaal.png)|
-
-||
-|:--:|
-|[3D model van het spelbord]https://github.com/PLAN-IT-B/BachelorProefTrainGame/blob/main/Verslag/3D-modellen/Bouwonderdelen%20Spelbord/Doos.STL)|
+|[3D model van het spelbord](https://github.com/PLAN-IT-B/BachelorProefTrainGame/blob/main/Verslag/3D-modellen/Bouwonderdelen%20Spelbord/Doos.STL)|
 |[Losse onderdelen van het spelbord](https://github.com/PLAN-IT-B/BachelorProefTrainGame/tree/main/Verslag/3D-modellen/Bouwonderdelen%20Spelbord)|
 
 
 # Puzzelstukken en treinkaart
 
 Hier vind je de verwijzing naar de ontwerpen voor de kaart en de puzzelstukken.
+
 ||
 |:---:|
-|![Kaart](PUZZEL_KAART.png)|
+|![Kaart](kaart.png)|
 |[Kaart](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefTrainGame/d1aae0b3da5e17633741de972cf2262c620becd9/Verslag/Afbeeldingen/PUZZEL_KAART.svg)|
 
 [Losse puzzelstukken](https://github.com/PLAN-IT-B/BachelorProefTrainGame/tree/main/Verslag/3D-modellen/Puzzelstukken)
