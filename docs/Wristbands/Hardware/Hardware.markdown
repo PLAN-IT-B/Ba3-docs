@@ -48,6 +48,8 @@ Voor het pcb ontwerp hebben we gebruik gemaakt van KiCad. Hierin hebben we een e
 ![](elektrisch-schema.png)
 Je ziet dat we 4 condensatoren gebruiken om onze bron te ontkoppelen. In de praktijk gebruikten we maar 2 van deze, namelijk diegene die het dichts bij de ESP bevinden. 
 
+[Elektrisch schema in het groot](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/KiCad-project/Afbeeldingen%20PCB/Elektrisch-schema.png?raw=true)
+
 
 ## PCB-design
 In volgende twee figuren ziet u een afbeelding van ons PCB-design. We hebben ervoor gekozen om dubbelzijdig te werken om opnieuw een compact design te realiseren. 

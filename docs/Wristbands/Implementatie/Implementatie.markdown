@@ -15,6 +15,7 @@ nav_order: 5
 - [3D-model solidworks](#3d-model-solidworks)
 - [prakstische realisatie](#praktische-realisatie)
 - [De Ruimte](#de-ruimte)
+- [Extra blaadjes in de ruimte](#extra-blaadjes-in-de-ruimte)
 
 ## 3D-model Solidworks
 Onze module wordt een klein doosje waar onze PCB en de batterij in terecht komen. Deze batterij wordt verbonden met de PCB via een switch. Deze hebben we achteraf pas toegevoegd wanneer de PCB reeds ontworpen was.

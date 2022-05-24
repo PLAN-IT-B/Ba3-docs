@@ -25,5 +25,4 @@ Veel plezier!
 Team Planit B
 
 
-GROEPSFOTOOoo
-![groepsfoto]()
+![groepsfoto](groepsfoto.jpg)
