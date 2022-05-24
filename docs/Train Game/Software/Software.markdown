@@ -12,10 +12,12 @@ Om de code voor onze bachelorproef overzichtelijk te houden hebben we ervoor gek
 [Github: code]()
 
 ## Main
-Het hart van onze software is de main. De belangrijkste delen hiervan zijn de setup() en loop(). De setup maakt mogelijk op bepaalde functies uit te voeren die slechts één keer doorlopen moeten worden helemaal aan het begin van de code. De loop wordt uitgevoert net na de setup. Deze zal telkens weer uit gevoerd worden wanneer we aan het einde komen van deze loop.
+Het hart van onze software is de main. De belangrijkste delen hiervan zijn de setup() en loop(). De setup maakt mogelijk op bepaalde functies uit te voeren die slechts één keer doorlopen moeten worden helemaal aan het begin van de code. De loop wordt uitgevoert net na de setup. Deze zal telkens weer uit gevoerd worden wanneer we aan het einde komen van deze loop. Om de main schematisch voor te stellen hebben we een flowchard gemaakt.
 
+|Flowchart Main|
+|:----:|
 |![Flowchart Main](Main_Flowchart.png)|
-[Klik hier voor deze flowchart in het groot.](https://raw.githubusercontent.com/PLAN-IT-B/ba3-docs/gh-pages/docs/Train%20Game/Software/Main_Flowchart.png)
+|[Klik hier voor deze flowchart in het groot.](https://raw.githubusercontent.com/PLAN-IT-B/ba3-docs/gh-pages/docs/Train%20Game/Software/Main_Flowchart.png)|
 
 ### setup
 In de setup gaan we alle code uitvoeren die moet worden uitgevoerd worden voordat de loop begint. In de realiteit betekend dit begintoestand van de LEDS en LCD initialiseren, verbinding met de MQTT broker tot stand brengen en de pinmode van de joystick instellen.  
@@ -50,8 +52,6 @@ test, is het in kader?
 De loop is opgedeeld in verschillende delen. De communicatie en de 3 apparte games.
 Bij de communicatie gaan we iedere keer nagaan of we nog ge connecteerd zijn met de MQTT broker. Als dit het geval is gaan we de reconnect functie uitvoeren om de verbinding te herstellen.
 
-!!!
-
 ```c
 //Comunicatie
    if (!client.connected())
@@ -69,6 +69,8 @@ Hieronder is er een voorbeeld gegeven van één van de drie games. Om ervoor te 
 
 Ter verduidelijking van de code omtrent het gameverloop is er een flowchart gemaakt. De legende maakt duidelijk over welke code file het gaat.
 
+|Flowchart Game|
+|:----:|
 |![Zones Joystick](Software_Flowchart_2.png)|
 [Klik hier voor deze flowchart in het groot.](https://github.com/PLAN-IT-B/ba3-docs/blob/gh-pages/docs/Train%20Game/Software/Software_Flowchart_2.png?raw=true)
 
