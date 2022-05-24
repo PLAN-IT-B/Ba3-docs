@@ -69,8 +69,8 @@ Daarnaast bevestigen we vuilniszakken in de gaten en op de weegschalen voor extr
 
 ## Resultaat
 
-![](Frontvuilbak.jpg)
-![](Voorkantvuilbak.jpg)
+![](Resultaat_1.jpg)
+![](Resultaat_2.jpg)
 
 
 
