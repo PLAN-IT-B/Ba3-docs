@@ -28,10 +28,10 @@ Aangezien we gekozen hebben voor de wristbands, was het belangrijk dat we ons de
 | Antenna |A24-HABUF-P5I-ND   |   We maken gebruik van de antenna zodat we accurater de RSS-waarde van het signaal kunnen bepalen. |
 | RGB-LED | SMD 5050 |    We maken gebruik van deze Led om te laten zien aan de speler wanneer die een fout in afstand, maar ook om een code te sturen of te laten weten dat ze hun wristband niet goed aanhebben. |
 | Infrarood/Hartslagsensor | MAX30102 |  Met deze sensor kunnen we bekijken of de spelers hun wristband effectief aanhebben. |
-| Oplaadbare batterij | ... |    Dit gebruiken we als voeding voor onze pcb. Deze batterij heeft een voltage van 3.7V en een capaciteit van 500mAh. |
-| LDO | ... |    Deze LDO zorgt ervoor dat we onze esp en hartslagsensor kunnen voeden met 3,3V. |
+| Oplaadbare batterij | LiPo 802035 |    Dit gebruiken we als voeding voor onze pcb. Deze batterij heeft een voltage van 3.7V en een capaciteit van 500mAh. |
+| LDO | ncp1117  |    Deze LDO zorgt ervoor dat we onze esp en hartslagsensor kunnen voeden met 3,3V. |
 | Weerstanden en condensatoren | SMD0805 | Dienen als pull-up weerstanden en ontkoppelcondensatoren, maar ook voor het aansturen van de LED|
-| Buttons | ... |    We gebruiken standaard switches in ons ontwerp. Bij ons zijn deze trough-hole, omdat die steviger zijn op het pcb bord. De switches dienen ervoor te resetten en te programmeren. |
+| Buttons | standard buttons |    We gebruiken standaard switches in ons ontwerp. Bij ons zijn deze trough-hole, omdat die steviger zijn op het pcb bord. De switches dienen ervoor te resetten en te programmeren. |
 |Switches| MS180 |We gebruiken een switch om de batterij te verbinden met ons PCB. Hierdoor moeten kunnen we alles solderen een moeten we niks losmaken.|
 
 ### LED
