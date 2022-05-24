@@ -15,6 +15,7 @@ nav_order: 5
 - [3D-model solidworks](#3d-model-solidworks)
 - [prakstische realisatie](#praktische-realisatie)
 - [De Ruimte](#de-ruimte)
+- [Extra blaadjes in de ruimte](#extra-blaadjes-in-de-ruimte)
 
 ## 3D-model Solidworks
 Onze module wordt een klein doosje waar onze PCB en de batterij in terecht komen. Deze batterij wordt verbonden met de PCB via een switch. Deze hebben we achteraf pas toegevoegd wanneer de PCB reeds ontworpen was.
@@ -59,7 +60,10 @@ Omdat de kleurencode van dit spel niet zo van zelfsprekend is, wordt er een lege
 
 ![](LEGENDE.png)
 
+[Legende in github](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen/Afbeeldingen%20Realisatie/LEGENDE.png?raw=true)
+
 
 Daarnaast wordt er vermeld dat de wristbands in een bepaalde volgorde paars flikkeren. Dit ziet er uit als volgt:
 
 ![](TIP.png)
+[Tip in github](https://github.com/PLAN-IT-B/BachelorProefWristbands/blob/main/Afbeeldingen/Afbeeldingen%20Realisatie/TIP.png?raw=true)

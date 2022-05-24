@@ -25,10 +25,10 @@ De flow van de eindslot code komt overeen met onderstaande figuur (rechts).
 
 Maar de code van de eindpuzzel voert ook deze werkingen correct uit!
 
-![](Flowchart_reset-start_werking.png)
+![](Blokschema-Reset-Start.svg)
 
 [Eerste figuur](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Algemene%20documentatie/Flow%20eindpuzzel.svg) in het groot.  
-[Tweede figuur](https://github.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/blob/main/Documentatie%20eindpuzzel/Blokschema%20Reset-Start_escape_room.png) in het groot.
+[Tweede figuur](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefCommunicatieEnEinde/main/Documentatie%20eindpuzzel/Blokschema-Reset-Start.svg) in het groot.
 
 ---
 ## Error handling
