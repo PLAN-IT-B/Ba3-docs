@@ -54,7 +54,7 @@ Hier vind je de verwijzing naar de ontwerpen voor de kaart en de puzzelstukken.
 
 ||
 |:---:|
-|![Kaart](kaart.png)|
+|![Kaart](282144155_335861002022245_1354342624935267793_n.png)|
 |[Kaart](https://raw.githubusercontent.com/PLAN-IT-B/BachelorProefTrainGame/d1aae0b3da5e17633741de972cf2262c620becd9/Verslag/Afbeeldingen/PUZZEL_KAART.svg)|
 
 [Losse puzzelstukken](https://github.com/PLAN-IT-B/BachelorProefTrainGame/tree/main/Verslag/3D-modellen/Puzzelstukken)
