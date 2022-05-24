@@ -33,19 +33,21 @@ Deze joystick heeft vijf pinnen. Twee pinnen zijn voor de voeding: 5V en GND. De
 Voor de leds maken we gebruik van WS2811 LEDS. Deze hebben drie aansluitingen: 5 V, GND en data. Het datasignaal moet ook vijf volt bedragen om de leds correct aan te sturen. Het datasignaal van de ESP bedraagt 3,3 volt, we gebruiken een level shifter om het signaal te versterken. De LEDS kunnen elk apart worden aangestuurd. De ledlampjes zijn per vijftig verbonden, er is een koppelstuk voorzien om meerdere ledstrings met elkaar te verbinden. Wij maken gebruik van twee ledstrings zodat we een array van 100 leds bekomen.
 
 #### Communicatie Leds
-De 100 leds worden aangestuurd via 1 datapin. Er moet dus een manier voorzien worden om via 1 datalijn alle leds aan te sturen. Hiervoor heeft elke led een IC die de data gaat lezen op zodat elke led weet welke data 
+De 100 leds worden aangestuurd via één datapin. Er moet dus een manier voorzien worden om via één datalijn alle leds aan te sturen. Hiervoor heeft elke led een IC die de data gaat lezen en de juiste data hieruit gaat halen. Hier wordt het IC WS2811 gebruikt. Zo stuurt het signalen door naar de drie verschillende led kleuren.
+
 ![cled3](Capture2.PNG)
 ![cled2](Capture1.PNG)
-Hoe data vesuren?
-![Cled](Capture.PNG)
 
-
+Iedere led heeft 24 bits (3 byte) nodig om een led een bepaalde kleur te geven. Dit komt doordat elke led een intensiteit heeft van 0 tot 255 en dit drie keer voor de rode, groene en blauwe led. Het eerste RGB led gaat zijn 24 bits van de datalijn inlezen en ervan halen. De overschot van de datalijn wordt doorgestuurd naar de tweede led die ook weer zijn 24 bits hiervaan gaat afnemen. Zo wordt elke RGB led voorzien van de data. De leds weten dat er weer data gestuurd wordt naar de eerste led wanneer er een pauze is van meer dan 280µs tussen de twee signalen. 
+![Cled1](Capture.PNG)
 
 ### LCD
 
 |**LCD**|
 |:----:|
 |![LCDa](lcdisplay_spi_tft_a-web.png)|![LCDb](lcdisplay_spi_tft_b-web.png)|![LCDc](lcdisplay_spi_tft_c-web.png)|
+
+Als LCD gebruikten we de 2.2" SPI TFT Display Module ILI9341. Dit is een LCD scherm dat 320 x 240 RGB leds heeft. Via de seriele communicatie SPI wordt dit schermpje aangestuurd. Deze vorm van communicatie wordt gebruikt omdat het zowel data stuurt naar het scherm maar ook gelijktijdig de data van de touchscreen moet terugsturen. Voor deze puzzel maakten we enkel gebruik van het scherm en niet van de touch functie. SPI neemt standaard vier pins in beslag: MISO, MOSI, SCK en CS. De vijf anderen zijn: ground, Vcc, Leds (apparte vcc voor de leds te doen branden) en DS/CS.   
 
 
 ### Voeding
